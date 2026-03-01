@@ -1,3 +1,18 @@
+export interface YouTubeTrailerStats {
+  video_id: string;
+  title: string;
+  published_at: string;
+  view_count: number | null;
+  like_count: number | null;
+  comment_count: number | null;
+}
+
+export interface WikimediaPageviewStats {
+  page_title: string;
+  views_30d_pre_release: number | null;
+  views_7d_pre_release: number | null;
+}
+
 export interface MovieData {
   id: number;
   title: string;
@@ -9,12 +24,15 @@ export interface MovieData {
   director: string;
   cast: string[]; // top 5
   poster_path: string | null;
+  youtube_trailer: YouTubeTrailerStats | null;
+  wikimedia_pageviews: WikimediaPageviewStats | null;
 }
 
 export interface ModelPrediction {
   model_id: string;
   model_name: string;
   movie_id: number;
+  prompt_version?: string;
   predicted_gross: number | null;
   reasoning: string;
   raw_response: string;

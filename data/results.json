@@ -1,542 +1,542 @@
 [
   {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 1,
-    "predicted_gross": 680000000,
-    "reasoning": "MCU sequel with established IP, Harrison Ford addition. Post-Endgame MCU has been inconsistent, but Captain America brand is strong. Similar to Falcon & Winter Soldier audience.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 2,
-    "predicted_gross": 230000000,
-    "reasoning": "Paddington franchise is beloved with excellent reviews. Third installment should perform similarly to Paddington 2. Strong international appeal.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 3,
-    "predicted_gross": 160000000,
-    "reasoning": "Based on popular Dav Pilkey books (Captain Underpants creator). Strong built-in kid audience. Animation should do well internationally.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 4,
-    "predicted_gross": 55000000,
-    "reasoning": "Valentine's Day horror is a niche but proven concept (Valentine, My Bloody Valentine). Low budget should make this profitable.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 5,
-    "predicted_gross": 85000000,
-    "reasoning": "Stephen King adaptation with horror-comedy angle. Osgood Perkins has rising profile after Longlegs. Should perform similar to recent mid-budget horror.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 6,
-    "predicted_gross": 45000000,
-    "reasoning": "AI thriller is timely but niche. Jack Quaid and Sophie Thatcher have rising profiles. Low budget means profitability is likely.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 7,
-    "predicted_gross": 38000000,
-    "reasoning": "Comedy with Keke Palmer and SZA. SZA's massive music fanbase could drive opening. Limited international appeal though.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 8,
-    "predicted_gross": 55000000,
-    "reasoning": "Anthony Mackie sci-fi action. Post-apocalyptic genre is well-worn. Mid-budget action with modest expectations.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 9,
-    "predicted_gross": 95000000,
-    "reasoning": "Witherspoon + Ferrell is strong comedy pairing. Wedding comedies have proven track record. Should play well with mainstream audiences.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "moonshotai/kimi-k2.5",
-    "model_name": "Kimi K2.5",
-    "movie_id": 10,
-    "predicted_gross": 70000000,
-    "reasoning": "De Niro in a mob drama from Barry Levinson. Dual role performance could generate buzz but crime dramas have limited ceiling.",
-    "raw_response": "",
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 1316092,
+    "predicted_gross": 285000000,
+    "reasoning": "Emerald Fennell has proven box office appeal with Saltburn ($117M on a $20M budget) and Promising Young Woman, demonstrating she can make provocative, buzzy literary/period material commercially viable. Margot Robbie is one of the biggest female stars globally (post-Barbie), and Jacob Elordi has surging popularity from Saltburn and Euphoria. The Wuthering Heights IP is globally recognized classic literature, giving it international appeal. However, period romance dramas have a ceiling - even prestigious ones rarely cross $400M. The $80M budget suggests lavish production values. February release is awards-adjacent positioning (similar to how some prestige films open early in the year). The Fennell+Robbie+Elordi combination will generate massive social media buzz. Comparable films: Saltburn overperformed massively; Pride and Prejudice (2005) made $121M; Anna Karenina made $69M. Fennell's sensationalist style should elevate this well beyond typical period drama territory, but it's still a drama without action/spectacle. I estimate strong but not blockbuster performance around $285M worldwide.",
+    "raw_response": "{\"predicted_gross\": 285000000, \"reasoning\": \"Emerald Fennell has proven box office appeal with Saltburn ($117M on a $20M budget) and Promising Young Woman, demonstrating she can make provocative, buzzy literary/period material commercially viable. Margot Robbie is one of the biggest female stars globally (post-Barbie), and Jacob Elordi has surging popularity from Saltburn and Euphoria. The Wuthering Heights IP is globally recognized classic literature, giving it international appeal. However, period romance dramas have a ceiling - even prestigious ones rarely cross $400M. The $80M budget suggests lavish production values. February release is awards-adjacent positioning (similar to how some prestige films open early in the year). The Fennell+Robbie+Elordi combination will generate massive social media buzz. Comparable films: Saltburn overperformed massively; Pride and Prejudice (2005) made $121M; Anna Karenina made $69M. Fennell's sensationalist style should elevate this well beyond typical period drama territory, but it's still a drama without action/spectacle. I estimate strong but not blockbuster performance around $285M worldwide.\"}",
     "success": true
   },
   {
     "model_id": "anthropic/claude-opus-4-6",
     "model_name": "Claude Opus 4.6",
-    "movie_id": 1,
-    "predicted_gross": 620000000,
-    "reasoning": "MCU brand still carries weight globally despite franchise fatigue. Anthony Mackie as new Cap has built-in audience from Disney+. Harrison Ford joining adds prestige draw. February release is unusual for MCU.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 2,
-    "predicted_gross": 280000000,
-    "reasoning": "Paddington franchise has exceptional word-of-mouth and global appeal. Third installment benefits from brand loyalty. Antonio Banderas and Olivia Colman add star power.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 3,
-    "predicted_gross": 150000000,
-    "reasoning": "Dav Pilkey's books have massive readership among kids. Captain Underpants movie did $125M worldwide. Dog Man books have outsold Captain Underpants. Should overperform.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 4,
-    "predicted_gross": 45000000,
-    "reasoning": "Horror-thriller with Valentine's Day hook. Low budget genre film. Similar to Happy Death Day in concept. Should be solidly profitable but limited ceiling.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 5,
-    "predicted_gross": 130000000,
-    "reasoning": "Stephen King brand is reliable for horror. Osgood Perkins gained massive buzz from Longlegs. Horror-comedy angle broadens appeal. Theo James is ascending.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 6,
-    "predicted_gross": 40000000,
-    "reasoning": "AI-themed thriller taps into zeitgeist. Low budget sci-fi horror. Sophie Thatcher (Yellowjackets) has growing fanbase. Limited marketing push expected.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 7,
-    "predicted_gross": 35000000,
-    "reasoning": "Buddy comedy with musical crossover appeal via SZA. Keke Palmer is a strong comedy lead. Primarily domestic play, limited international.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 8,
-    "predicted_gross": 50000000,
-    "reasoning": "High-concept sci-fi action with Anthony Mackie. Modest budget suggests limited theatrical push. Genre has been hit-or-miss post-pandemic.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 9,
-    "predicted_gross": 100000000,
-    "reasoning": "Star-driven comedy with Witherspoon and Ferrell. Wedding premise is broad and accessible. Both stars past their peak box office draw but still recognizable.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "anthropic/claude-opus-4-6",
-    "model_name": "Claude Opus 4.6",
-    "movie_id": 10,
-    "predicted_gross": 55000000,
-    "reasoning": "Robert De Niro in dual mob roles directed by Barry Levinson. Prestige crime drama with awards potential. Limited action appeal but strong older demographic draw.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 1,
-    "predicted_gross": 550000000,
-    "reasoning": "MCU continues to underperform relative to Infinity Saga. New Captain America lacks RDJ-level draw. Harrison Ford adds interest but audience skepticism about MCU Phase 5/6 is real.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 2,
-    "predicted_gross": 200000000,
-    "reasoning": "Paddington is a reliable family franchise with excellent critical reception. Third films sometimes see diminishing returns. Strong UK/international markets.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 3,
-    "predicted_gross": 120000000,
-    "reasoning": "Animated adaptation of popular children's book. Captain Underpants did modest business. New IP in animation is risky. Should find its audience with kids.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 4,
-    "predicted_gross": 60000000,
-    "reasoning": "Valentine's Day horror release. Genre films with holiday hooks can overperform (Halloween, Christmas horror). Low budget ensures profitability.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 5,
-    "predicted_gross": 75000000,
-    "reasoning": "Stephen King adaptation. Perkins coming off Longlegs success. Horror-comedy is a crowdpleaser genre. Moderate expectations.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 6,
-    "predicted_gross": 35000000,
-    "reasoning": "Sci-fi thriller about AI. Timely concept. Low budget affair with rising cast. Ex Machina comparisons likely.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 7,
-    "predicted_gross": 30000000,
-    "reasoning": "Comedy driven by Keke Palmer and SZA. Music-to-film crossover can drive opening weekends. Mostly domestic play.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 8,
-    "predicted_gross": 45000000,
-    "reasoning": "Post-apocalyptic sci-fi action. Mackie has rising profile with Captain America. Modest genre entry.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 9,
-    "predicted_gross": 80000000,
-    "reasoning": "Comedy stars Witherspoon and Ferrell. Wedding comedy premise is accessible. Streaming era has hurt theatrical comedy but these stars still draw.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "openai/gpt-5.2",
-    "model_name": "GPT 5.2",
-    "movie_id": 10,
-    "predicted_gross": 80000000,
-    "reasoning": "De Niro mob drama. Prestige play from Levinson. The Irishman comparisons inevitable. Should find audience among older moviegoers.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 1,
-    "predicted_gross": 500000000,
-    "reasoning": "MCU fatigue is a factor. New Cap has less draw than Chris Evans. Harrison Ford joining is interesting. February superhero releases have mixed history.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 2,
-    "predicted_gross": 180000000,
-    "reasoning": "Beloved franchise returns. Third films can see audience erosion. Strong family appeal and holiday legs. International markets crucial.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 3,
-    "predicted_gross": 140000000,
-    "reasoning": "Popular children's book adaptation. Animation market is competitive. Dav Pilkey has proven audience. Similar trajectory to Captain Underpants but potentially bigger.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 4,
-    "predicted_gross": 40000000,
-    "reasoning": "Low-budget horror with Valentine's Day release. Genre films in February can work. Limited star power but horror doesn't need it.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 5,
-    "predicted_gross": 90000000,
-    "reasoning": "Stephen King IP + Perkins directing buzz. Horror-comedy blend appeals to wider audience than straight horror. Should perform well.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 6,
-    "predicted_gross": 30000000,
-    "reasoning": "AI thriller with modest cast. Interesting concept but hard to market. Low budget keeps risk manageable.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 7,
-    "predicted_gross": 25000000,
-    "reasoning": "Comedy with Keke Palmer and singer SZA. Music crossover could boost opening. Limited overseas appeal.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 8,
-    "predicted_gross": 40000000,
-    "reasoning": "Sci-fi action with moderate budget. Post-apocalyptic genre is familiar territory. Mackie alone can't carry huge numbers.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 9,
-    "predicted_gross": 110000000,
-    "reasoning": "Witherspoon and Ferrell comedy about double-booked weddings. Star power should drive opening. Comedy genre struggles theatrically but these are A-listers.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "google/gemini-3.1-pro-preview",
-    "model_name": "Gemini 3.1 Pro",
-    "movie_id": 10,
-    "predicted_gross": 65000000,
-    "reasoning": "De Niro dual-role mob drama. Director Levinson has mixed recent track record. Crime genre has limited ceiling but De Niro name still carries weight.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 1,
-    "predicted_gross": 450000000,
-    "reasoning": "MCU film with new Captain America. Superhero fatigue may limit performance. Harrison Ford adds draw. Should still clear $400M worldwide.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 2,
-    "predicted_gross": 150000000,
-    "reasoning": "Third Paddington film. Family audience is reliable. May see some franchise fatigue. UK and international markets will be crucial.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 3,
-    "predicted_gross": 100000000,
-    "reasoning": "Animated film based on children's books. New IP is always risky in animation. Book popularity should help. Modest expectations.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 4,
-    "predicted_gross": 35000000,
-    "reasoning": "Horror film releasing on Valentine's Day. Niche audience. Low budget production. Should be profitable on small numbers.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 5,
-    "predicted_gross": 65000000,
-    "reasoning": "Stephen King horror-comedy. Has built-in audience from King brand. Moderate budget and expectations.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 6,
-    "predicted_gross": 25000000,
-    "reasoning": "Low budget AI thriller. Interesting concept. Limited marketing reach. Should find niche audience.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 7,
-    "predicted_gross": 20000000,
-    "reasoning": "Comedy with Keke Palmer and SZA. Modest expectations. Primarily domestic release.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 8,
-    "predicted_gross": 30000000,
-    "reasoning": "Post-apocalyptic sci-fi with Anthony Mackie. Modest budget and scale. Should find small audience.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 9,
-    "predicted_gross": 50000000,
-    "reasoning": "Comedy with major stars. Wedding premise is familiar. Comedy genre has limited theatrical draw currently.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "minimax/minimax-m2.5",
-    "model_name": "MiniMax M2.5",
-    "movie_id": 10,
-    "predicted_gross": 75000000,
-    "reasoning": "Robert De Niro mob film. Crime drama with limited audience. De Niro's star power has waned for theatrical releases.",
-    "raw_response": "",
-    "success": true
-  },
-  {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 1,
-    "predicted_gross": 875000000,
-    "reasoning": "MCU Captain America franchise has strong track record (Winter Soldier $715M, Civil War $1.15B). Anthony Mackie as new Cap is solid but less iconic than Evans; Harrison Ford as Ross/Red Hulk adds major star power and draw. Julius Onah unproven in blockbusters but Marvel IP carries. $250M budget typical. Feb 2026 release (like Ant-Man 3's $476M but this has higher profile/cast). Global plot appeals to fans. Post-Deadpool momentum boosts to ~$875M WW.",
-    "raw_response": "{\"predicted_gross\": 875000000, \"reasoning\": \"MCU Captain America franchise has strong track record (Winter Soldier $715M, Civil War $1.15B). Anthony Mackie as new Cap is solid but less iconic than Evans; Harrison Ford as Ross/Red Hulk adds major star power and draw. Julius Onah unproven in blockbusters but Marvel IP carries. $250M budget typical. Feb 2026 release (like Ant-Man 3's $476M but this has higher profile/cast). Global plot appeals to fans. Post-Deadpool momentum boosts to ~$875M WW.\"}",
-    "success": true
-  },
-  {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 2,
+    "movie_id": 1297842,
     "predicted_gross": 215000000,
-    "reasoning": "Paddington franchise averaged ~$250M WW previously with strong family appeal; consistent voice cast, added stars Banderas/Colman boost draw; $60M budget reasonable; January release tempers upside but IP ensures solid global performance around prior entries.",
-    "raw_response": "{\"predicted_gross\": 215000000, \"reasoning\": \"Paddington franchise averaged ~$250M WW previously with strong family appeal; consistent voice cast, added stars Banderas/Colman boost draw; $60M budget reasonable; January release tempers upside but IP ensures solid global performance around prior entries.\"}",
+    "reasoning": "This is an animated family film with a sports underdog premise, which has broad appeal. The cast features recognizable names: Caleb McLaughlin (Stranger Things), Gabrielle Union, Stephen Curry (massive sports crossover appeal), Aaron Pierre (rising star from Mufasa), and Nicola Coughlan (Bridgerton). The February release date is decent for animated films with less competition. However, the director is relatively unknown, and the concept—while fun—faces stiff competition from established animated franchises. The $90M budget suggests a mid-tier animated release. Stephen Curry's involvement adds marketing buzz, and the sports/animal comedy combo has proven appeal (similar to Space Jam territory but animated). Original animated IPs without major studio franchise backing typically gross in the $150-300M range globally when well-received. The February window could limit its ceiling somewhat compared to summer releases, but family films can have legs. Predicting a moderate success at roughly 2.4x budget.",
+    "raw_response": "{\"predicted_gross\": 215000000, \"reasoning\": \"This is an animated family film with a sports underdog premise, which has broad appeal. The cast features recognizable names: Caleb McLaughlin (Stranger Things), Gabrielle Union, Stephen Curry (massive sports crossover appeal), Aaron Pierre (rising star from Mufasa), and Nicola Coughlan (Bridgerton). The February release date is decent for animated films with less competition. However, the director is relatively unknown, and the concept—while fun—faces stiff competition from established animated franchises. The $90M budget suggests a mid-tier animated release. Stephen Curry's involvement adds marketing buzz, and the sports/animal comedy combo has proven appeal (similar to Space Jam territory but animated). Original animated IPs without major studio franchise backing typically gross in the $150-300M range globally when well-received. The February window could limit its ceiling somewhat compared to summer releases, but family films can have legs. Predicting a moderate success at roughly 2.4x budget.\"}",
     "success": true
   },
   {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 3,
-    "predicted_gross": 280000000,
-    "reasoning": "Based on Dav Pilkey's bestselling Dog Man book series (bigger than Captain Underpants, which grossed $125M WW in 2017), family animation comedy genre with broad kid appeal, modest $40M budget, solid comedic cast (Pete Davidson, Lil Rel Howery), January release for family counterprogramming, and director's animation TV experience. Adjusted for inflation and popularity, expects $250-350M WW range; $280M midpoint.",
-    "raw_response": "{\"predicted_gross\": 280000000, \"reasoning\": \"Based on Dav Pilkey's bestselling Dog Man book series (bigger than Captain Underpants, which grossed $125M WW in 2017), family animation comedy genre with broad kid appeal, modest $40M budget, solid comedic cast (Pete Davidson, Lil Rel Howery), January release for family counterprogramming, and director's animation TV experience. Adjusted for inflation and popularity, expects $250-350M WW range; $280M midpoint.\"}",
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 1168190,
+    "predicted_gross": 145000000,
+    "reasoning": "This action-comedy pairs two major action stars (Bautista and Momoa) with strong chemistry potential, which is a proven formula (similar to buddy-cop/brother dynamics in films like Hobbs & Shaw). However, several factors temper expectations: January release is typically a dump month, director Ángel Manuel Soto (Blue Beetle) has limited box office track record, and the plot feels somewhat generic. The $79M budget is moderate. Bautista has proven draw power (Guardians, Army of the Dead) and Momoa is a genuine star (Aquaman franchise), so their combined appeal should generate solid interest. The action-comedy-crime genre mix is commercially friendly. Comparable films: Stuber ($31M), The Hitman's Bodyguard ($176M), Hobbs & Shaw ($760M). This likely lands in the mid-range - not a breakout hit but solid performer, especially internationally where both stars have strong appeal. January release significantly limits domestic potential but international markets may compensate. Estimating roughly 1.8x budget performance.",
+    "raw_response": "{\"predicted_gross\": 145000000, \"reasoning\": \"This action-comedy pairs two major action stars (Bautista and Momoa) with strong chemistry potential, which is a proven formula (similar to buddy-cop/brother dynamics in films like Hobbs & Shaw). However, several factors temper expectations: January release is typically a dump month, director Ángel Manuel Soto (Blue Beetle) has limited box office track record, and the plot feels somewhat generic. The $79M budget is moderate. Bautista has proven draw power (Guardians, Army of the Dead) and Momoa is a genuine star (Aquaman franchise), so their combined appeal should generate solid interest. The action-comedy-crime genre mix is commercially friendly. Comparable films: Stuber ($31M), The Hitman's Bodyguard ($176M), Hobbs & Shaw ($760M). This likely lands in the mid-range - not a breakout hit but solid performer, especially internationally where both stars have strong appeal. January release significantly limits domestic potential but international markets may compensate. Estimating roughly 1.8x budget performance.\"}",
     "success": true
   },
   {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 4,
-    "predicted_gross": 58000000,
-    "reasoning": "Low-budget ($12M) Valentine's Day slasher with holiday marketing hook and recognizable B-list cast (Mason Gooding from Scream, Jordana Brewster). Comparable to 'Thanksgiving' ($41M WW) but with stronger cast and timely Feb release; projects $50-70M WW driven by horror fanbase and VOD potential.",
-    "raw_response": "{\"predicted_gross\": 58000000, \"reasoning\": \"Low-budget ($12M) Valentine's Day slasher with holiday marketing hook and recognizable B-list cast (Mason Gooding from Scream, Jordana Brewster). Comparable to 'Thanksgiving' ($41M WW) but with stronger cast and timely Feb release; projects $50-70M WW driven by horror fanbase and VOD potential.\"}",
-    "success": true
-  },
-  {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 5,
-    "predicted_gross": 85000000,
-    "reasoning": "Low-budget ($18M) Stephen King horror-comedy adaptation directed by buzzworthy Osgood Perkins (Longlegs success). Solid cast with Theo James, Tatiana Maslany, Elijah Wood adds appeal. Feb 2026 release suits horror; expect 4-5x budget multiplier like recent hits (Longlegs ~$40M, Smile $217M), projecting $85M WW with strong US legs and moderate intl.",
-    "raw_response": "{\"predicted_gross\": 85000000, \"reasoning\": \"Low-budget ($18M) Stephen King horror-comedy adaptation directed by buzzworthy Osgood Perkins (Longlegs success). Solid cast with Theo James, Tatiana Maslany, Elijah Wood adds appeal. Feb 2026 release suits horror; expect 4-5x budget multiplier like recent hits (Longlegs ~$40M, Smile $217M), projecting $85M WW with strong US legs and moderate intl.\"}",
-    "success": true
-  },
-  {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 6,
-    "predicted_gross": 95000000,
-    "reasoning": "Low-budget sci-fi horror akin to M3GAN ($181M WW on $12M), with timely AI plot and solid rising cast (Thatcher, Quaid). January release limits upside vs. M3GAN's slot, new director caps star power, but genre legs and $15M budget support $95M WW.",
-    "raw_response": "{\"predicted_gross\": 95000000, \"reasoning\": \"Low-budget sci-fi horror akin to M3GAN ($181M WW on $12M), with timely AI plot and solid rising cast (Thatcher, Quaid). January release limits upside vs. M3GAN's slot, new director caps star power, but genre legs and $15M budget support $95M WW.\"}",
-    "success": true
-  },
-  {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 7,
-    "predicted_gross": 52000000,
-    "reasoning": "Low-budget urban comedy with strong Black cast appeal (Keke Palmer, SZA crossover from music, Lil Rel Howery), fun roommate hustle plot. January MLK weekend release aids domestic legs ($30-35M est.), modest intl ($15-20M). Comps: The Blackening ($67M), lower due to smaller director/profile.",
-    "raw_response": "{\"predicted_gross\": 52000000, \"reasoning\": \"Low-budget urban comedy with strong Black cast appeal (Keke Palmer, SZA crossover from music, Lil Rel Howery), fun roommate hustle plot. January MLK weekend release aids domestic legs ($30-35M est.), modest intl ($15-20M). Comps: The Blackening ($67M), lower due to smaller director/profile.\"}",
-    "success": true
-  },
-  {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 8,
-    "predicted_gross": 52000000,
-    "reasoning": "Low $20M budget sci-fi thriller with intriguing monster premise akin to 'A Quiet Place' rules; Anthony Mackie's MCU draw boosts appeal, but January dump release, modest director track record, and supporting cast limit it to mid-tier performance (~2.5-3x budget WW).",
-    "raw_response": "{\"predicted_gross\": 52000000, \"reasoning\": \"Low $20M budget sci-fi thriller with intriguing monster premise akin to 'A Quiet Place' rules; Anthony Mackie's MCU draw boosts appeal, but January dump release, modest director track record, and supporting cast limit it to mid-tier performance (~2.5-3x budget WW).\"}",
-    "success": true
-  },
-  {
-    "model_id": "x-ai/grok-4.1-fast",
-    "model_name": "Grok 4.1 Fast",
-    "movie_id": 9,
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 1198994,
     "predicted_gross": 135000000,
-    "reasoning": "Nicholas Stoller's proven comedy track record (Neighbors $271M WW), star power of Reese Witherspoon and Will Ferrell in a fun wedding clash premise akin to Wedding Crashers/Ticket to Paradise ($172M WW), low $30M budget, and January release for counter-programming support $135M WW (est. $60M domestic + $75M intl).",
-    "raw_response": "{\"predicted_gross\":135000000,\"reasoning\":\"Nicholas Stoller's proven comedy track record (Neighbors $271M WW), star power of Reese Witherspoon and Will Ferrell in a fun wedding clash premise akin to Wedding Crashers/Ticket to Paradise ($172M WW), low $30M budget, and January release for counter-programming support $135M WW (est. $60M domestic + $75M intl).\"}",
+    "reasoning": "Sam Raimi directing a horror-comedy-thriller is a strong combination given his track record with Drag Me to Hell and Doctor Strange in the Multiverse of Madness. Rachel McAdams and Dylan O'Brien provide solid but not blockbuster-level star power. The premise (survival on a deserted island with horror/comedy elements) is commercially appealing and accessible. A $40M budget suggests a mid-range production. January release is typically a weaker window, but horror films can perform well in January (e.g., M3GAN). Raimi's name attached to horror elevates interest significantly. The comedy element broadens the audience beyond pure horror fans. Comparable films: Crawl ($91M), M3GAN ($181M), but this has stronger director brand recognition in the genre. Estimating solid but not spectacular performance around $135M worldwide.",
+    "raw_response": "{\"predicted_gross\": 135000000, \"reasoning\": \"Sam Raimi directing a horror-comedy-thriller is a strong combination given his track record with Drag Me to Hell and Doctor Strange in the Multiverse of Madness. Rachel McAdams and Dylan O'Brien provide solid but not blockbuster-level star power. The premise (survival on a deserted island with horror/comedy elements) is commercially appealing and accessible. A $40M budget suggests a mid-range production. January release is typically a weaker window, but horror films can perform well in January (e.g., M3GAN). Raimi's name attached to horror elevates interest significantly. The comedy element broadens the audience beyond pure horror fans. Comparable films: Crawl ($91M), M3GAN ($181M), but this has stronger director brand recognition in the genre. Estimating solid but not spectacular performance around $135M worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 1272837,
+    "predicted_gross": 485000000,
+    "reasoning": "This is the sequel to '28 Years Later' (2025), which itself is a highly anticipated sequel to the beloved '28 Days Later' franchise. The first film in this new trilogy is expected to perform very well, generating strong audience interest in the follow-up. However, several factors temper expectations: Nia DaCosta replaces Danny Boyle as director (her track record with 'Candyman' was solid but 'The Marvels' underperformed), the January release date is unusual for a major franchise film (though horror can perform well year-round), and the $63M budget suggests a mid-range production. The horror/sci-fi genre has proven commercially viable, and Ralph Fiennes adds star power. Being the second part of a planned trilogy, it benefits from franchise momentum but may face 'middle chapter' syndrome. The plot description seems oddly mismatched (referencing Spike and Jimmy Crystal from 'Sing 2'), which may indicate placeholder text, but assuming this is a legitimate horror sequel in the 28 Days Later universe, strong brand recognition and the horror genre's reliable international appeal should drive solid returns, though likely slightly below the first film's performance.",
+    "raw_response": "{\"predicted_gross\": 485000000, \"reasoning\": \"This is the sequel to '28 Years Later' (2025), which itself is a highly anticipated sequel to the beloved '28 Days Later' franchise. The first film in this new trilogy is expected to perform very well, generating strong audience interest in the follow-up. However, several factors temper expectations: Nia DaCosta replaces Danny Boyle as director (her track record with 'Candyman' was solid but 'The Marvels' underperformed), the January release date is unusual for a major franchise film (though horror can perform well year-round), and the $63M budget suggests a mid-range production. The horror/sci-fi genre has proven commercially viable, and Ralph Fiennes adds star power. Being the second part of a planned trilogy, it benefits from franchise momentum but may face 'middle chapter' syndrome. The plot description seems oddly mismatched (referencing Spike and Jimmy Crystal from 'Sing 2'), which may indicate placeholder text, but assuming this is a legitimate horror sequel in the 28 Days Later universe, strong brand recognition and the horror genre's reliable international appeal should drive solid returns, though likely slightly below the first film's performance.\"}",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 1116201,
+    "predicted_gross": 28000000,
+    "reasoning": "Iron Lung is based on the popular indie horror game by Markiplier (Mark Fischbach), who has a massive YouTube following of 35M+ subscribers. This gives the film a built-in audience similar to other YouTuber-driven projects. However, several factors limit its ceiling: Fischbach is a first-time director with no proven film track record, the cast lacks major Hollywood star power, the $3M budget suggests limited marketing and production scope, and the January release date is typically a dumping ground. The horror/sci-fi genre can overperform on low budgets (think Saw, Paranormal Activity), and the unique premise is compelling. The massive online fanbase could drive strong opening weekend numbers, but without mainstream appeal and traditional marketing muscle, it likely plateaus quickly. Comparable to something like a mid-tier Blumhouse release with strong internet buzz but limited crossover appeal. The curiosity factor and Markiplier's dedicated fanbase should push it well beyond its budget but it won't reach blockbuster territory.",
+    "raw_response": "{\"predicted_gross\": 28000000, \"reasoning\": \"Iron Lung is based on the popular indie horror game by Markiplier (Mark Fischbach), who has a massive YouTube following of 35M+ subscribers. This gives the film a built-in audience similar to other YouTuber-driven projects. However, several factors limit its ceiling: Fischbach is a first-time director with no proven film track record, the cast lacks major Hollywood star power, the $3M budget suggests limited marketing and production scope, and the January release date is typically a dumping ground. The horror/sci-fi genre can overperform on low budgets (think Saw, Paranormal Activity), and the unique premise is compelling. The massive online fanbase could drive strong opening weekend numbers, but without mainstream appeal and traditional marketing muscle, it likely plateaus quickly. Comparable to something like a mid-tier Blumhouse release with strong internet buzz but limited crossover appeal. The curiosity factor and Markiplier's dedicated fanbase should push it well beyond its budget but it won't reach blockbuster territory.\"}",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 1236153,
+    "predicted_gross": 145000000,
+    "reasoning": "Chris Pratt is a reliable box office draw, especially in sci-fi/action (Guardians, Jurassic World), though his non-franchise films have been more modest (Passengers ~$303M, The Tomorrow War was streaming). Rebecca Ferguson adds credibility. Timur Bekmambetov has a mixed track record (Wanted did well, but many of his films underperform). The premise is high-concept and intriguing — a contained AI courtroom thriller with action elements — but January release dates typically signal lower studio confidence. The $60M budget is moderate. The sci-fi/thriller genre can play well internationally. However, January releases rarely break out huge, and this is an original IP without franchise backing. Pratt's star power should help, but comparable original sci-fi thrillers (like Passengers at $303M or The Tomorrow War which went to streaming) suggest a ceiling. Factoring in the January dump month release, original IP challenges, but Pratt's draw and a compelling premise, I estimate around $145M worldwide.",
+    "raw_response": "{\"predicted_gross\": 145000000, \"reasoning\": \"Chris Pratt is a reliable box office draw, especially in sci-fi/action (Guardians, Jurassic World), though his non-franchise films have been more modest (Passengers ~$303M, The Tomorrow War was streaming). Rebecca Ferguson adds credibility. Timur Bekmambetov has a mixed track record (Wanted did well, but many of his films underperform). The premise is high-concept and intriguing — a contained AI courtroom thriller with action elements — but January release dates typically signal lower studio confidence. The $60M budget is moderate. The sci-fi/thriller genre can play well internationally. However, January releases rarely break out huge, and this is an original IP without franchise backing. Pratt's star power should help, but comparable original sci-fi thrillers (like Passengers at $303M or The Tomorrow War which went to streaming) suggest a ceiling. Factoring in the January dump month release, original IP challenges, but Pratt's draw and a compelling premise, I estimate around $145M worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 1171145,
+    "predicted_gross": 215000000,
+    "reasoning": "This film has several strong factors: Chris Hemsworth is a proven global draw, Mark Ruffalo and Halle Berry add star power, and Barry Keoghan is a rising talent. Bart Layton (American Animals) is a skilled director known for heist/crime storytelling, though this is his first big-budget studio film. The crime-thriller genre with a heist premise has broad appeal (Ocean's franchise, Den of Thieves). A $90M budget suggests solid production values. However, February release is not peak season, and original IP (non-franchise) crime thrillers rarely break out massively. The LA freeway setting adds a unique hook. Comparable films like Den of Thieves ($80M WW on $30M budget) and The Town ($154M WW) performed well, but Hemsworth's star power and the larger budget/marketing push should elevate this. Still, Hemsworth's non-MCU track record is mixed (Blackhat, Extraction did well on Netflix but theatrical is different). I estimate solid but not spectacular performance around $215M worldwide.",
+    "raw_response": "{\"predicted_gross\": 215000000, \"reasoning\": \"This film has several strong factors: Chris Hemsworth is a proven global draw, Mark Ruffalo and Halle Berry add star power, and Barry Keoghan is a rising talent. Bart Layton (American Animals) is a skilled director known for heist/crime storytelling, though this is his first big-budget studio film. The crime-thriller genre with a heist premise has broad appeal (Ocean's franchise, Den of Thieves). A $90M budget suggests solid production values. However, February release is not peak season, and original IP (non-franchise) crime thrillers rarely break out massively. The LA freeway setting adds a unique hook. Comparable films like Den of Thieves ($80M WW on $30M budget) and The Town ($154M WW) performed well, but Hemsworth's star power and the larger budget/marketing push should elevate this. Still, Hemsworth's non-MCU track record is mixed (Blackhat, Extraction did well on Netflix but theatrical is different). I estimate solid but not spectacular performance around $215M worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 680493,
+    "predicted_gross": 62000000,
+    "reasoning": "Return to Silent Hill is a sequel to the 2006 Silent Hill film, directed by the same Christophe Gans. The original grossed ~$100M worldwide, while the 2012 sequel (Silent Hill: Revelation) made only ~$52M. This new entry adapts Silent Hill 2, widely considered the best game in the franchise, which could generate strong fan interest. However, several factors temper expectations: the cast lacks major star power, the January release date is a dumping ground, and video game horror adaptations have mixed track records. The $23M budget is modest. The Silent Hill brand still has recognition, and horror films tend to perform well relative to budget. The SH2 storyline is beloved and could drive fan engagement. Comparable recent mid-budget horror adaptations suggest a range of $50-75M worldwide. A January release limits ceiling but horror can still perform in that window.",
+    "raw_response": "{\"predicted_gross\": 62000000, \"reasoning\": \"Return to Silent Hill is a sequel to the 2006 Silent Hill film, directed by the same Christophe Gans. The original grossed ~$100M worldwide, while the 2012 sequel (Silent Hill: Revelation) made only ~$52M. This new entry adapts Silent Hill 2, widely considered the best game in the franchise, which could generate strong fan interest. However, several factors temper expectations: the cast lacks major star power, the January release date is a dumping ground, and video game horror adaptations have mixed track records. The $23M budget is modest. The Silent Hill brand still has recognition, and horror films tend to perform well relative to budget. The SH2 storyline is beloved and could drive fan engagement. Comparable recent mid-budget horror adaptations suggest a range of $50-75M worldwide. A January release limits ceiling but horror can still perform in that window.\"}",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 840464,
+    "predicted_gross": 145000000,
+    "reasoning": "The original Greenland (2020) earned about $52M worldwide, but was heavily impacted by COVID-19 pandemic theater closures and had a much smaller budget (~$35M). It performed very well on streaming/VOD and built a strong fanbase. The sequel has a significantly larger budget ($90M), suggesting bigger set pieces and scale. Gerard Butler remains a reliable action draw, though not an A-list opener. The January release date is typically weak but can work for action thrillers with limited competition. The post-apocalyptic survival premise has broad appeal. However, sequels to mid-tier action films don't always see massive jumps. The European wasteland setting adds international appeal. Factoring in Butler's international draw (his films often do 60%+ overseas), the expanded scope, built-in audience from the first film's streaming success, but tempered by the January release window and the fact that this isn't a major franchise, I estimate around $145M worldwide.",
+    "raw_response": "{\"predicted_gross\": 145000000, \"reasoning\": \"The original Greenland (2020) earned about $52M worldwide, but was heavily impacted by COVID-19 pandemic theater closures and had a much smaller budget (~$35M). It performed very well on streaming/VOD and built a strong fanbase. The sequel has a significantly larger budget ($90M), suggesting bigger set pieces and scale. Gerard Butler remains a reliable action draw, though not an A-list opener. The January release date is typically weak but can work for action thrillers with limited competition. The post-apocalyptic survival premise has broad appeal. However, sequels to mid-tier action films don't always see massive jumps. The European wasteland setting adds international appeal. Factoring in Butler's international draw (his films often do 60%+ overseas), the expanded scope, built-in audience from the first film's streaming success, but tempered by the January release window and the fact that this isn't a major franchise, I estimate around $145M worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1316092,
+    "predicted_gross": 214000000,
+    "reasoning": "A prestige romance/drama period adaptation has a capped commercial ceiling, but the combination of a well-known literary IP, Emerald Fennell’s recent audience awareness, and Margot Robbie’s star power (plus Jacob Elordi’s growing draw) should lift it above typical adult dramas. A Valentine-adjacent February release favors couples and older audiences, though the $80M budget implies high production values without four-quadrant appeal. Likely outcome: solid U.S./UK performance with moderate-to-strong international turnout, landing around ~$214M worldwide.",
+    "raw_response": "{\"predicted_gross\":214000000,\"reasoning\":\"A prestige romance/drama period adaptation has a capped commercial ceiling, but the combination of a well-known literary IP, Emerald Fennell’s recent audience awareness, and Margot Robbie’s star power (plus Jacob Elordi’s growing draw) should lift it above typical adult dramas. A Valentine-adjacent February release favors couples and older audiences, though the $80M budget implies high production values without four-quadrant appeal. Likely outcome: solid U.S./UK performance with moderate-to-strong international turnout, landing around ~$214M worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1297842,
+    "predicted_gross": 285000000,
+    "reasoning": "A $90M original animated family-action comedy with a broad underdog-sports hook (kid-friendly, merch-capable) and light star/athlete marketing lift (Stephen Curry), but without a proven animation-brand director or top-tier A-list voice ensemble to guarantee breakout. A February release can benefit from weaker competition and school-holiday boosts, pointing to solid mid-tier performance comparable to successful non-sequel animated originals, landing around the high-$200M range worldwide.",
+    "raw_response": "{\"predicted_gross\":285000000,\"reasoning\":\"A $90M original animated family-action comedy with a broad underdog-sports hook (kid-friendly, merch-capable) and light star/athlete marketing lift (Stephen Curry), but without a proven animation-brand director or top-tier A-list voice ensemble to guarantee breakout. A February release can benefit from weaker competition and school-holiday boosts, pointing to solid mid-tier performance comparable to successful non-sequel animated originals, landing around the high-$200M range worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1168190,
+    "predicted_gross": 268400000,
+    "reasoning": "Mid-budget original action-comedy/crime film with recognizable global stars (Momoa, Bautista) should draw solid turnout, but late-January release timing and lack of established IP likely cap upside. Ángel Manuel Soto’s track record suggests competent mainstream appeal without breakout franchise-level demand, pointing to a worldwide total in the high-$200M range against a $79M budget.",
+    "raw_response": "{\"predicted_gross\":268400000,\"reasoning\":\"Mid-budget original action-comedy/crime film with recognizable global stars (Momoa, Bautista) should draw solid turnout, but late-January release timing and lack of established IP likely cap upside. Ángel Manuel Soto’s track record suggests competent mainstream appeal without breakout franchise-level demand, pointing to a worldwide total in the high-$200M range against a $79M budget.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1198994,
+    "predicted_gross": 158400000,
+    "reasoning": "Mid-budget genre blend (horror/thriller with dark comedy) is commercially friendly, and Sam Raimi’s name tends to translate into strong horror turnout. However, a late-January release and a cast with solid but not mega box-office draw likely cap upside. Strong concept/contained survival setup should play well internationally, landing in the mid-$100M range worldwide on a $40M budget.",
+    "raw_response": "{\"predicted_gross\":158400000,\"reasoning\":\"Mid-budget genre blend (horror/thriller with dark comedy) is commercially friendly, and Sam Raimi’s name tends to translate into strong horror turnout. However, a late-January release and a cast with solid but not mega box-office draw likely cap upside. Strong concept/contained survival setup should play well internationally, landing in the mid-$100M range worldwide on a $40M budget.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1272837,
+    "predicted_gross": 235400000,
+    "reasoning": "Recognizable \"28\" franchise branding plus a bigger $63M budget suggests a wide global push beyond the earlier films’ scale, and horror/thriller sci‑fi tends to travel well internationally when concept-driven. Ralph Fiennes adds prestige and Nia DaCosta’s track record indicates competent studio execution, but a mid-January release typically caps upside versus peak summer/fall corridors. Net result: solid hit potential, likely landing in the low-to-mid $200M worldwide range.",
+    "raw_response": "{\"predicted_gross\":235400000,\"reasoning\":\"Recognizable \\\"28\\\" franchise branding plus a bigger $63M budget suggests a wide global push beyond the earlier films’ scale, and horror/thriller sci‑fi tends to travel well internationally when concept-driven. Ralph Fiennes adds prestige and Nia DaCosta’s track record indicates competent studio execution, but a mid-January release typically caps upside versus peak summer/fall corridors. Net result: solid hit potential, likely landing in the low-to-mid $200M worldwide range.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1116201,
+    "predicted_gross": 55000000,
+    "reasoning": "Low $3M budget genre film with strong high-concept sci-fi horror hook and built-in Mark Fischbach/Markiplier fanbase that can drive a solid opening, but January release timing and niche source material likely limit broad four-quadrant appeal and international upside. Expected to perform like a successful wide indie horror rather than a breakout tentpole, landing around the mid–tens of millions worldwide.",
+    "raw_response": "{\"predicted_gross\":55000000,\"reasoning\":\"Low $3M budget genre film with strong high-concept sci-fi horror hook and built-in Mark Fischbach/Markiplier fanbase that can drive a solid opening, but January release timing and niche source material likely limit broad four-quadrant appeal and international upside. Expected to perform like a successful wide indie horror rather than a breakout tentpole, landing around the mid–tens of millions worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1236153,
+    "predicted_gross": 212500000,
+    "reasoning": "A $60M original high-concept sci-fi/action thriller with Chris Pratt and Rebecca Ferguson should have solid commercial appeal, but a late-January release (often softer legs and marketing spend) and Timur Bekmambetov’s uneven box office track record likely cap breakout potential. Expect a mid-level run driven by international markets: roughly ~$75M domestic and ~$137M international, for about $212.5M worldwide.",
+    "raw_response": "{\"predicted_gross\":212500000,\"reasoning\":\"A $60M original high-concept sci-fi/action thriller with Chris Pratt and Rebecca Ferguson should have solid commercial appeal, but a late-January release (often softer legs and marketing spend) and Timur Bekmambetov’s uneven box office track record likely cap breakout potential. Expect a mid-level run driven by international markets: roughly ~$75M domestic and ~$137M international, for about $212.5M worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1171145,
+    "predicted_gross": 238500000,
+    "reasoning": "Mid-February release positions it as an adult-focused counterprogrammer; the crime/thriller genre has solid but not four-quadrant global upside. Strong star power (Hemsworth/Ruffalo/Berry) should lift awareness and international sales, but Bart Layton’s track record skews more prestige than mega-commercial. With a high $90M budget implying scale, likely outcome is a moderate hit: strong domestic run with decent overseas, landing around ~$240M worldwide.",
+    "raw_response": "{\"predicted_gross\":238500000,\"reasoning\":\"Mid-February release positions it as an adult-focused counterprogrammer; the crime/thriller genre has solid but not four-quadrant global upside. Strong star power (Hemsworth/Ruffalo/Berry) should lift awareness and international sales, but Bart Layton’s track record skews more prestige than mega-commercial. With a high $90M budget implying scale, likely outcome is a moderate hit: strong domestic run with decent overseas, landing around ~$240M worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 680493,
+    "predicted_gross": 98750000,
+    "reasoning": "Modest $23M budget and horror genre should deliver strong ROI, but the cast lacks major box-office stars and a late-January release typically caps upside. The Silent Hill brand and Christophe Gans’ association with the better-regarded 2006 film should boost fan turnout and international interest, yielding a solid but not breakout worldwide run.",
+    "raw_response": "{\"predicted_gross\":98750000,\"reasoning\":\"Modest $23M budget and horror genre should deliver strong ROI, but the cast lacks major box-office stars and a late-January release typically caps upside. The Silent Hill brand and Christophe Gans’ association with the better-regarded 2006 film should boost fan turnout and international interest, yielding a solid but not breakout worldwide run.\"}",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 840464,
+    "predicted_gross": 208500000,
+    "reasoning": "As a sequel to a modestly theatrical-but-well-known disaster thriller, it benefits from brand recognition and Gerard Butler’s reliable international draw, plus broader post-apocalyptic adventure scope. However, a January release typically caps breakout potential and the franchise isn’t tentpole-level, so despite the higher $90M budget and crowd-pleasing survival premise, it likely lands in the low-$200M worldwide range rather than $300M+.",
+    "raw_response": "{\"predicted_gross\":208500000,\"reasoning\":\"As a sequel to a modestly theatrical-but-well-known disaster thriller, it benefits from brand recognition and Gerard Butler’s reliable international draw, plus broader post-apocalyptic adventure scope. However, a January release typically caps breakout potential and the franchise isn’t tentpole-level, so despite the higher $90M budget and crowd-pleasing survival premise, it likely lands in the low-$200M worldwide range rather than $300M+.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1272837,
+    "predicted_gross": 128000000,
+    "reasoning": "Long-awaited franchise revival benefits from strong cult nostalgia and the horror genre's reliable theatrical performance, but faces headwinds from a non-optimal January release date and a cast lacking proven box office draws despite Ralph Fiennes' prestige. Nia DaCosta's horror experience with Candyman provides credibility, while the moderate $63M budget allows profitability at this level. International markets should contribute significantly but horror typically generates lower overseas ratios than action blockbusters.",
+    "raw_response": "{\"predicted_gross\": 128000000, \"reasoning\": \"Long-awaited franchise revival benefits from strong cult nostalgia and the horror genre's reliable theatrical performance, but faces headwinds from a non-optimal January release date and a cast lacking proven box office draws despite Ralph Fiennes' prestige. Nia DaCosta's horror experience with Candyman provides credibility, while the moderate $63M budget allows profitability at this level. International markets should contribute significantly but horror typically generates lower overseas ratios than action blockbusters.\"}",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1297842,
+    "predicted_gross": 150000000,
+    "reasoning": "",
+    "raw_response": "{\"predicted_gross\": 150000000, \"reasoning\": \"GOAT is an original animated comedy-family film with a modest $90M budget releasing in February (typically a slower box office month). The cast includes recognizable names like Gabrielle Union and Caleb McLaughlin",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1168190,
+    "predicted_gross": 125000000,
+    "reasoning": "",
+    "raw_response": "{\"predicted_gross\": 125000000, \"reasoning\": \"The film features two strong action stars",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1198994,
+    "predicted_gross": 45000000,
+    "reasoning": "",
+    "raw_response": "{\"predicted_gross\": 45000000, \"reasoning\": \"January release typically sees lower box office traffic. Sam Raimi's directing credibility and horror genre appeal provide some upside, but the lack of A-list",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1272837,
+    "predicted_gross": 145000000,
+    "reasoning": "",
+    "raw_response": "{\"predicted_gross\": 145000000,",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 680493,
+    "predicted_gross": 45000000,
+    "reasoning": "",
+    "raw_response": "{\"predicted_gross\": 45000000, \"reasoning\": \"January release is a tough month for box office, and the Silent Hill franchise has declining",
     "success": true
   },
   {
     "model_id": "x-ai/grok-4.1-fast",
     "model_name": "Grok 4.1 Fast",
-    "movie_id": 10,
-    "predicted_gross": 62000000,
-    "reasoning": "Robert De Niro's star power in a dual gangster role draws fans, supported by Barry Levinson's direction, but February release, niche crime-drama genre, and modest $45M budget cap appeal to $60M+ WW amid competition and aging lead.",
-    "raw_response": "{\"predicted_gross\": 62000000, \"reasoning\": \"Robert De Niro's star power in a dual gangster role draws fans, supported by Barry Levinson's direction, but February release, niche crime-drama genre, and modest $45M budget cap appeal to $60M+ WW amid competition and aging lead.\"}",
+    "movie_id": 1316092,
+    "predicted_gross": 210000000,
+    "reasoning": "Margot Robbie's star power post-Barbie drives appeal, paired with buzzy director Emerald Fennell (Saltburn) and solid cast. Classic literary romance has prestige potential like Little Women ($218M WW), but February release and drama genre limit blockbuster status vs. action fare. $80M budget suggests $200M+ viability worldwide.",
+    "raw_response": "{\"predicted_gross\": 210000000, \"reasoning\": \"Margot Robbie's star power post-Barbie drives appeal, paired with buzzy director Emerald Fennell (Saltburn) and solid cast. Classic literary romance has prestige potential like Little Women ($218M WW), but February release and drama genre limit blockbuster status vs. action fare. $80M budget suggests $200M+ viability worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 1297842,
+    "predicted_gross": 285000000,
+    "reasoning": "Mid-tier animated family comedy with sports theme and crossover appeal from Stephen Curry's NBA stardom; underdog goat plot echoes successful animal tales like 'Bolt' ($309M). Solid voice cast including McLaughlin and Coughlan boosts family draw, but unknown director caps upside. $90M budget and Feb release suggest $250-300M WW range, comparable to 'Ron's Gone Wrong' ($104M) scaled up for Curry factor and action elements.",
+    "raw_response": "{\"predicted_gross\": 285000000, \"reasoning\": \"Mid-tier animated family comedy with sports theme and crossover appeal from Stephen Curry's NBA stardom; underdog goat plot echoes successful animal tales like 'Bolt' ($309M). Solid voice cast including McLaughlin and Coughlan boosts family draw, but unknown director caps upside. $90M budget and Feb release suggest $250-300M WW range, comparable to 'Ron's Gone Wrong' ($104M) scaled up for Curry factor and action elements.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 1168190,
+    "predicted_gross": 275000000,
+    "reasoning": "Dave Bautista and Jason Momoa provide strong action star power in a buddy action-comedy with crime/mystery elements akin to '21 Jump Street' or 'The Fall Guy'. Mid-budget ($79M), competent director, but January release limits upside; expect solid $275M WW driven by cast appeal and plot intrigue.",
+    "raw_response": "{\"predicted_gross\": 275000000, \"reasoning\": \"Dave Bautista and Jason Momoa provide strong action star power in a buddy action-comedy with crime/mystery elements akin to '21 Jump Street' or 'The Fall Guy'. Mid-budget ($79M), competent director, but January release limits upside; expect solid $275M WW driven by cast appeal and plot intrigue.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 1198994,
+    "predicted_gross": 95000000,
+    "reasoning": "Sam Raimi's horror-comedy expertise (Drag Me to Hell: $91M) suits the stranded survival plot blending thriller, horror, and laughs. Solid cast with McAdams and O'Brien's appeal, modest $40M budget. January release limits blockbuster potential but horror thrives on word-of-mouth; expect 2-3x multiplier worldwide.",
+    "raw_response": "{\"predicted_gross\": 95000000, \"reasoning\": \"Sam Raimi's horror-comedy expertise (Drag Me to Hell: $91M) suits the stranded survival plot blending thriller, horror, and laughs. Solid cast with McAdams and O'Brien's appeal, modest $40M budget. January release limits blockbuster potential but horror thrives on word-of-mouth; expect 2-3x multiplier worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 1272837,
+    "predicted_gross": 185000000,
+    "reasoning": "Sequel in cult 28 Days Later franchise with nostalgia appeal; Ralph Fiennes adds star power; Nia DaCosta's horror experience (Candyman); modest $63M budget; January 2026 release allows post-holiday horror legs, projecting $185M WW assuming franchise revival success.",
+    "raw_response": "{\"predicted_gross\": 185000000, \"reasoning\": \"Sequel in cult 28 Days Later franchise with nostalgia appeal; Ralph Fiennes adds star power; Nia DaCosta's horror experience (Candyman); modest $63M budget; January 2026 release allows post-holiday horror legs, projecting $185M WW assuming franchise revival success.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 1116201,
+    "predicted_gross": 25000000,
+    "reasoning": "Low-budget indie horror/sci-fi with Markiplier (huge YouTube following, 35M+ subs) directing and starring, plus Troy Baker. Niche appeal from game adaptation and claustrophobic plot could drive cult interest and fan turnout, but January release and limited star power cap it at modest $25M worldwide, far exceeding budget.",
+    "raw_response": "{\"predicted_gross\": 25000000, \"reasoning\": \"Low-budget indie horror/sci-fi with Markiplier (huge YouTube following, 35M+ subs) directing and starring, plus Troy Baker. Niche appeal from game adaptation and claustrophobic plot could drive cult interest and fan turnout, but January release and limited star power cap it at modest $25M worldwide, far exceeding budget.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 1236153,
+    "predicted_gross": 215000000,
+    "reasoning": "Chris Pratt's star power drives appeal in sci-fi action thriller; comparable to his mid-tier hits like Passengers ($300M) but tempered by January release, modest $60M budget, and director's mixed track record. AI courtroom plot timely; strong international potential boosts WW to ~$215M.",
+    "raw_response": "{\"predicted_gross\": 215000000, \"reasoning\": \"Chris Pratt's star power drives appeal in sci-fi action thriller; comparable to his mid-tier hits like Passengers ($300M) but tempered by January release, modest $60M budget, and director's mixed track record. AI courtroom plot timely; strong international potential boosts WW to ~$215M.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 1171145,
+    "predicted_gross": 265000000,
+    "reasoning": "Strong star power from Chris Hemsworth (global draw), Mark Ruffalo, and Halle Berry elevates this mid-budget crime thriller; genre has reliable appeal, but February release and director Bart Layton's limited fiction track record cap upside; comparable to $200-300M earners like recent action thrillers with ensembles.",
+    "raw_response": "{\"predicted_gross\": 265000000, \"reasoning\": \"Strong star power from Chris Hemsworth (global draw), Mark Ruffalo, and Halle Berry elevates this mid-budget crime thriller; genre has reliable appeal, but February release and director Bart Layton's limited fiction track record cap upside; comparable to $200-300M earners like recent action thrillers with ensembles.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 680493,
+    "predicted_gross": 65000000,
+    "reasoning": "Modest $23M budget horror sequel to cult video game Silent Hill, directed by original film's Christophe Gans. Dedicated fanbase from games likely drives solid performance similar to 2006 film's $100M (inflation-adjusted ~$150M today), but no A-list stars, niche appeal, and January 2026 release in slow period cap it at $65M WW: ~$25M domestic + $40M international.",
+    "raw_response": "{\"predicted_gross\": 65000000, \"reasoning\": \"Modest $23M budget horror sequel to cult video game Silent Hill, directed by original film's Christophe Gans. Dedicated fanbase from games likely drives solid performance similar to 2006 film's $100M (inflation-adjusted ~$150M today), but no A-list stars, niche appeal, and January 2026 release in slow period cap it at $65M WW: ~$25M domestic + $40M international.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 840464,
+    "predicted_gross": 175000000,
+    "reasoning": "Sequel to Greenland ($52M WW original, COVID-impacted); Gerard Butler's action star power drives interest; $90M budget and January 2026 release cap potential amid weak slot, but post-apocalyptic adventure plot and returning cast support mid-tier $175M WW gross.",
+    "raw_response": "{\"predicted_gross\": 175000000, \"reasoning\": \"Sequel to Greenland ($52M WW original, COVID-impacted); Gerard Butler's action star power drives interest; $90M budget and January 2026 release cap potential amid weak slot, but post-apocalyptic adventure plot and returning cast support mid-tier $175M WW gross.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 840464,
+    "predicted_gross": 128000000,
+    "reasoning": "The sequel builds upon the first film's strong VOD/streaming performance and cult following, with Gerard Butler maintaining reliable international draw for action-thrillers. However, the January release date historically limits box office ceiling, and while the $90M budget suggests expanded scope compared to the original's $35M, the mid-tier franchise status and post-apocalyptic genre saturation cap breakout potential. Expect solid but unspectacular global performance driven by European and Latin American markets where Butler remains particularly popular, with domestic returns similar to recent vehicles like 'Plane' ($52M) but boosted by sequel recognition.",
+    "raw_response": "{\"predicted_gross\": 128000000, \"reasoning\": \"The sequel builds upon the first film's strong VOD/streaming performance and cult following, with Gerard Butler maintaining reliable international draw for action-thrillers. However, the January release date historically limits box office ceiling, and while the $90M budget suggests expanded scope compared to the original's $35M, the mid-tier franchise status and post-apocalyptic genre saturation cap breakout potential. Expect solid but unspectacular global performance driven by European and Latin American markets where Butler remains particularly popular, with domestic returns similar to recent vehicles like 'Plane' ($52M) but boosted by sequel recognition.\"}",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1316092,
+    "predicted_gross": 450000,
+    "reasoning": "",
+    "raw_response": "{\"predicted_gross\": 450000",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1116201,
+    "predicted_gross": 18500000,
+    "reasoning": "",
+    "raw_response": "{\"predicted_gross\": 18500000, \"reasoning\": \"Mark Fischbach (Markiplier)",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1236153,
+    "predicted_gross": 125000000,
+    "reasoning": "Chris Pratt is a major box office draw with proven hits like Guardians of the Galaxy and Jurassic World. The sci-fi thriller premise involving an AI Judge is timely and intriguing. The moderate $60M budget is reasonable for the genre. However, the January release date is a soft box office window, and director Timur Bekmambetov has had mixed results. Rebecca Ferguson adds solid support. Comparable sci-fi thrillers with A-list stars (Looper, Source Code) grossed $100-180M, while Pratt's action films typically perform much higher. Expect moderate success driven primarily by Pratt's star power and the appealing high-concept premise.",
+    "raw_response": "{\"predicted_gross\": 125000000, \"reasoning\": \"Chris Pratt is a major box office draw with proven hits like Guardians of the Galaxy and Jurassic World. The sci-fi thriller premise involving an AI Judge is timely and intriguing. The moderate $60M budget is reasonable for the genre. However, the January release date is a soft box office window, and director Timur Bekmambetov has had mixed results. Rebecca Ferguson adds solid support. Comparable sci-fi thrillers with A-list stars (Looper, Source Code) grossed $100-180M, while Pratt's action films typically perform much higher. Expect moderate success driven primarily by Pratt's star power and the appealing high-concept premise.\"}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1316092,
+    "predicted_gross": 228400000,
+    "reasoning": "Margot Robbie's immense post-Barbie star power combined with Jacob Elordi's strong Gen Z appeal will drive significant box office interest. Emerald Fennell's provocative directorial style promises a viral, modernized take on the classic IP, likely playing similarly to the 2019 hit 'Little Women' or a gothic 'The Great Gatsby'. The strategic Valentine's Day release date perfectly aligns with the romance genre to guarantee a massive opening weekend, though the inherent ceiling of period dramas keeps it from reaching four-quadrant blockbuster numbers.",
+    "raw_response": "{\n  \"predicted_gross\": 228400000,\n  \"reasoning\": \"Margot Robbie's immense post-Barbie star power combined with Jacob Elordi's strong Gen Z appeal will drive significant box office interest. Emerald Fennell's provocative directorial style promises a viral, modernized take on the classic IP, likely playing similarly to the 2019 hit 'Little Women' or a gothic 'The Great Gatsby'. The strategic Valentine's Day release date perfectly aligns with the romance genre to guarantee a massive opening weekend, though the inherent ceiling of period dramas keeps it from reaching four-quadrant blockbuster numbers.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1297842,
+    "predicted_gross": 274500000,
+    "reasoning": "With a $90M budget, this original animated feature needs around $225M to break even. The mid-February release date strategically capitalizes on the lucrative President's Day holiday weekend in the US, offering strong legs through early spring. While original non-IP animation can be a tough sell, the underdog sports premise is highly marketable to families. Furthermore, Stephen Curry's involvement provides a massive promotional hook for sports fans globally, particularly in basketball-heavy markets like China. It is expected to perform similarly to recent mid-budget animated hits like 'Migration' or 'The Bad Guys'.",
+    "raw_response": "{\n  \"predicted_gross\": 274500000,\n  \"reasoning\": \"With a $90M budget, this original animated feature needs around $225M to break even. The mid-February release date strategically capitalizes on the lucrative President's Day holiday weekend in the US, offering strong legs through early spring. While original non-IP animation can be a tough sell, the underdog sports premise is highly marketable to families. Furthermore, Stephen Curry's involvement provides a massive promotional hook for sports fans globally, particularly in basketball-heavy markets like China. It is expected to perform similarly to recent mid-budget animated hits like 'Migration' or 'The Bad Guys'.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1168190,
+    "predicted_gross": 168500000,
+    "reasoning": "The pairing of Jason Momoa and Dave Bautista provides strong, highly marketable buddy-action chemistry that will play very well in international markets. While the late January release date and lack of established IP cap its overall ceiling, recent mid-budget action films like 'The Beekeeper' have proven this window can be highly lucrative for counter-programming. With a reasonable $79M budget, it should perform similarly to 'The Hitman's Bodyguard', driven by star charisma and global action appeal.",
+    "raw_response": "{\n  \"predicted_gross\": 168500000,\n  \"reasoning\": \"The pairing of Jason Momoa and Dave Bautista provides strong, highly marketable buddy-action chemistry that will play very well in international markets. While the late January release date and lack of established IP cap its overall ceiling, recent mid-budget action films like 'The Beekeeper' have proven this window can be highly lucrative for counter-programming. With a reasonable $79M budget, it should perform similarly to 'The Hitman's Bodyguard', driven by star charisma and global action appeal.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1198994,
+    "predicted_gross": 128400000,
+    "reasoning": "Sam Raimi's return to his signature horror-comedy roots provides a strong marketing hook for genre fans. Rachel McAdams and Dylan O'Brien offer solid mainstream star power, and the late January release window has proven highly lucrative for high-concept thrillers and horror films (similar to 'M3GAN' or 'Split'). While the $40M budget is slightly high for a standard horror film, the accessible survival plot and comedic undertones should give it strong international appeal and solid word-of-mouth legs.",
+    "raw_response": "{\n  \"predicted_gross\": 128400000,\n  \"reasoning\": \"Sam Raimi's return to his signature horror-comedy roots provides a strong marketing hook for genre fans. Rachel McAdams and Dylan O'Brien offer solid mainstream star power, and the late January release window has proven highly lucrative for high-concept thrillers and horror films (similar to 'M3GAN' or 'Split'). While the $40M budget is slightly high for a standard horror film, the accessible survival plot and comedic undertones should give it strong international appeal and solid word-of-mouth legs.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1272837,
+    "predicted_gross": 142600000,
+    "reasoning": "As an installment in the well-known '28 Days Later' franchise, the film benefits from strong legacy IP recognition and a prestige lead in Ralph Fiennes. However, a notoriously slow January release window and the absence of original star Cillian Murphy will cap its overall ceiling. Director Nia DaCosta's horror track record ensures a solid baseline, likely pushing it to a respectable but front-loaded global total that roughly doubles its $63M budget.",
+    "raw_response": "{\n  \"predicted_gross\": 142600000,\n  \"reasoning\": \"As an installment in the well-known '28 Days Later' franchise, the film benefits from strong legacy IP recognition and a prestige lead in Ralph Fiennes. However, a notoriously slow January release window and the absence of original star Cillian Murphy will cap its overall ceiling. Director Nia DaCosta's horror track record ensures a solid baseline, likely pushing it to a respectable but front-loaded global total that roughly doubles its $63M budget.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1116201,
+    "predicted_gross": 47350000,
+    "reasoning": "Driven by director and star Mark Fischbach's (Markiplier) massive built-in audience of over 36 million YouTube subscribers, this film benefits from immense, virtually free grassroots marketing. The 'Iron Lung' indie game IP already holds strong viral appeal among Gen Z and gaming communities. While the claustrophobic, experimental premise may limit long-term mainstream legs and result in a front-loaded run, the late January release window is historically highly lucrative for low-budget horror. With a micro-budget of $3M, it will easily turn a profit fueled by a strong opening weekend from dedicated fans.",
+    "raw_response": "{\n  \"predicted_gross\": 47350000,\n  \"reasoning\": \"Driven by director and star Mark Fischbach's (Markiplier) massive built-in audience of over 36 million YouTube subscribers, this film benefits from immense, virtually free grassroots marketing. The 'Iron Lung' indie game IP already holds strong viral appeal among Gen Z and gaming communities. While the claustrophobic, experimental premise may limit long-term mainstream legs and result in a front-loaded run, the late January release window is historically highly lucrative for low-budget horror. With a micro-budget of $3M, it will easily turn a profit fueled by a strong opening weekend from dedicated fans.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1236153,
+    "predicted_gross": 134500000,
+    "reasoning": "While Chris Pratt and Rebecca Ferguson provide strong star power, original sci-fi thrillers face an uphill battle in the current theatrical landscape. The January release date typically limits a film's box office ceiling, positioning this as mid-budget counter-programming rather than a four-quadrant blockbuster. With a $60M budget and a high-concept, ticking-clock premise, it is likely to perform similarly to recent mid-tier action/sci-fi films like 'The Creator' or 'The Beekeeper', relying heavily on international markets to push it past the break-even point.",
+    "raw_response": "{\n  \"predicted_gross\": 134500000,\n  \"reasoning\": \"While Chris Pratt and Rebecca Ferguson provide strong star power, original sci-fi thrillers face an uphill battle in the current theatrical landscape. The January release date typically limits a film's box office ceiling, positioning this as mid-budget counter-programming rather than a four-quadrant blockbuster. With a $60M budget and a high-concept, ticking-clock premise, it is likely to perform similarly to recent mid-tier action/sci-fi films like 'The Creator' or 'The Beekeeper', relying heavily on international markets to push it past the break-even point.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1171145,
+    "predicted_gross": 154200000,
+    "reasoning": "Despite a strong ensemble cast led by Chris Hemsworth and Mark Ruffalo, adult-skewing, non-IP crime thrillers face an uphill battle in the current theatrical landscape. Hemsworth's box office draw outside the MCU is historically inconsistent, and while director Bart Layton is critically acclaimed, he lacks mainstream blockbuster recognition. The February release date is favorable for counter-programming, but the film will likely perform similarly to recent mid-tier action-thrillers like 'The Beekeeper', ultimately struggling to reach the $225M+ needed to break even on its bloated $90M budget.",
+    "raw_response": "{\n  \"predicted_gross\": 154200000,\n  \"reasoning\": \"Despite a strong ensemble cast led by Chris Hemsworth and Mark Ruffalo, adult-skewing, non-IP crime thrillers face an uphill battle in the current theatrical landscape. Hemsworth's box office draw outside the MCU is historically inconsistent, and while director Bart Layton is critically acclaimed, he lacks mainstream blockbuster recognition. The February release date is favorable for counter-programming, but the film will likely perform similarly to recent mid-tier action-thrillers like 'The Beekeeper', ultimately struggling to reach the $225M+ needed to break even on its bloated $90M budget.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 680493,
+    "predicted_gross": 84500000,
+    "reasoning": "While the January release date and lack of A-list star power limit its mainstream ceiling, the modest $23M budget positions it well for profitability. The return of original 2006 film director Christophe Gans and the massive recent success of the Silent Hill 2 video game remake will drive strong core fanbase turnout, pushing it past the 2012 sequel's gross but keeping it below top-tier blockbuster horror.",
+    "raw_response": "{\n  \"predicted_gross\": 84500000,\n  \"reasoning\": \"While the January release date and lack of A-list star power limit its mainstream ceiling, the modest $23M budget positions it well for profitability. The return of original 2006 film director Christophe Gans and the massive recent success of the Silent Hill 2 video game remake will drive strong core fanbase turnout, pushing it past the 2012 sequel's gross but keeping it below top-tier blockbuster horror.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 840464,
+    "predicted_gross": 194500000,
+    "reasoning": "While the original 'Greenland' had a limited 2020 theatrical run due to the pandemic, it became a massive streaming hit, building a strong audience base. Gerard Butler remains a highly reliable international box office draw for mid-budget action and disaster films. The $90M budget indicates a larger visual scale that will appeal to overseas markets, which typically make up 70% of Butler's grosses. Although the January release date limits its domestic ceiling, it positions the film perfectly as action counter-programming, likely leading to a solid $50M-$60M domestic haul and a robust $130M+ internationally.",
+    "raw_response": "{\n  \"predicted_gross\": 194500000,\n  \"reasoning\": \"While the original 'Greenland' had a limited 2020 theatrical run due to the pandemic, it became a massive streaming hit, building a strong audience base. Gerard Butler remains a highly reliable international box office draw for mid-budget action and disaster films. The $90M budget indicates a larger visual scale that will appeal to overseas markets, which typically make up 70% of Butler's grosses. Although the January release date limits its domestic ceiling, it positions the film perfectly as action counter-programming, likely leading to a solid $50M-$60M domestic haul and a robust $130M+ internationally.\"\n}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1316092,
+    "predicted_gross": 118750000,
+    "reasoning": "Margot Robbie's post-Barbie star power and Jacob Elordi's Gen Z appeal drive strong opening weekend traffic around Valentine's Day, while Emerald Fennell's stylish, provocative direction generates critical buzz and awards chatter. However, the source material's relentlessly dark, tragic tone and period setting cap mainstream accessibility, particularly in Asian markets where costume dramas underperform. The $80M budget necessitates $200M+ for profitability, which proves unattainable despite robust UK/European grosses and solid North American legs, ultimately yielding a respectable but financially disappointing total typical of elevated literary adaptations.",
+    "raw_response": "{\"predicted_gross\": 118750000, \"reasoning\": \"Margot Robbie's post-Barbie star power and Jacob Elordi's Gen Z appeal drive strong opening weekend traffic around Valentine's Day, while Emerald Fennell's stylish, provocative direction generates critical buzz and awards chatter. However, the source material's relentlessly dark, tragic tone and period setting cap mainstream accessibility, particularly in Asian markets where costume dramas underperform. The $80M budget necessitates $200M+ for profitability, which proves unattainable despite robust UK/European grosses and solid North American legs, ultimately yielding a respectable but financially disappointing total typical of elevated literary adaptations.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1297842,
+    "predicted_gross": 217000000,
+    "reasoning": "Mid-budget animated sports comedy positioned as counter-programming for the February 11, 2026 Presidents Day weekend. Stephen Curry's involvement provides major marketing appeal for sports fans and families, while the underdog 'roarball' premise follows the successful template of films like Ferdinand ($296M) and Smallfoot ($214M). The voice cast (Caleb McLaughlin, Gabrielle Union, Nicola Coughlan) offers Gen Z and millennial appeal without A-list animation premiums. However, director Tyree Dillihay's limited feature track record and lack of established franchise IP cap the ceiling below major studio tentpoles. Strong international performance expected for the animal sports concept, particularly in markets where basketball is popular.",
+    "raw_response": "{\"predicted_gross\": 217000000, \"reasoning\": \"Mid-budget animated sports comedy positioned as counter-programming for the February 11, 2026 Presidents Day weekend. Stephen Curry's involvement provides major marketing appeal for sports fans and families, while the underdog 'roarball' premise follows the successful template of films like Ferdinand ($296M) and Smallfoot ($214M). The voice cast (Caleb McLaughlin, Gabrielle Union, Nicola Coughlan) offers Gen Z and millennial appeal without A-list animation premiums. However, director Tyree Dillihay's limited feature track record and lack of established franchise IP cap the ceiling below major studio tentpoles. Strong international performance expected for the animal sports concept, particularly in markets where basketball is popular.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1168190,
+    "predicted_gross": 175000000,
+    "reasoning": "The pairing of Dave Bautista and Jason Momoa provides strong action-comedy star power that should drive international markets, especially given Momoa's global appeal from Aquaman and Fast X franchises. However, the late January release date traditionally limits box office ceilings (post-holiday slump, pre-Valentine's lull), and director Ángel Manuel Soto's track record with Blue Beetle ($130M) suggests moderate rather than massive breakout potential. The $79M budget indicates studio expectations in the $150-200M range. The 'estranged brothers' mystery plot offers reliable buddy-action tropes with family drama appeal, but lacks franchise recognition to push it into blockbuster territory ($300M+). Comparable original action-comedies like The Lost City ($192M) and Bullet Train ($239M) benefited from better release windows; this January slot likely caps performance around $175M worldwide.",
+    "raw_response": " {\"predicted_gross\": 175000000, \"reasoning\": \"The pairing of Dave Bautista and Jason Momoa provides strong action-comedy star power that should drive international markets, especially given Momoa's global appeal from Aquaman and Fast X franchises. However, the late January release date traditionally limits box office ceilings (post-holiday slump, pre-Valentine's lull), and director Ángel Manuel Soto's track record with Blue Beetle ($130M) suggests moderate rather than massive breakout potential. The $79M budget indicates studio expectations in the $150-200M range. The 'estranged brothers' mystery plot offers reliable buddy-action tropes with family drama appeal, but lacks franchise recognition to push it into blockbuster territory ($300M+). Comparable original action-comedies like The Lost City ($192M) and Bullet Train ($239M) benefited from better release windows; this January slot likely caps performance around $175M worldwide.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1198994,
+    "predicted_gross": 108500000,
+    "reasoning": "Sam Raimi's return to the horror-comedy genre (his signature strength) combined with a strategically positioned January release (historically lucrative for horror) provides strong commercial potential. The $40M budget suggests studio confidence without overspending. Rachel McAdams and Dylan O'Brien offer solid star power that appeals to both general audiences and genre fans. The survival-thriller premise with comedic elements taps into recent successful trends (M3GAN, Ready or Not), while the 'battle of wills' twist suggests Raimi's characteristic visual inventiveness and tonal playfulness. Comparable mid-budget survival horrors like The Shallows ($119M) and Crawl ($91M) support this range, with Raimi's directorial cachet providing a slight premium.",
+    "raw_response": "{\"predicted_gross\": 108500000, \"reasoning\": \"Sam Raimi's return to the horror-comedy genre (his signature strength) combined with a strategically positioned January release (historically lucrative for horror) provides strong commercial potential. The $40M budget suggests studio confidence without overspending. Rachel McAdams and Dylan O'Brien offer solid star power that appeals to both general audiences and genre fans. The survival-thriller premise with comedic elements taps into recent successful trends (M3GAN, Ready or Not), while the 'battle of wills' twist suggests Raimi's characteristic visual inventiveness and tonal playfulness. Comparable mid-budget survival horrors like The Shallows ($119M) and Crawl ($91M) support this range, with Raimi's directorial cachet providing a slight premium.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1116201,
+    "predicted_gross": 28500000,
+    "reasoning": "Markiplier (Mark Fischbach) brings a built-in audience of 30M+ YouTube subscribers, likely driving a strong $5-8M domestic opening weekend. The $3M micro-budget sci-fi horror concept ('ocean of blood' submarine thriller) has viral potential similar to 'Talk to Me' or 'Skinamarink,' but the YouTuber-led cast and first-time director status limit mainstream breakout ceiling. January horror releases historically overperform, and the gaming-adjacent voice cast (Troy Baker, Elsie Lovelock) adds niche appeal. Predicting 10x budget return with $28.5M worldwide—profitable but not a blockbuster due to limited international draw for internet personalities.",
+    "raw_response": " {\"predicted_gross\": 28500000, \"reasoning\": \"Markiplier (Mark Fischbach) brings a built-in audience of 30M+ YouTube subscribers, likely driving a strong $5-8M domestic opening weekend. The $3M micro-budget sci-fi horror concept ('ocean of blood' submarine thriller) has viral potential similar to 'Talk to Me' or 'Skinamarink,' but the YouTuber-led cast and first-time director status limit mainstream breakout ceiling. January horror releases historically overperform, and the gaming-adjacent voice cast (Troy Baker, Elsie Lovelock) adds niche appeal. Predicting 10x budget return with $28.5M worldwide—profitable but not a blockbuster due to limited international draw for internet personalities.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1236153,
+    "predicted_gross": 172000000,
+    "reasoning": "Chris Pratt's proven international star power in sci-fi/action genres anchors the projection, supported by the timely AI premise and strategic MLK weekend release slot that historically supports mid-budget actioners. The $60M budget suggests a contained thriller scope rather than epic scale, limiting the ceiling but ensuring profitability with moderate global performance. Director Timur Bekmambetov's stylized visual approach aids international marketability, though the January date caps potential compared to summer blockbusters. Strong supporting cast including Rebecca Ferguson adds genre credibility for sci-fi audiences.",
+    "raw_response": " {\"predicted_gross\": 172000000, \"reasoning\": \"Chris Pratt's proven international star power in sci-fi/action genres anchors the projection, supported by the timely AI premise and strategic MLK weekend release slot that historically supports mid-budget actioners. The $60M budget suggests a contained thriller scope rather than epic scale, limiting the ceiling but ensuring profitability with moderate global performance. Director Timur Bekmambetov's stylized visual approach aids international marketability, though the January date caps potential compared to summer blockbusters. Strong supporting cast including Rebecca Ferguson adds genre credibility for sci-fi audiences.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1171145,
+    "predicted_gross": 165000000,
+    "reasoning": "The strong ensemble cast led by Chris Hemsworth and Barry Keoghan provides global draw, but director Bart Layton's limited blockbuster experience and the challenging theatrical landscape for original $90M crime thrillers cap the ceiling. The February release offers a less competitive window, but the film likely performs similarly to mid-tier star-driven action-thrillers like 'Bullet Train' or 'The Gentlemen,' falling short of the $200M+ needed for clear profitability but delivering solid international grosses driven by Hemsworth's action star appeal.",
+    "raw_response": "{\"predicted_gross\": 165000000, \"reasoning\": \"The strong ensemble cast led by Chris Hemsworth and Barry Keoghan provides global draw, but director Bart Layton's limited blockbuster experience and the challenging theatrical landscape for original $90M crime thrillers cap the ceiling. The February release offers a less competitive window, but the film likely performs similarly to mid-tier star-driven action-thrillers like 'Bullet Train' or 'The Gentlemen,' falling short of the $200M+ needed for clear profitability but delivering solid international grosses driven by Hemsworth's action star appeal.\"}",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 680493,
+    "predicted_gross": 68000000,
+    "reasoning": "Christophe Gans returns to the franchise he launched in 2006, adapting Silent Hill 2 (the most acclaimed game in the series) which should attract core fans. However, the $23M budget indicates modest production scale, the January release date limits box office potential, and the cast lacks major star power to draw general audiences. While horror typically overperforms relative to budget, the 14-year gap since the last film and mixed reception to video game adaptations cap the ceiling. Expected performance similar to recent video game horror reboots like Resident Evil: Welcome to Raccoon City but with stronger director pedigree boosting international appeal.",
+    "raw_response": "{\"predicted_gross\": 68000000, \"reasoning\": \"Christophe Gans returns to the franchise he launched in 2006, adapting Silent Hill 2 (the most acclaimed game in the series) which should attract core fans. However, the $23M budget indicates modest production scale, the January release date limits box office potential, and the cast lacks major star power to draw general audiences. While horror typically overperforms relative to budget, the 14-year gap since the last film and mixed reception to video game adaptations cap the ceiling. Expected performance similar to recent video game horror reboots like Resident Evil: Welcome to Raccoon City but with stronger director pedigree boosting international appeal.\"}",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1171145,
+    "predicted_gross": 165000000,
+    "reasoning": "The ensemble cast is the primary draw, featuring two Marvel stars (Chris Hemsworth, Mark Ruffalo) plus Halle Berry, giving this film significant star power. The heist/thriller genre has proven box office appeal (Ocean's Eleven, The Italian Job). However, the February release date is suboptimal as it's a slower box office period, and director Bart Layton, while competent, isn't a major blockbuster filmmaker. The $90M budget is moderate, suggesting studio expectations aren't astronomical. Considering the strong cast appeal offset by the February release timing and genre limitations, a worldwide gross around $165M seems realistic - roughly 1.8x the budget, which is standard for star-driven crime thrillers.",
+    "raw_response": "{\"predicted_gross\": 165000000, \"reasoning\": \"The ensemble cast is the primary draw, featuring two Marvel stars (Chris Hemsworth, Mark Ruffalo) plus Halle Berry, giving this film significant star power. The heist/thriller genre has proven box office appeal (Ocean's Eleven, The Italian Job). However, the February release date is suboptimal as it's a slower box office period, and director Bart Layton, while competent, isn't a major blockbuster filmmaker. The $90M budget is moderate, suggesting studio expectations aren't astronomical. Considering the strong cast appeal offset by the February release timing and genre limitations, a worldwide gross around $165M seems realistic - roughly 1.8x the budget, which is standard for star-driven crime thrillers.\"}",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 840464,
+    "predicted_gross": 85000000,
+    "reasoning": "As a sequel to 'Greenland' (2020, ~$52M worldwide), this faces similar constraints: Gerard Butler is a solid but not elite draw, the disaster/survival genre has moderate appeal, and January release is a slow period. The $90M budget suggests mid-tier production values. However, the continuation of the franchise and Butler's action credentials (300, Olympus Has Fallen) provide baseline appeal. Roman Griffin Davis adds some prestige appeal. Considering the first film's performance and typical sequel dynamics (slight increase or decrease), $85M is reasonable, below the first film's ceiling but accounting for potential franchise fatigue and limited growth potential.",
+    "raw_response": "{\"predicted_gross\": 85000000, \"reasoning\": \"As a sequel to 'Greenland' (2020, ~$52M worldwide), this faces similar constraints: Gerard Butler is a solid but not elite draw, the disaster/survival genre has moderate appeal, and January release is a slow period. The $90M budget suggests mid-tier production values. However, the continuation of the franchise and Butler's action credentials (300, Olympus Has Fallen) provide baseline appeal. Roman Griffin Davis adds some prestige appeal. Considering the first film's performance and typical sequel dynamics (slight increase or decrease), $85M is reasonable, below the first film's ceiling but accounting for potential franchise fatigue and limited growth potential.\"}",
     "success": true
   }
 ]

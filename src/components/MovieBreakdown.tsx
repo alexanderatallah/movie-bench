@@ -105,7 +105,7 @@ export function MovieBreakdown({
                         )}
                       </TableCell>
                       <TableCell>
-                        {pred?.predicted ? fmtDollars(pred.predicted) : "\u2014"}
+                        {pred?.predicted != null ? fmtDollars(pred.predicted) : "\u2014"}
                       </TableCell>
                       <TableCell>
                         {errorBadge(pred?.pct_error ?? null)}

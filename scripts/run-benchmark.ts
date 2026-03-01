@@ -14,6 +14,7 @@ const MODELS = [
 
 const MAX_CONCURRENT = 5;
 const MAX_RETRIES = 3;
+const PROMPT_VERSION = "2026-03-youtube-wikimedia-v1";
 
 function parseResponse(raw: string): { predicted_gross: number; reasoning: string } | null {
   // Try direct parse
@@ -61,7 +62,7 @@ async function predictWithRetry(
           { role: "system", content: SYSTEM_PROMPT },
           { role: "user", content: moviePrompt },
         ],
-        { model: model.id, temperature: 0.3, maxTokens: 500 }
+        { model: model.id, temperature: 0.3 }
       );
 
       const parsed = parseResponse(raw);
@@ -70,6 +71,7 @@ async function predictWithRetry(
           model_id: model.id,
           model_name: model.name,
           movie_id: movie.id,
+          prompt_version: PROMPT_VERSION,
           predicted_gross: null,
           reasoning: "",
           raw_response: raw,
@@ -82,6 +84,7 @@ async function predictWithRetry(
         model_id: model.id,
         model_name: model.name,
         movie_id: movie.id,
+        prompt_version: PROMPT_VERSION,
         predicted_gross: parsed.predicted_gross,
         reasoning: parsed.reasoning,
         raw_response: raw,
@@ -98,6 +101,7 @@ async function predictWithRetry(
         model_id: model.id,
         model_name: model.name,
         movie_id: movie.id,
+        prompt_version: PROMPT_VERSION,
         predicted_gross: null,
         reasoning: "",
         raw_response: "",
@@ -112,6 +116,7 @@ async function predictWithRetry(
     model_id: model.id,
     model_name: model.name,
     movie_id: movie.id,
+    prompt_version: PROMPT_VERSION,
     predicted_gross: null,
     reasoning: "",
     raw_response: "",
@@ -158,8 +163,11 @@ async function main() {
     console.log(`Loaded ${existing.length} existing predictions (cache)`);
   }
 
+  const existingForPrompt = existing.filter(
+    (p) => p.success && p.prompt_version === PROMPT_VERSION
+  );
   const existingKeys = new Set(
-    existing.filter((p) => p.success).map((p) => `${p.model_id}::${p.movie_id}`)
+    existingForPrompt.map((p) => `${p.model_id}::${p.movie_id}`)
   );
 
   // Build task list
@@ -192,7 +200,7 @@ async function main() {
   });
 
   // Merge with existing
-  const allPredictions = [...existing.filter((p) => p.success), ...newPredictions];
+  const allPredictions = [...existingForPrompt, ...newPredictions];
 
   mkdirSync("data", { recursive: true });
   writeFileSync(resultsPath, JSON.stringify(allPredictions, null, 2));

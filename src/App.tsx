@@ -10,7 +10,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 
 const MODEL_CUTOFFS: Record<string, string> = {
@@ -84,10 +83,11 @@ export default function App() {
             <p>
               <strong>What this measures:</strong> Each model is given metadata
               about a recently-released movie (title, director, cast, genres,
-              budget, plot summary, and release date) and asked to predict its
-              worldwide box office gross. Models with training data that includes
-              actual results will appear to "predict" accurately; those without
-              must genuinely estimate.
+              budget, plot summary, release date, YouTube trailer engagement
+              (views/likes/comments), and Wikipedia pre-release pageview
+              signals, then asked to predict worldwide box office gross. Models
+              with training data that includes actual results will appear to
+              "predict" accurately; those without must genuinely estimate.
             </p>
             <p>
               <strong>Movie selection:</strong> The top 10 English-language films
@@ -106,7 +106,8 @@ export default function App() {
             <p>
               <strong>Prompt design:</strong> A system prompt sets the role of
               "box office analyst." The user message supplies structured movie
-              metadata and requests a JSON response:
+              metadata plus demand signals (YouTube trailer stats and
+              Wikipedia pageviews) and requests a JSON response:
             </p>
             <pre className="bg-muted/50 border border-border rounded-md px-4 py-3 text-xs overflow-x-auto font-mono">
               {`{"predicted_gross": <number>, "reasoning": "<text>"}`}
@@ -121,6 +122,11 @@ export default function App() {
             <p>
               <strong>Ground truth:</strong> Worldwide gross revenue from TMDB
               (The Movie Database).
+            </p>
+            <p>
+              <strong>Auxiliary signals:</strong> Trailer engagement metrics come
+              from the YouTube Data API; Wikipedia attention metrics come from
+              Wikimedia pageviews.
             </p>
           </CardContent>
         )}

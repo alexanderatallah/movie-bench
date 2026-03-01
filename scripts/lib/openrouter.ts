@@ -16,7 +16,6 @@ export async function callOpenRouter(
   options: {
     model?: string;
     temperature?: number;
-    maxTokens?: number;
   } = {}
 ): Promise<string> {
   const apiKey = process.env.OPENROUTER_API_KEY;
@@ -25,7 +24,6 @@ export async function callOpenRouter(
   const {
     model = "anthropic/claude-opus-4-6",
     temperature = 0.3,
-    maxTokens = 500,
   } = options;
 
   const resp = await fetch(OPENROUTER_API_URL, {
@@ -40,7 +38,6 @@ export async function callOpenRouter(
       model,
       messages,
       temperature,
-      max_tokens: maxTokens,
     }),
   });
 
