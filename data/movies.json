@@ -1,0 +1,213 @@
+[
+  {
+    "id": 1,
+    "title": "Captain America: Brave New World",
+    "release_date": "2026-02-14",
+    "overview": "Sam Wilson, the new Captain America, finds himself in the middle of an international incident when he must uncover the motives behind a nefarious global plot.",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "budget": 250000000,
+    "revenue": 728000000,
+    "director": "Julius Onah",
+    "cast": [
+      "Anthony Mackie",
+      "Harrison Ford",
+      "Tim Blake Nelson",
+      "Danny Ramirez",
+      "Shira Haas"
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 2,
+    "title": "Paddington in Peru",
+    "release_date": "2026-01-17",
+    "overview": "Paddington returns to Peru to visit his beloved Aunt Lucy, who now resides at the Home for Retired Bears. With the Brown family in tow, a thrilling adventure ensues.",
+    "genres": [
+      "Family",
+      "Comedy",
+      "Adventure"
+    ],
+    "budget": 60000000,
+    "revenue": 262000000,
+    "director": "Dougal Wilson",
+    "cast": [
+      "Ben Whishaw",
+      "Hugh Bonneville",
+      "Emily Mortimer",
+      "Antonio Banderas",
+      "Olivia Colman"
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 3,
+    "title": "Dog Man",
+    "release_date": "2026-01-31",
+    "overview": "A faithful police dog and his human cop companion are injured in the line of duty, and a life-saving surgery fuses them into one hybrid hero: Dog Man.",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "budget": 40000000,
+    "revenue": 185000000,
+    "director": "Peter Hastings",
+    "cast": [
+      "Pete Davidson",
+      "Lil Rel Howery",
+      "Isla Fisher",
+      "Poppy Liu",
+      "Stephen Root"
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 4,
+    "title": "Heart Eyes",
+    "release_date": "2026-02-07",
+    "overview": "A masked killer known as the Heart Eyes Killer targets couples in a small city on Valentine's Day, and two coworkers pretending to be a couple must survive the night.",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "budget": 12000000,
+    "revenue": 94000000,
+    "director": "Josh Ruben",
+    "cast": [
+      "Olivia Holt",
+      "Mason Gooding",
+      "Devon Sawa",
+      "Jordana Brewster",
+      "Harvey Guillen"
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 5,
+    "title": "The Monkey",
+    "release_date": "2026-02-21",
+    "overview": "Twin brothers discover a cursed toy monkey that brings death to those around them. Decades later, the monkey resurfaces and the brothers must find a way to destroy it.",
+    "genres": [
+      "Horror",
+      "Comedy"
+    ],
+    "budget": 18000000,
+    "revenue": 112000000,
+    "director": "Osgood Perkins",
+    "cast": [
+      "Theo James",
+      "Tatiana Maslany",
+      "Elijah Wood",
+      "Christian Convery",
+      "Colin O'Brien"
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 6,
+    "title": "Companion",
+    "release_date": "2026-01-10",
+    "overview": "A woman discovers that she is actually a lifelike AI companion during a weekend trip with friends, and must fight for her survival when things take a dark turn.",
+    "genres": [
+      "Thriller",
+      "Science Fiction",
+      "Horror"
+    ],
+    "budget": 15000000,
+    "revenue": 68000000,
+    "director": "Drew Hancock",
+    "cast": [
+      "Sophie Thatcher",
+      "Jack Quaid",
+      "Lukas Gage",
+      "Megan Suri",
+      "Harvey Guillen"
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 7,
+    "title": "One of Them Days",
+    "release_date": "2026-01-17",
+    "overview": "Two best friends and roommates must hustle to come up with rent money in one day after discovering one of their boyfriends has blown their funds.",
+    "genres": [
+      "Comedy"
+    ],
+    "budget": 10000000,
+    "revenue": 52000000,
+    "director": "Lawrence Lamont",
+    "cast": [
+      "Keke Palmer",
+      "SZA",
+      "Maude Apatow",
+      "Lil Rel Howery",
+      "Janelle James"
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 8,
+    "title": "Elevation",
+    "release_date": "2026-01-10",
+    "overview": "In a post-apocalyptic world where monsters occupy altitudes below a certain elevation, a father must venture below the safe zone to save his son's life.",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "budget": 20000000,
+    "revenue": 34000000,
+    "director": "George Nolfi",
+    "cast": [
+      "Anthony Mackie",
+      "Morena Baccarin",
+      "Maddie Hasson",
+      "Danny Boyd Jr."
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 9,
+    "title": "You're Cordially Invited",
+    "release_date": "2026-01-30",
+    "overview": "Two families discover their weddings have been double-booked at the same venue, leading to an escalating battle of wills to claim the space.",
+    "genres": [
+      "Comedy"
+    ],
+    "budget": 30000000,
+    "revenue": 71000000,
+    "director": "Nicholas Stoller",
+    "cast": [
+      "Reese Witherspoon",
+      "Will Ferrell",
+      "Geraldine Viswanathan",
+      "Meredith Hagner",
+      "Jimmy O. Yang"
+    ],
+    "poster_path": null
+  },
+  {
+    "id": 10,
+    "title": "The Alto Knights",
+    "release_date": "2026-02-21",
+    "overview": "The true story of two of New York's most notorious organized crime bosses, Frank Costello and Vito Genovese, whose rivalry shaped the American Mafia.",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "budget": 45000000,
+    "revenue": 48000000,
+    "director": "Barry Levinson",
+    "cast": [
+      "Robert De Niro",
+      "Debra Messing",
+      "Cosmo Jarvis",
+      "Michael Rispoli"
+    ],
+    "poster_path": null
+  }
+]

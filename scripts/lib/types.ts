@@ -1,0 +1,51 @@
+export interface MovieData {
+  id: number;
+  title: string;
+  release_date: string;
+  overview: string;
+  genres: string[];
+  budget: number;
+  revenue: number; // TMDB worldwide revenue (ground truth)
+  director: string;
+  cast: string[]; // top 5
+  poster_path: string | null;
+}
+
+export interface ModelPrediction {
+  model_id: string;
+  model_name: string;
+  movie_id: number;
+  predicted_gross: number | null;
+  reasoning: string;
+  raw_response: string;
+  success: boolean;
+  error?: string;
+}
+
+export interface BenchmarkResults {
+  generated_at: string;
+  movies: MovieData[];
+  predictions: ModelPrediction[];
+}
+
+// Frontend data shape (public/data.json)
+export interface LeaderboardEntry {
+  model_id: string;
+  model_name: string;
+  avg_pct_error: number;
+  median_pct_error: number;
+  predictions: {
+    movie_id: number;
+    movie_title: string;
+    predicted: number | null;
+    actual: number;
+    pct_error: number | null;
+    reasoning: string;
+  }[];
+}
+
+export interface FrontendData {
+  generated_at: string;
+  movies: MovieData[];
+  leaderboard: LeaderboardEntry[];
+}

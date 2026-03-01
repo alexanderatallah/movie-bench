@@ -1,0 +1,746 @@
+{
+  "generated_at": "2026-03-01T03:18:19.692Z",
+  "movies": [
+    {
+      "id": 1,
+      "title": "Captain America: Brave New World",
+      "release_date": "2026-02-14",
+      "overview": "Sam Wilson, the new Captain America, finds himself in the middle of an international incident when he must uncover the motives behind a nefarious global plot.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "budget": 250000000,
+      "revenue": 728000000,
+      "director": "Julius Onah",
+      "cast": [
+        "Anthony Mackie",
+        "Harrison Ford",
+        "Tim Blake Nelson",
+        "Danny Ramirez",
+        "Shira Haas"
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 2,
+      "title": "Paddington in Peru",
+      "release_date": "2026-01-17",
+      "overview": "Paddington returns to Peru to visit his beloved Aunt Lucy, who now resides at the Home for Retired Bears. With the Brown family in tow, a thrilling adventure ensues.",
+      "genres": [
+        "Family",
+        "Comedy",
+        "Adventure"
+      ],
+      "budget": 60000000,
+      "revenue": 262000000,
+      "director": "Dougal Wilson",
+      "cast": [
+        "Ben Whishaw",
+        "Hugh Bonneville",
+        "Emily Mortimer",
+        "Antonio Banderas",
+        "Olivia Colman"
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 3,
+      "title": "Dog Man",
+      "release_date": "2026-01-31",
+      "overview": "A faithful police dog and his human cop companion are injured in the line of duty, and a life-saving surgery fuses them into one hybrid hero: Dog Man.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "budget": 40000000,
+      "revenue": 185000000,
+      "director": "Peter Hastings",
+      "cast": [
+        "Pete Davidson",
+        "Lil Rel Howery",
+        "Isla Fisher",
+        "Poppy Liu",
+        "Stephen Root"
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 4,
+      "title": "Heart Eyes",
+      "release_date": "2026-02-07",
+      "overview": "A masked killer known as the Heart Eyes Killer targets couples in a small city on Valentine's Day, and two coworkers pretending to be a couple must survive the night.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "budget": 12000000,
+      "revenue": 94000000,
+      "director": "Josh Ruben",
+      "cast": [
+        "Olivia Holt",
+        "Mason Gooding",
+        "Devon Sawa",
+        "Jordana Brewster",
+        "Harvey Guillen"
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 5,
+      "title": "The Monkey",
+      "release_date": "2026-02-21",
+      "overview": "Twin brothers discover a cursed toy monkey that brings death to those around them. Decades later, the monkey resurfaces and the brothers must find a way to destroy it.",
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "budget": 18000000,
+      "revenue": 112000000,
+      "director": "Osgood Perkins",
+      "cast": [
+        "Theo James",
+        "Tatiana Maslany",
+        "Elijah Wood",
+        "Christian Convery",
+        "Colin O'Brien"
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 6,
+      "title": "Companion",
+      "release_date": "2026-01-10",
+      "overview": "A woman discovers that she is actually a lifelike AI companion during a weekend trip with friends, and must fight for her survival when things take a dark turn.",
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Horror"
+      ],
+      "budget": 15000000,
+      "revenue": 68000000,
+      "director": "Drew Hancock",
+      "cast": [
+        "Sophie Thatcher",
+        "Jack Quaid",
+        "Lukas Gage",
+        "Megan Suri",
+        "Harvey Guillen"
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 7,
+      "title": "One of Them Days",
+      "release_date": "2026-01-17",
+      "overview": "Two best friends and roommates must hustle to come up with rent money in one day after discovering one of their boyfriends has blown their funds.",
+      "genres": [
+        "Comedy"
+      ],
+      "budget": 10000000,
+      "revenue": 52000000,
+      "director": "Lawrence Lamont",
+      "cast": [
+        "Keke Palmer",
+        "SZA",
+        "Maude Apatow",
+        "Lil Rel Howery",
+        "Janelle James"
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 8,
+      "title": "Elevation",
+      "release_date": "2026-01-10",
+      "overview": "In a post-apocalyptic world where monsters occupy altitudes below a certain elevation, a father must venture below the safe zone to save his son's life.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "budget": 20000000,
+      "revenue": 34000000,
+      "director": "George Nolfi",
+      "cast": [
+        "Anthony Mackie",
+        "Morena Baccarin",
+        "Maddie Hasson",
+        "Danny Boyd Jr."
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 9,
+      "title": "You're Cordially Invited",
+      "release_date": "2026-01-30",
+      "overview": "Two families discover their weddings have been double-booked at the same venue, leading to an escalating battle of wills to claim the space.",
+      "genres": [
+        "Comedy"
+      ],
+      "budget": 30000000,
+      "revenue": 71000000,
+      "director": "Nicholas Stoller",
+      "cast": [
+        "Reese Witherspoon",
+        "Will Ferrell",
+        "Geraldine Viswanathan",
+        "Meredith Hagner",
+        "Jimmy O. Yang"
+      ],
+      "poster_path": null
+    },
+    {
+      "id": 10,
+      "title": "The Alto Knights",
+      "release_date": "2026-02-21",
+      "overview": "The true story of two of New York's most notorious organized crime bosses, Frank Costello and Vito Genovese, whose rivalry shaped the American Mafia.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "budget": 45000000,
+      "revenue": 48000000,
+      "director": "Barry Levinson",
+      "cast": [
+        "Robert De Niro",
+        "Debra Messing",
+        "Cosmo Jarvis",
+        "Michael Rispoli"
+      ],
+      "poster_path": null
+    }
+  ],
+  "leaderboard": [
+    {
+      "model_id": "anthropic/claude-opus-4-6",
+      "model_name": "Claude Opus 4.6",
+      "avg_pct_error": 0.2851794064734373,
+      "median_pct_error": 0.25805613305613306,
+      "predictions": [
+        {
+          "movie_id": 1,
+          "movie_title": "Captain America: Brave New World",
+          "predicted": 620000000,
+          "actual": 728000000,
+          "pct_error": 0.14835164835164835,
+          "reasoning": "MCU brand still carries weight globally despite franchise fatigue. Anthony Mackie as new Cap has built-in audience from Disney+. Harrison Ford joining adds prestige draw. February release is unusual for MCU."
+        },
+        {
+          "movie_id": 2,
+          "movie_title": "Paddington in Peru",
+          "predicted": 280000000,
+          "actual": 262000000,
+          "pct_error": 0.06870229007633588,
+          "reasoning": "Paddington franchise has exceptional word-of-mouth and global appeal. Third installment benefits from brand loyalty. Antonio Banderas and Olivia Colman add star power."
+        },
+        {
+          "movie_id": 3,
+          "movie_title": "Dog Man",
+          "predicted": 150000000,
+          "actual": 185000000,
+          "pct_error": 0.1891891891891892,
+          "reasoning": "Dav Pilkey's books have massive readership among kids. Captain Underpants movie did $125M worldwide. Dog Man books have outsold Captain Underpants. Should overperform."
+        },
+        {
+          "movie_id": 4,
+          "movie_title": "Heart Eyes",
+          "predicted": 45000000,
+          "actual": 94000000,
+          "pct_error": 0.5212765957446809,
+          "reasoning": "Horror-thriller with Valentine's Day hook. Low budget genre film. Similar to Happy Death Day in concept. Should be solidly profitable but limited ceiling."
+        },
+        {
+          "movie_id": 5,
+          "movie_title": "The Monkey",
+          "predicted": 130000000,
+          "actual": 112000000,
+          "pct_error": 0.16071428571428573,
+          "reasoning": "Stephen King brand is reliable for horror. Osgood Perkins gained massive buzz from Longlegs. Horror-comedy angle broadens appeal. Theo James is ascending."
+        },
+        {
+          "movie_id": 6,
+          "movie_title": "Companion",
+          "predicted": 40000000,
+          "actual": 68000000,
+          "pct_error": 0.4117647058823529,
+          "reasoning": "AI-themed thriller taps into zeitgeist. Low budget sci-fi horror. Sophie Thatcher (Yellowjackets) has growing fanbase. Limited marketing push expected."
+        },
+        {
+          "movie_id": 7,
+          "movie_title": "One of Them Days",
+          "predicted": 35000000,
+          "actual": 52000000,
+          "pct_error": 0.3269230769230769,
+          "reasoning": "Buddy comedy with musical crossover appeal via SZA. Keke Palmer is a strong comedy lead. Primarily domestic play, limited international."
+        },
+        {
+          "movie_id": 8,
+          "movie_title": "Elevation",
+          "predicted": 50000000,
+          "actual": 34000000,
+          "pct_error": 0.47058823529411764,
+          "reasoning": "High-concept sci-fi action with Anthony Mackie. Modest budget suggests limited theatrical push. Genre has been hit-or-miss post-pandemic."
+        },
+        {
+          "movie_id": 9,
+          "movie_title": "You're Cordially Invited",
+          "predicted": 100000000,
+          "actual": 71000000,
+          "pct_error": 0.4084507042253521,
+          "reasoning": "Star-driven comedy with Witherspoon and Ferrell. Wedding premise is broad and accessible. Both stars past their peak box office draw but still recognizable."
+        },
+        {
+          "movie_id": 10,
+          "movie_title": "The Alto Knights",
+          "predicted": 55000000,
+          "actual": 48000000,
+          "pct_error": 0.14583333333333334,
+          "reasoning": "Robert De Niro in dual mob roles directed by Barry Levinson. Prestige crime drama with awards potential. Limited action appeal but strong older demographic draw."
+        }
+      ]
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.5",
+      "model_name": "Kimi K2.5",
+      "avg_pct_error": 0.3000646275761423,
+      "median_pct_error": 0.30362946912242683,
+      "predictions": [
+        {
+          "movie_id": 1,
+          "movie_title": "Captain America: Brave New World",
+          "predicted": 680000000,
+          "actual": 728000000,
+          "pct_error": 0.06593406593406594,
+          "reasoning": "MCU sequel with established IP, Harrison Ford addition. Post-Endgame MCU has been inconsistent, but Captain America brand is strong. Similar to Falcon & Winter Soldier audience."
+        },
+        {
+          "movie_id": 2,
+          "movie_title": "Paddington in Peru",
+          "predicted": 230000000,
+          "actual": 262000000,
+          "pct_error": 0.12213740458015267,
+          "reasoning": "Paddington franchise is beloved with excellent reviews. Third installment should perform similarly to Paddington 2. Strong international appeal."
+        },
+        {
+          "movie_id": 3,
+          "movie_title": "Dog Man",
+          "predicted": 160000000,
+          "actual": 185000000,
+          "pct_error": 0.13513513513513514,
+          "reasoning": "Based on popular Dav Pilkey books (Captain Underpants creator). Strong built-in kid audience. Animation should do well internationally."
+        },
+        {
+          "movie_id": 4,
+          "movie_title": "Heart Eyes",
+          "predicted": 55000000,
+          "actual": 94000000,
+          "pct_error": 0.4148936170212766,
+          "reasoning": "Valentine's Day horror is a niche but proven concept (Valentine, My Bloody Valentine). Low budget should make this profitable."
+        },
+        {
+          "movie_id": 5,
+          "movie_title": "The Monkey",
+          "predicted": 85000000,
+          "actual": 112000000,
+          "pct_error": 0.24107142857142858,
+          "reasoning": "Stephen King adaptation with horror-comedy angle. Osgood Perkins has rising profile after Longlegs. Should perform similar to recent mid-budget horror."
+        },
+        {
+          "movie_id": 6,
+          "movie_title": "Companion",
+          "predicted": 45000000,
+          "actual": 68000000,
+          "pct_error": 0.3382352941176471,
+          "reasoning": "AI thriller is timely but niche. Jack Quaid and Sophie Thatcher have rising profiles. Low budget means profitability is likely."
+        },
+        {
+          "movie_id": 7,
+          "movie_title": "One of Them Days",
+          "predicted": 38000000,
+          "actual": 52000000,
+          "pct_error": 0.2692307692307692,
+          "reasoning": "Comedy with Keke Palmer and SZA. SZA's massive music fanbase could drive opening. Limited international appeal though."
+        },
+        {
+          "movie_id": 8,
+          "movie_title": "Elevation",
+          "predicted": 55000000,
+          "actual": 34000000,
+          "pct_error": 0.6176470588235294,
+          "reasoning": "Anthony Mackie sci-fi action. Post-apocalyptic genre is well-worn. Mid-budget action with modest expectations."
+        },
+        {
+          "movie_id": 9,
+          "movie_title": "You're Cordially Invited",
+          "predicted": 95000000,
+          "actual": 71000000,
+          "pct_error": 0.3380281690140845,
+          "reasoning": "Witherspoon + Ferrell is strong comedy pairing. Wedding comedies have proven track record. Should play well with mainstream audiences."
+        },
+        {
+          "movie_id": 10,
+          "movie_title": "The Alto Knights",
+          "predicted": 70000000,
+          "actual": 48000000,
+          "pct_error": 0.4583333333333333,
+          "reasoning": "De Niro in a mob drama from Barry Levinson. Dual role performance could generate buzz but crime dramas have limited ceiling."
+        }
+      ]
+    },
+    {
+      "model_id": "openai/gpt-5.2",
+      "model_name": "GPT 5.2",
+      "avg_pct_error": 0.35498850202832444,
+      "median_pct_error": 0.3408542471042471,
+      "predictions": [
+        {
+          "movie_id": 1,
+          "movie_title": "Captain America: Brave New World",
+          "predicted": 550000000,
+          "actual": 728000000,
+          "pct_error": 0.2445054945054945,
+          "reasoning": "MCU continues to underperform relative to Infinity Saga. New Captain America lacks RDJ-level draw. Harrison Ford adds interest but audience skepticism about MCU Phase 5/6 is real."
+        },
+        {
+          "movie_id": 2,
+          "movie_title": "Paddington in Peru",
+          "predicted": 200000000,
+          "actual": 262000000,
+          "pct_error": 0.2366412213740458,
+          "reasoning": "Paddington is a reliable family franchise with excellent critical reception. Third films sometimes see diminishing returns. Strong UK/international markets."
+        },
+        {
+          "movie_id": 3,
+          "movie_title": "Dog Man",
+          "predicted": 120000000,
+          "actual": 185000000,
+          "pct_error": 0.35135135135135137,
+          "reasoning": "Animated adaptation of popular children's book. Captain Underpants did modest business. New IP in animation is risky. Should find its audience with kids."
+        },
+        {
+          "movie_id": 4,
+          "movie_title": "Heart Eyes",
+          "predicted": 60000000,
+          "actual": 94000000,
+          "pct_error": 0.3617021276595745,
+          "reasoning": "Valentine's Day horror release. Genre films with holiday hooks can overperform (Halloween, Christmas horror). Low budget ensures profitability."
+        },
+        {
+          "movie_id": 5,
+          "movie_title": "The Monkey",
+          "predicted": 75000000,
+          "actual": 112000000,
+          "pct_error": 0.33035714285714285,
+          "reasoning": "Stephen King adaptation. Perkins coming off Longlegs success. Horror-comedy is a crowdpleaser genre. Moderate expectations."
+        },
+        {
+          "movie_id": 6,
+          "movie_title": "Companion",
+          "predicted": 35000000,
+          "actual": 68000000,
+          "pct_error": 0.4852941176470588,
+          "reasoning": "Sci-fi thriller about AI. Timely concept. Low budget affair with rising cast. Ex Machina comparisons likely."
+        },
+        {
+          "movie_id": 7,
+          "movie_title": "One of Them Days",
+          "predicted": 30000000,
+          "actual": 52000000,
+          "pct_error": 0.4230769230769231,
+          "reasoning": "Comedy driven by Keke Palmer and SZA. Music-to-film crossover can drive opening weekends. Mostly domestic play."
+        },
+        {
+          "movie_id": 8,
+          "movie_title": "Elevation",
+          "predicted": 45000000,
+          "actual": 34000000,
+          "pct_error": 0.3235294117647059,
+          "reasoning": "Post-apocalyptic sci-fi action. Mackie has rising profile with Captain America. Modest genre entry."
+        },
+        {
+          "movie_id": 9,
+          "movie_title": "You're Cordially Invited",
+          "predicted": 80000000,
+          "actual": 71000000,
+          "pct_error": 0.1267605633802817,
+          "reasoning": "Comedy stars Witherspoon and Ferrell. Wedding comedy premise is accessible. Streaming era has hurt theatrical comedy but these stars still draw."
+        },
+        {
+          "movie_id": 10,
+          "movie_title": "The Alto Knights",
+          "predicted": 80000000,
+          "actual": 48000000,
+          "pct_error": 0.6666666666666666,
+          "reasoning": "De Niro mob drama. Prestige play from Levinson. The Irishman comparisons inevitable. Should find audience among older moviegoers."
+        }
+      ]
+    },
+    {
+      "model_id": "x-ai/grok-4.1-fast",
+      "model_name": "Grok 4.1 Fast",
+      "avg_pct_error": 0.36384217609955594,
+      "median_pct_error": 0.337322695035461,
+      "predictions": [
+        {
+          "movie_id": 1,
+          "movie_title": "Captain America: Brave New World",
+          "predicted": 875000000,
+          "actual": 728000000,
+          "pct_error": 0.20192307692307693,
+          "reasoning": "MCU Captain America franchise has strong track record (Winter Soldier $715M, Civil War $1.15B). Anthony Mackie as new Cap is solid but less iconic than Evans; Harrison Ford as Ross/Red Hulk adds major star power and draw. Julius Onah unproven in blockbusters but Marvel IP carries. $250M budget typical. Feb 2026 release (like Ant-Man 3's $476M but this has higher profile/cast). Global plot appeals to fans. Post-Deadpool momentum boosts to ~$875M WW."
+        },
+        {
+          "movie_id": 2,
+          "movie_title": "Paddington in Peru",
+          "predicted": 215000000,
+          "actual": 262000000,
+          "pct_error": 0.17938931297709923,
+          "reasoning": "Paddington franchise averaged ~$250M WW previously with strong family appeal; consistent voice cast, added stars Banderas/Colman boost draw; $60M budget reasonable; January release tempers upside but IP ensures solid global performance around prior entries."
+        },
+        {
+          "movie_id": 3,
+          "movie_title": "Dog Man",
+          "predicted": 280000000,
+          "actual": 185000000,
+          "pct_error": 0.5135135135135135,
+          "reasoning": "Based on Dav Pilkey's bestselling Dog Man book series (bigger than Captain Underpants, which grossed $125M WW in 2017), family animation comedy genre with broad kid appeal, modest $40M budget, solid comedic cast (Pete Davidson, Lil Rel Howery), January release for family counterprogramming, and director's animation TV experience. Adjusted for inflation and popularity, expects $250-350M WW range; $280M midpoint."
+        },
+        {
+          "movie_id": 4,
+          "movie_title": "Heart Eyes",
+          "predicted": 58000000,
+          "actual": 94000000,
+          "pct_error": 0.3829787234042553,
+          "reasoning": "Low-budget ($12M) Valentine's Day slasher with holiday marketing hook and recognizable B-list cast (Mason Gooding from Scream, Jordana Brewster). Comparable to 'Thanksgiving' ($41M WW) but with stronger cast and timely Feb release; projects $50-70M WW driven by horror fanbase and VOD potential."
+        },
+        {
+          "movie_id": 5,
+          "movie_title": "The Monkey",
+          "predicted": 85000000,
+          "actual": 112000000,
+          "pct_error": 0.24107142857142858,
+          "reasoning": "Low-budget ($18M) Stephen King horror-comedy adaptation directed by buzzworthy Osgood Perkins (Longlegs success). Solid cast with Theo James, Tatiana Maslany, Elijah Wood adds appeal. Feb 2026 release suits horror; expect 4-5x budget multiplier like recent hits (Longlegs ~$40M, Smile $217M), projecting $85M WW with strong US legs and moderate intl."
+        },
+        {
+          "movie_id": 6,
+          "movie_title": "Companion",
+          "predicted": 95000000,
+          "actual": 68000000,
+          "pct_error": 0.39705882352941174,
+          "reasoning": "Low-budget sci-fi horror akin to M3GAN ($181M WW on $12M), with timely AI plot and solid rising cast (Thatcher, Quaid). January release limits upside vs. M3GAN's slot, new director caps star power, but genre legs and $15M budget support $95M WW."
+        },
+        {
+          "movie_id": 7,
+          "movie_title": "One of Them Days",
+          "predicted": 52000000,
+          "actual": 52000000,
+          "pct_error": 0,
+          "reasoning": "Low-budget urban comedy with strong Black cast appeal (Keke Palmer, SZA crossover from music, Lil Rel Howery), fun roommate hustle plot. January MLK weekend release aids domestic legs ($30-35M est.), modest intl ($15-20M). Comps: The Blackening ($67M), lower due to smaller director/profile."
+        },
+        {
+          "movie_id": 8,
+          "movie_title": "Elevation",
+          "predicted": 52000000,
+          "actual": 34000000,
+          "pct_error": 0.5294117647058824,
+          "reasoning": "Low $20M budget sci-fi thriller with intriguing monster premise akin to 'A Quiet Place' rules; Anthony Mackie's MCU draw boosts appeal, but January dump release, modest director track record, and supporting cast limit it to mid-tier performance (~2.5-3x budget WW)."
+        },
+        {
+          "movie_id": 9,
+          "movie_title": "You're Cordially Invited",
+          "predicted": 135000000,
+          "actual": 71000000,
+          "pct_error": 0.9014084507042254,
+          "reasoning": "Nicholas Stoller's proven comedy track record (Neighbors $271M WW), star power of Reese Witherspoon and Will Ferrell in a fun wedding clash premise akin to Wedding Crashers/Ticket to Paradise ($172M WW), low $30M budget, and January release for counter-programming support $135M WW (est. $60M domestic + $75M intl)."
+        },
+        {
+          "movie_id": 10,
+          "movie_title": "The Alto Knights",
+          "predicted": 62000000,
+          "actual": 48000000,
+          "pct_error": 0.2916666666666667,
+          "reasoning": "Robert De Niro's star power in a dual gangster role draws fans, supported by Barry Levinson's direction, but February release, niche crime-drama genre, and modest $45M budget cap appeal to $60M+ WW amid competition and aging lead."
+        }
+      ]
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview",
+      "model_name": "Gemini 3.1 Pro",
+      "avg_pct_error": 0.37982911403940334,
+      "median_pct_error": 0.33367673992673996,
+      "predictions": [
+        {
+          "movie_id": 1,
+          "movie_title": "Captain America: Brave New World",
+          "predicted": 500000000,
+          "actual": 728000000,
+          "pct_error": 0.3131868131868132,
+          "reasoning": "MCU fatigue is a factor. New Cap has less draw than Chris Evans. Harrison Ford joining is interesting. February superhero releases have mixed history."
+        },
+        {
+          "movie_id": 2,
+          "movie_title": "Paddington in Peru",
+          "predicted": 180000000,
+          "actual": 262000000,
+          "pct_error": 0.31297709923664124,
+          "reasoning": "Beloved franchise returns. Third films can see audience erosion. Strong family appeal and holiday legs. International markets crucial."
+        },
+        {
+          "movie_id": 3,
+          "movie_title": "Dog Man",
+          "predicted": 140000000,
+          "actual": 185000000,
+          "pct_error": 0.24324324324324326,
+          "reasoning": "Popular children's book adaptation. Animation market is competitive. Dav Pilkey has proven audience. Similar trajectory to Captain Underpants but potentially bigger."
+        },
+        {
+          "movie_id": 4,
+          "movie_title": "Heart Eyes",
+          "predicted": 40000000,
+          "actual": 94000000,
+          "pct_error": 0.574468085106383,
+          "reasoning": "Low-budget horror with Valentine's Day release. Genre films in February can work. Limited star power but horror doesn't need it."
+        },
+        {
+          "movie_id": 5,
+          "movie_title": "The Monkey",
+          "predicted": 90000000,
+          "actual": 112000000,
+          "pct_error": 0.19642857142857142,
+          "reasoning": "Stephen King IP + Perkins directing buzz. Horror-comedy blend appeals to wider audience than straight horror. Should perform well."
+        },
+        {
+          "movie_id": 6,
+          "movie_title": "Companion",
+          "predicted": 30000000,
+          "actual": 68000000,
+          "pct_error": 0.5588235294117647,
+          "reasoning": "AI thriller with modest cast. Interesting concept but hard to market. Low budget keeps risk manageable."
+        },
+        {
+          "movie_id": 7,
+          "movie_title": "One of Them Days",
+          "predicted": 25000000,
+          "actual": 52000000,
+          "pct_error": 0.5192307692307693,
+          "reasoning": "Comedy with Keke Palmer and singer SZA. Music crossover could boost opening. Limited overseas appeal."
+        },
+        {
+          "movie_id": 8,
+          "movie_title": "Elevation",
+          "predicted": 40000000,
+          "actual": 34000000,
+          "pct_error": 0.17647058823529413,
+          "reasoning": "Sci-fi action with moderate budget. Post-apocalyptic genre is familiar territory. Mackie alone can't carry huge numbers."
+        },
+        {
+          "movie_id": 9,
+          "movie_title": "You're Cordially Invited",
+          "predicted": 110000000,
+          "actual": 71000000,
+          "pct_error": 0.5492957746478874,
+          "reasoning": "Witherspoon and Ferrell comedy about double-booked weddings. Star power should drive opening. Comedy genre struggles theatrically but these are A-listers."
+        },
+        {
+          "movie_id": 10,
+          "movie_title": "The Alto Knights",
+          "predicted": 65000000,
+          "actual": 48000000,
+          "pct_error": 0.3541666666666667,
+          "reasoning": "De Niro dual-role mob drama. Director Levinson has mixed recent track record. Crime genre has limited ceiling but De Niro name still carries weight."
+        }
+      ]
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "model_name": "MiniMax M2.5",
+      "avg_pct_error": 0.4539770202241007,
+      "median_pct_error": 0.4434701877449969,
+      "predictions": [
+        {
+          "movie_id": 1,
+          "movie_title": "Captain America: Brave New World",
+          "predicted": 450000000,
+          "actual": 728000000,
+          "pct_error": 0.38186813186813184,
+          "reasoning": "MCU film with new Captain America. Superhero fatigue may limit performance. Harrison Ford adds draw. Should still clear $400M worldwide."
+        },
+        {
+          "movie_id": 2,
+          "movie_title": "Paddington in Peru",
+          "predicted": 150000000,
+          "actual": 262000000,
+          "pct_error": 0.42748091603053434,
+          "reasoning": "Third Paddington film. Family audience is reliable. May see some franchise fatigue. UK and international markets will be crucial."
+        },
+        {
+          "movie_id": 3,
+          "movie_title": "Dog Man",
+          "predicted": 100000000,
+          "actual": 185000000,
+          "pct_error": 0.4594594594594595,
+          "reasoning": "Animated film based on children's books. New IP is always risky in animation. Book popularity should help. Modest expectations."
+        },
+        {
+          "movie_id": 4,
+          "movie_title": "Heart Eyes",
+          "predicted": 35000000,
+          "actual": 94000000,
+          "pct_error": 0.6276595744680851,
+          "reasoning": "Horror film releasing on Valentine's Day. Niche audience. Low budget production. Should be profitable on small numbers."
+        },
+        {
+          "movie_id": 5,
+          "movie_title": "The Monkey",
+          "predicted": 65000000,
+          "actual": 112000000,
+          "pct_error": 0.41964285714285715,
+          "reasoning": "Stephen King horror-comedy. Has built-in audience from King brand. Moderate budget and expectations."
+        },
+        {
+          "movie_id": 6,
+          "movie_title": "Companion",
+          "predicted": 25000000,
+          "actual": 68000000,
+          "pct_error": 0.6323529411764706,
+          "reasoning": "Low budget AI thriller. Interesting concept. Limited marketing reach. Should find niche audience."
+        },
+        {
+          "movie_id": 7,
+          "movie_title": "One of Them Days",
+          "predicted": 20000000,
+          "actual": 52000000,
+          "pct_error": 0.6153846153846154,
+          "reasoning": "Comedy with Keke Palmer and SZA. Modest expectations. Primarily domestic release."
+        },
+        {
+          "movie_id": 8,
+          "movie_title": "Elevation",
+          "predicted": 30000000,
+          "actual": 34000000,
+          "pct_error": 0.11764705882352941,
+          "reasoning": "Post-apocalyptic sci-fi with Anthony Mackie. Modest budget and scale. Should find small audience."
+        },
+        {
+          "movie_id": 9,
+          "movie_title": "You're Cordially Invited",
+          "predicted": 50000000,
+          "actual": 71000000,
+          "pct_error": 0.29577464788732394,
+          "reasoning": "Comedy with major stars. Wedding premise is familiar. Comedy genre has limited theatrical draw currently."
+        },
+        {
+          "movie_id": 10,
+          "movie_title": "The Alto Knights",
+          "predicted": 75000000,
+          "actual": 48000000,
+          "pct_error": 0.5625,
+          "reasoning": "Robert De Niro mob film. Crime drama with limited audience. De Niro's star power has waned for theatrical releases."
+        }
+      ]
+    }
+  ]
+}

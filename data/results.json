@@ -1,0 +1,542 @@
+[
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 1,
+    "predicted_gross": 680000000,
+    "reasoning": "MCU sequel with established IP, Harrison Ford addition. Post-Endgame MCU has been inconsistent, but Captain America brand is strong. Similar to Falcon & Winter Soldier audience.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 2,
+    "predicted_gross": 230000000,
+    "reasoning": "Paddington franchise is beloved with excellent reviews. Third installment should perform similarly to Paddington 2. Strong international appeal.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 3,
+    "predicted_gross": 160000000,
+    "reasoning": "Based on popular Dav Pilkey books (Captain Underpants creator). Strong built-in kid audience. Animation should do well internationally.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 4,
+    "predicted_gross": 55000000,
+    "reasoning": "Valentine's Day horror is a niche but proven concept (Valentine, My Bloody Valentine). Low budget should make this profitable.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 5,
+    "predicted_gross": 85000000,
+    "reasoning": "Stephen King adaptation with horror-comedy angle. Osgood Perkins has rising profile after Longlegs. Should perform similar to recent mid-budget horror.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 6,
+    "predicted_gross": 45000000,
+    "reasoning": "AI thriller is timely but niche. Jack Quaid and Sophie Thatcher have rising profiles. Low budget means profitability is likely.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 7,
+    "predicted_gross": 38000000,
+    "reasoning": "Comedy with Keke Palmer and SZA. SZA's massive music fanbase could drive opening. Limited international appeal though.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 8,
+    "predicted_gross": 55000000,
+    "reasoning": "Anthony Mackie sci-fi action. Post-apocalyptic genre is well-worn. Mid-budget action with modest expectations.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 9,
+    "predicted_gross": 95000000,
+    "reasoning": "Witherspoon + Ferrell is strong comedy pairing. Wedding comedies have proven track record. Should play well with mainstream audiences.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "moonshotai/kimi-k2.5",
+    "model_name": "Kimi K2.5",
+    "movie_id": 10,
+    "predicted_gross": 70000000,
+    "reasoning": "De Niro in a mob drama from Barry Levinson. Dual role performance could generate buzz but crime dramas have limited ceiling.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 1,
+    "predicted_gross": 620000000,
+    "reasoning": "MCU brand still carries weight globally despite franchise fatigue. Anthony Mackie as new Cap has built-in audience from Disney+. Harrison Ford joining adds prestige draw. February release is unusual for MCU.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 2,
+    "predicted_gross": 280000000,
+    "reasoning": "Paddington franchise has exceptional word-of-mouth and global appeal. Third installment benefits from brand loyalty. Antonio Banderas and Olivia Colman add star power.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 3,
+    "predicted_gross": 150000000,
+    "reasoning": "Dav Pilkey's books have massive readership among kids. Captain Underpants movie did $125M worldwide. Dog Man books have outsold Captain Underpants. Should overperform.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 4,
+    "predicted_gross": 45000000,
+    "reasoning": "Horror-thriller with Valentine's Day hook. Low budget genre film. Similar to Happy Death Day in concept. Should be solidly profitable but limited ceiling.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 5,
+    "predicted_gross": 130000000,
+    "reasoning": "Stephen King brand is reliable for horror. Osgood Perkins gained massive buzz from Longlegs. Horror-comedy angle broadens appeal. Theo James is ascending.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 6,
+    "predicted_gross": 40000000,
+    "reasoning": "AI-themed thriller taps into zeitgeist. Low budget sci-fi horror. Sophie Thatcher (Yellowjackets) has growing fanbase. Limited marketing push expected.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 7,
+    "predicted_gross": 35000000,
+    "reasoning": "Buddy comedy with musical crossover appeal via SZA. Keke Palmer is a strong comedy lead. Primarily domestic play, limited international.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 8,
+    "predicted_gross": 50000000,
+    "reasoning": "High-concept sci-fi action with Anthony Mackie. Modest budget suggests limited theatrical push. Genre has been hit-or-miss post-pandemic.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 9,
+    "predicted_gross": 100000000,
+    "reasoning": "Star-driven comedy with Witherspoon and Ferrell. Wedding premise is broad and accessible. Both stars past their peak box office draw but still recognizable.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "anthropic/claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "movie_id": 10,
+    "predicted_gross": 55000000,
+    "reasoning": "Robert De Niro in dual mob roles directed by Barry Levinson. Prestige crime drama with awards potential. Limited action appeal but strong older demographic draw.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 1,
+    "predicted_gross": 550000000,
+    "reasoning": "MCU continues to underperform relative to Infinity Saga. New Captain America lacks RDJ-level draw. Harrison Ford adds interest but audience skepticism about MCU Phase 5/6 is real.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 2,
+    "predicted_gross": 200000000,
+    "reasoning": "Paddington is a reliable family franchise with excellent critical reception. Third films sometimes see diminishing returns. Strong UK/international markets.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 3,
+    "predicted_gross": 120000000,
+    "reasoning": "Animated adaptation of popular children's book. Captain Underpants did modest business. New IP in animation is risky. Should find its audience with kids.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 4,
+    "predicted_gross": 60000000,
+    "reasoning": "Valentine's Day horror release. Genre films with holiday hooks can overperform (Halloween, Christmas horror). Low budget ensures profitability.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 5,
+    "predicted_gross": 75000000,
+    "reasoning": "Stephen King adaptation. Perkins coming off Longlegs success. Horror-comedy is a crowdpleaser genre. Moderate expectations.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 6,
+    "predicted_gross": 35000000,
+    "reasoning": "Sci-fi thriller about AI. Timely concept. Low budget affair with rising cast. Ex Machina comparisons likely.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 7,
+    "predicted_gross": 30000000,
+    "reasoning": "Comedy driven by Keke Palmer and SZA. Music-to-film crossover can drive opening weekends. Mostly domestic play.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 8,
+    "predicted_gross": 45000000,
+    "reasoning": "Post-apocalyptic sci-fi action. Mackie has rising profile with Captain America. Modest genre entry.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 9,
+    "predicted_gross": 80000000,
+    "reasoning": "Comedy stars Witherspoon and Ferrell. Wedding comedy premise is accessible. Streaming era has hurt theatrical comedy but these stars still draw.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "openai/gpt-5.2",
+    "model_name": "GPT 5.2",
+    "movie_id": 10,
+    "predicted_gross": 80000000,
+    "reasoning": "De Niro mob drama. Prestige play from Levinson. The Irishman comparisons inevitable. Should find audience among older moviegoers.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 1,
+    "predicted_gross": 500000000,
+    "reasoning": "MCU fatigue is a factor. New Cap has less draw than Chris Evans. Harrison Ford joining is interesting. February superhero releases have mixed history.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 2,
+    "predicted_gross": 180000000,
+    "reasoning": "Beloved franchise returns. Third films can see audience erosion. Strong family appeal and holiday legs. International markets crucial.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 3,
+    "predicted_gross": 140000000,
+    "reasoning": "Popular children's book adaptation. Animation market is competitive. Dav Pilkey has proven audience. Similar trajectory to Captain Underpants but potentially bigger.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 4,
+    "predicted_gross": 40000000,
+    "reasoning": "Low-budget horror with Valentine's Day release. Genre films in February can work. Limited star power but horror doesn't need it.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 5,
+    "predicted_gross": 90000000,
+    "reasoning": "Stephen King IP + Perkins directing buzz. Horror-comedy blend appeals to wider audience than straight horror. Should perform well.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 6,
+    "predicted_gross": 30000000,
+    "reasoning": "AI thriller with modest cast. Interesting concept but hard to market. Low budget keeps risk manageable.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 7,
+    "predicted_gross": 25000000,
+    "reasoning": "Comedy with Keke Palmer and singer SZA. Music crossover could boost opening. Limited overseas appeal.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 8,
+    "predicted_gross": 40000000,
+    "reasoning": "Sci-fi action with moderate budget. Post-apocalyptic genre is familiar territory. Mackie alone can't carry huge numbers.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 9,
+    "predicted_gross": 110000000,
+    "reasoning": "Witherspoon and Ferrell comedy about double-booked weddings. Star power should drive opening. Comedy genre struggles theatrically but these are A-listers.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "google/gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro",
+    "movie_id": 10,
+    "predicted_gross": 65000000,
+    "reasoning": "De Niro dual-role mob drama. Director Levinson has mixed recent track record. Crime genre has limited ceiling but De Niro name still carries weight.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 1,
+    "predicted_gross": 450000000,
+    "reasoning": "MCU film with new Captain America. Superhero fatigue may limit performance. Harrison Ford adds draw. Should still clear $400M worldwide.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 2,
+    "predicted_gross": 150000000,
+    "reasoning": "Third Paddington film. Family audience is reliable. May see some franchise fatigue. UK and international markets will be crucial.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 3,
+    "predicted_gross": 100000000,
+    "reasoning": "Animated film based on children's books. New IP is always risky in animation. Book popularity should help. Modest expectations.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 4,
+    "predicted_gross": 35000000,
+    "reasoning": "Horror film releasing on Valentine's Day. Niche audience. Low budget production. Should be profitable on small numbers.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 5,
+    "predicted_gross": 65000000,
+    "reasoning": "Stephen King horror-comedy. Has built-in audience from King brand. Moderate budget and expectations.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 6,
+    "predicted_gross": 25000000,
+    "reasoning": "Low budget AI thriller. Interesting concept. Limited marketing reach. Should find niche audience.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 7,
+    "predicted_gross": 20000000,
+    "reasoning": "Comedy with Keke Palmer and SZA. Modest expectations. Primarily domestic release.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 8,
+    "predicted_gross": 30000000,
+    "reasoning": "Post-apocalyptic sci-fi with Anthony Mackie. Modest budget and scale. Should find small audience.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 9,
+    "predicted_gross": 50000000,
+    "reasoning": "Comedy with major stars. Wedding premise is familiar. Comedy genre has limited theatrical draw currently.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "minimax/minimax-m2.5",
+    "model_name": "MiniMax M2.5",
+    "movie_id": 10,
+    "predicted_gross": 75000000,
+    "reasoning": "Robert De Niro mob film. Crime drama with limited audience. De Niro's star power has waned for theatrical releases.",
+    "raw_response": "",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 1,
+    "predicted_gross": 875000000,
+    "reasoning": "MCU Captain America franchise has strong track record (Winter Soldier $715M, Civil War $1.15B). Anthony Mackie as new Cap is solid but less iconic than Evans; Harrison Ford as Ross/Red Hulk adds major star power and draw. Julius Onah unproven in blockbusters but Marvel IP carries. $250M budget typical. Feb 2026 release (like Ant-Man 3's $476M but this has higher profile/cast). Global plot appeals to fans. Post-Deadpool momentum boosts to ~$875M WW.",
+    "raw_response": "{\"predicted_gross\": 875000000, \"reasoning\": \"MCU Captain America franchise has strong track record (Winter Soldier $715M, Civil War $1.15B). Anthony Mackie as new Cap is solid but less iconic than Evans; Harrison Ford as Ross/Red Hulk adds major star power and draw. Julius Onah unproven in blockbusters but Marvel IP carries. $250M budget typical. Feb 2026 release (like Ant-Man 3's $476M but this has higher profile/cast). Global plot appeals to fans. Post-Deadpool momentum boosts to ~$875M WW.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 2,
+    "predicted_gross": 215000000,
+    "reasoning": "Paddington franchise averaged ~$250M WW previously with strong family appeal; consistent voice cast, added stars Banderas/Colman boost draw; $60M budget reasonable; January release tempers upside but IP ensures solid global performance around prior entries.",
+    "raw_response": "{\"predicted_gross\": 215000000, \"reasoning\": \"Paddington franchise averaged ~$250M WW previously with strong family appeal; consistent voice cast, added stars Banderas/Colman boost draw; $60M budget reasonable; January release tempers upside but IP ensures solid global performance around prior entries.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 3,
+    "predicted_gross": 280000000,
+    "reasoning": "Based on Dav Pilkey's bestselling Dog Man book series (bigger than Captain Underpants, which grossed $125M WW in 2017), family animation comedy genre with broad kid appeal, modest $40M budget, solid comedic cast (Pete Davidson, Lil Rel Howery), January release for family counterprogramming, and director's animation TV experience. Adjusted for inflation and popularity, expects $250-350M WW range; $280M midpoint.",
+    "raw_response": "{\"predicted_gross\": 280000000, \"reasoning\": \"Based on Dav Pilkey's bestselling Dog Man book series (bigger than Captain Underpants, which grossed $125M WW in 2017), family animation comedy genre with broad kid appeal, modest $40M budget, solid comedic cast (Pete Davidson, Lil Rel Howery), January release for family counterprogramming, and director's animation TV experience. Adjusted for inflation and popularity, expects $250-350M WW range; $280M midpoint.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 4,
+    "predicted_gross": 58000000,
+    "reasoning": "Low-budget ($12M) Valentine's Day slasher with holiday marketing hook and recognizable B-list cast (Mason Gooding from Scream, Jordana Brewster). Comparable to 'Thanksgiving' ($41M WW) but with stronger cast and timely Feb release; projects $50-70M WW driven by horror fanbase and VOD potential.",
+    "raw_response": "{\"predicted_gross\": 58000000, \"reasoning\": \"Low-budget ($12M) Valentine's Day slasher with holiday marketing hook and recognizable B-list cast (Mason Gooding from Scream, Jordana Brewster). Comparable to 'Thanksgiving' ($41M WW) but with stronger cast and timely Feb release; projects $50-70M WW driven by horror fanbase and VOD potential.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 5,
+    "predicted_gross": 85000000,
+    "reasoning": "Low-budget ($18M) Stephen King horror-comedy adaptation directed by buzzworthy Osgood Perkins (Longlegs success). Solid cast with Theo James, Tatiana Maslany, Elijah Wood adds appeal. Feb 2026 release suits horror; expect 4-5x budget multiplier like recent hits (Longlegs ~$40M, Smile $217M), projecting $85M WW with strong US legs and moderate intl.",
+    "raw_response": "{\"predicted_gross\": 85000000, \"reasoning\": \"Low-budget ($18M) Stephen King horror-comedy adaptation directed by buzzworthy Osgood Perkins (Longlegs success). Solid cast with Theo James, Tatiana Maslany, Elijah Wood adds appeal. Feb 2026 release suits horror; expect 4-5x budget multiplier like recent hits (Longlegs ~$40M, Smile $217M), projecting $85M WW with strong US legs and moderate intl.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 6,
+    "predicted_gross": 95000000,
+    "reasoning": "Low-budget sci-fi horror akin to M3GAN ($181M WW on $12M), with timely AI plot and solid rising cast (Thatcher, Quaid). January release limits upside vs. M3GAN's slot, new director caps star power, but genre legs and $15M budget support $95M WW.",
+    "raw_response": "{\"predicted_gross\": 95000000, \"reasoning\": \"Low-budget sci-fi horror akin to M3GAN ($181M WW on $12M), with timely AI plot and solid rising cast (Thatcher, Quaid). January release limits upside vs. M3GAN's slot, new director caps star power, but genre legs and $15M budget support $95M WW.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 7,
+    "predicted_gross": 52000000,
+    "reasoning": "Low-budget urban comedy with strong Black cast appeal (Keke Palmer, SZA crossover from music, Lil Rel Howery), fun roommate hustle plot. January MLK weekend release aids domestic legs ($30-35M est.), modest intl ($15-20M). Comps: The Blackening ($67M), lower due to smaller director/profile.",
+    "raw_response": "{\"predicted_gross\": 52000000, \"reasoning\": \"Low-budget urban comedy with strong Black cast appeal (Keke Palmer, SZA crossover from music, Lil Rel Howery), fun roommate hustle plot. January MLK weekend release aids domestic legs ($30-35M est.), modest intl ($15-20M). Comps: The Blackening ($67M), lower due to smaller director/profile.\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 8,
+    "predicted_gross": 52000000,
+    "reasoning": "Low $20M budget sci-fi thriller with intriguing monster premise akin to 'A Quiet Place' rules; Anthony Mackie's MCU draw boosts appeal, but January dump release, modest director track record, and supporting cast limit it to mid-tier performance (~2.5-3x budget WW).",
+    "raw_response": "{\"predicted_gross\": 52000000, \"reasoning\": \"Low $20M budget sci-fi thriller with intriguing monster premise akin to 'A Quiet Place' rules; Anthony Mackie's MCU draw boosts appeal, but January dump release, modest director track record, and supporting cast limit it to mid-tier performance (~2.5-3x budget WW).\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 9,
+    "predicted_gross": 135000000,
+    "reasoning": "Nicholas Stoller's proven comedy track record (Neighbors $271M WW), star power of Reese Witherspoon and Will Ferrell in a fun wedding clash premise akin to Wedding Crashers/Ticket to Paradise ($172M WW), low $30M budget, and January release for counter-programming support $135M WW (est. $60M domestic + $75M intl).",
+    "raw_response": "{\"predicted_gross\":135000000,\"reasoning\":\"Nicholas Stoller's proven comedy track record (Neighbors $271M WW), star power of Reese Witherspoon and Will Ferrell in a fun wedding clash premise akin to Wedding Crashers/Ticket to Paradise ($172M WW), low $30M budget, and January release for counter-programming support $135M WW (est. $60M domestic + $75M intl).\"}",
+    "success": true
+  },
+  {
+    "model_id": "x-ai/grok-4.1-fast",
+    "model_name": "Grok 4.1 Fast",
+    "movie_id": 10,
+    "predicted_gross": 62000000,
+    "reasoning": "Robert De Niro's star power in a dual gangster role draws fans, supported by Barry Levinson's direction, but February release, niche crime-drama genre, and modest $45M budget cap appeal to $60M+ WW amid competition and aging lead.",
+    "raw_response": "{\"predicted_gross\": 62000000, \"reasoning\": \"Robert De Niro's star power in a dual gangster role draws fans, supported by Barry Levinson's direction, but February release, niche crime-drama genre, and modest $45M budget cap appeal to $60M+ WW amid competition and aging lead.\"}",
+    "success": true
+  }
+]
