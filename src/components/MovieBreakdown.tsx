@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { LeaderboardEntry, MovieData } from "../../scripts/lib/types";
 import {
   Table,
@@ -59,6 +60,8 @@ export function MovieBreakdown({
   movies: MovieData[];
   cutoffs: Record<string, string>;
 }) {
+  const [expandedReasoning, setExpandedReasoning] = useState<Record<string, boolean>>({});
+
   return (
     <div className="space-y-4">
       {movies.map((movie) => (
@@ -86,6 +89,9 @@ export function MovieBreakdown({
                   const pred = entry.predictions.find(
                     (p) => p.movie_id === movie.id
                   );
+                  const reasoning = pred?.reasoning?.trim() ?? "";
+                  const reasoningKey = `${movie.id}:${entry.model_id}`;
+                  const isExpanded = Boolean(expandedReasoning[reasoningKey]);
                   const flagged = isBeforeCutoff(
                     movie.release_date,
                     cutoffs[entry.model_id]
@@ -110,10 +116,35 @@ export function MovieBreakdown({
                       <TableCell>
                         {errorBadge(pred?.pct_error ?? null)}
                       </TableCell>
-                      <TableCell className="max-w-[300px] text-xs text-muted-foreground truncate">
-                        <span title={pred?.reasoning ?? ""}>
-                          {pred?.reasoning ?? "\u2014"}
-                        </span>
+                      <TableCell className="max-w-[420px] align-top whitespace-normal">
+                        {reasoning ? (
+                          <button
+                            type="button"
+                            className="w-full text-left text-xs text-muted-foreground hover:text-foreground transition-colors"
+                            onClick={() =>
+                              setExpandedReasoning((prev) => ({
+                                ...prev,
+                                [reasoningKey]: !prev[reasoningKey],
+                              }))
+                            }
+                            aria-expanded={isExpanded}
+                          >
+                            <span
+                              className={
+                                isExpanded
+                                  ? "block whitespace-pre-wrap break-words leading-5"
+                                  : "block truncate"
+                              }
+                            >
+                              {reasoning}
+                            </span>
+                            <span className="mt-1 block text-[11px] uppercase tracking-wide text-primary">
+                              {isExpanded ? "Collapse reasoning" : "Expand reasoning"}
+                            </span>
+                          </button>
+                        ) : (
+                          <span className="text-xs text-muted-foreground">\u2014</span>
+                        )}
                       </TableCell>
                     </TableRow>
                   );

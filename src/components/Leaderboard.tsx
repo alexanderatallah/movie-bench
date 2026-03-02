@@ -47,6 +47,10 @@ function formatCutoff(cutoff: string | undefined) {
   return date.toLocaleDateString("en-US", { month: "short", year: "numeric" });
 }
 
+function modelOpenRouterUrl(modelId: string): string {
+  return `https://openrouter.ai/${modelId}`;
+}
+
 export function Leaderboard({
   entries,
   cutoffs,
@@ -79,7 +83,16 @@ export function Leaderboard({
           return (
             <TableRow key={entry.model_id}>
               <TableCell>{rankDisplay(i + 1)}</TableCell>
-              <TableCell className="font-medium">{entry.model_name}</TableCell>
+              <TableCell className="font-medium">
+                <a
+                  href={modelOpenRouterUrl(entry.model_id)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-foreground/95 underline-offset-4 hover:underline hover:text-foreground"
+                >
+                  {entry.model_name}
+                </a>
+              </TableCell>
               <TableCell className="text-muted-foreground text-xs">
                 {formatCutoff(cutoffs[entry.model_id])}
               </TableCell>

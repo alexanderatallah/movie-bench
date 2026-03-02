@@ -50,7 +50,7 @@ export default function App() {
     );
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 pb-6">
       <header className="flex justify-between items-baseline pb-4 border-b border-border">
         <h1 className="text-3xl font-bold tracking-wider">Movie Bench</h1>
         <div className="flex items-baseline gap-4">
@@ -64,7 +64,7 @@ export default function App() {
         </div>
       </header>
 
-      <Card>
+      <Card className="bg-card/90 border-border/70">
         <CardHeader
           className="cursor-pointer select-none"
           onClick={() => setMethodologyOpen(!methodologyOpen)}
@@ -92,12 +92,30 @@ export default function App() {
             <p>
               <strong>Movie selection:</strong> The top 10 English-language films
               released January–February 2026, sorted by worldwide revenue via
-              TMDB's discover API. Movies with zero reported revenue are
+              {" "}
+              <a
+                href="https://developer.themoviedb.org/reference/discover-movie"
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary underline-offset-4 hover:underline"
+              >
+                TMDB&apos;s Discover API
+              </a>
+              . Movies with zero reported revenue are
               excluded.
             </p>
             <p>
               <strong>Models &amp; cutoffs:</strong> All models are called
-              through OpenRouter. Each model's training-data cutoff date is shown
+              through{" "}
+              <a
+                href="https://openrouter.ai"
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary underline-offset-4 hover:underline"
+              >
+                OpenRouter
+              </a>
+              . Each model&apos;s training-data cutoff date is shown
               on the leaderboard. Movies released before a model's cutoff are
               flagged — those predictions reflect memorization, not genuine
               forecasting.
@@ -112,7 +130,7 @@ export default function App() {
             <pre className="bg-muted/50 border border-border rounded-md px-4 py-3 text-xs overflow-x-auto font-mono">
               {`{"predicted_gross": <number>, "reasoning": "<text>"}`}
             </pre>
-            <p>Temperature is fixed at 0.3 with a 500-token limit.</p>
+            <p>Temperature is fixed at 0.3.</p>
             <Separator />
             <p>
               <strong>Scoring:</strong> Per-movie absolute percentage error =
@@ -121,18 +139,44 @@ export default function App() {
             </p>
             <p>
               <strong>Ground truth:</strong> Worldwide gross revenue from TMDB
-              (The Movie Database).
+              {" "}
+              (<a
+                href="https://www.themoviedb.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary underline-offset-4 hover:underline"
+              >
+                The Movie Database
+              </a>
+              ).
             </p>
             <p>
               <strong>Auxiliary signals:</strong> Trailer engagement metrics come
-              from the YouTube Data API; Wikipedia attention metrics come from
-              Wikimedia pageviews.
+              from the{" "}
+              <a
+                href="https://developers.google.com/youtube/v3"
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary underline-offset-4 hover:underline"
+              >
+                YouTube Data API
+              </a>
+              ; Wikipedia attention metrics come from{" "}
+              <a
+                href="https://wikimedia.org/api/rest_v1/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary underline-offset-4 hover:underline"
+              >
+                Wikimedia Pageviews
+              </a>
+              .
             </p>
           </CardContent>
         )}
       </Card>
 
-      <Card>
+      <Card className="bg-card/90 border-border/70">
         <CardHeader>
           <CardTitle className="text-sm uppercase tracking-widest text-muted-foreground">
             Leaderboard
@@ -146,7 +190,7 @@ export default function App() {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="bg-card/90 border-border/70">
         <CardHeader>
           <CardTitle className="text-sm uppercase tracking-widest text-muted-foreground">
             Prediction Error by Movie
@@ -157,7 +201,7 @@ export default function App() {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="bg-card/90 border-border/70">
         <CardHeader>
           <CardTitle className="text-sm uppercase tracking-widest text-muted-foreground">
             Movie Breakdown
@@ -171,6 +215,18 @@ export default function App() {
           />
         </CardContent>
       </Card>
+
+      <footer className="border-t border-border/70 pt-4 text-sm text-muted-foreground">
+        Made by{" "}
+        <a
+          href="https://x.com/alexatallah"
+          target="_blank"
+          rel="noreferrer"
+          className="text-primary underline-offset-4 hover:underline"
+        >
+          Alex Atallah
+        </a>
+      </footer>
     </div>
   );
 }
