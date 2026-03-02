@@ -1,12 +1,3 @@
-export interface YouTubeTrailerStats {
-  video_id: string;
-  title: string;
-  published_at: string;
-  view_count: number | null;
-  like_count: number | null;
-  comment_count: number | null;
-}
-
 export interface WikimediaPageviewStats {
   page_title: string;
   views_30d_pre_release: number | null;
@@ -24,7 +15,6 @@ export interface MovieData {
   director: string;
   cast: string[]; // top 5
   poster_path: string | null;
-  youtube_trailer: YouTubeTrailerStats | null;
   wikimedia_pageviews: WikimediaPageviewStats | null;
 }
 

@@ -27,17 +27,6 @@ interface TMDBCredits {
   crew: { name: string; job: string }[];
 }
 
-interface TMDBVideos {
-  results: Array<{
-    site: string;
-    type: string;
-    official: boolean;
-    key: string;
-    name: string;
-    published_at: string;
-  }>;
-}
-
 export async function discoverMovies(
   startDate: string,
   endDate: string
@@ -62,22 +51,19 @@ export async function discoverMovies(
 
 export async function getMovieDetails(
   movieId: number
-): Promise<{ details: TMDBMovieDetails; credits: TMDBCredits; videos: TMDBVideos }> {
+): Promise<{ details: TMDBMovieDetails; credits: TMDBCredits }> {
   const apiKey = getApiKey();
 
-  const [detailsResp, creditsResp, videosResp] = await Promise.all([
+  const [detailsResp, creditsResp] = await Promise.all([
     fetch(`${TMDB_BASE}/movie/${movieId}?api_key=${apiKey}`),
     fetch(`${TMDB_BASE}/movie/${movieId}/credits?api_key=${apiKey}`),
-    fetch(`${TMDB_BASE}/movie/${movieId}/videos?api_key=${apiKey}`),
   ]);
 
   if (!detailsResp.ok) throw new Error(`TMDB details error: ${detailsResp.status}`);
   if (!creditsResp.ok) throw new Error(`TMDB credits error: ${creditsResp.status}`);
-  if (!videosResp.ok) throw new Error(`TMDB videos error: ${videosResp.status}`);
 
   const details = (await detailsResp.json()) as TMDBMovieDetails;
   const credits = (await creditsResp.json()) as TMDBCredits;
-  const videos = (await videosResp.json()) as TMDBVideos;
 
-  return { details, credits, videos };
+  return { details, credits };
 }

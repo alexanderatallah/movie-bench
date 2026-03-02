@@ -14,7 +14,7 @@ const MODELS = [
 
 const MAX_CONCURRENT = 5;
 const MAX_RETRIES = 3;
-const PROMPT_VERSION = "2026-03-youtube-wikimedia-v1";
+const PROMPT_VERSION = "2026-03-wikimedia-only-v1";
 
 function parseResponse(raw: string): { predicted_gross: number; reasoning: string } | null {
   // Try direct parse

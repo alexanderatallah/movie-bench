@@ -83,11 +83,11 @@ export default function App() {
             <p>
               <strong>What this measures:</strong> Each model is given metadata
               about a recently-released movie (title, director, cast, genres,
-              budget, plot summary, release date, YouTube trailer engagement
-              (views/likes/comments), and Wikipedia pre-release pageview
-              signals, then asked to predict worldwide box office gross. Models
-              with training data that includes actual results will appear to
-              "predict" accurately; those without must genuinely estimate.
+              budget, plot summary, release date, and Wikipedia pre-release
+              pageview signals, then asked to predict worldwide box office
+              gross. Models with training data that includes actual results will
+              appear to "predict" accurately; those without must genuinely
+              estimate.
             </p>
             <p>
               <strong>Movie selection:</strong> The top 10 English-language films
@@ -124,8 +124,8 @@ export default function App() {
             <p>
               <strong>Prompt design:</strong> A system prompt sets the role of
               "box office analyst." The user message supplies structured movie
-              metadata plus demand signals (YouTube trailer stats and
-              Wikipedia pageviews) and requests a JSON response:
+              metadata plus Wikipedia pageview demand signals and requests a
+              JSON response:
             </p>
             <pre className="bg-muted/50 border border-border rounded-md px-4 py-3 text-xs overflow-x-auto font-mono">
               {`{"predicted_gross": <number>, "reasoning": "<text>"}`}
@@ -151,17 +151,8 @@ export default function App() {
               ).
             </p>
             <p>
-              <strong>Auxiliary signals:</strong> Trailer engagement metrics come
-              from the{" "}
-              <a
-                href="https://developers.google.com/youtube/v3"
-                target="_blank"
-                rel="noreferrer"
-                className="text-primary underline-offset-4 hover:underline"
-              >
-                YouTube Data API
-              </a>
-              ; Wikipedia attention metrics come from{" "}
+              <strong>Auxiliary signals:</strong> Wikipedia attention metrics
+              come from{" "}
               <a
                 href="https://wikimedia.org/api/rest_v1/"
                 target="_blank"

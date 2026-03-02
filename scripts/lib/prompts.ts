@@ -16,11 +16,7 @@ export function buildMoviePrompt(movie: MovieData): string {
   const budget = movie.budget > 0
     ? `$${(movie.budget / 1_000_000).toFixed(0)}M`
     : "Unknown";
-  const trailer = movie.youtube_trailer;
   const wiki = movie.wikimedia_pageviews;
-  const youtubeSignal = trailer
-    ? `Title: ${trailer.title}; Published: ${trailer.published_at}; Views: ${formatCount(trailer.view_count)}; Likes: ${formatCount(trailer.like_count)}; Comments: ${formatCount(trailer.comment_count)}`
-    : "No trailer stats available";
   const wikiSignal = wiki
     ? `Page: ${wiki.page_title}; 30d pre-release views: ${formatCount(wiki.views_30d_pre_release)}; 7d pre-release views: ${formatCount(wiki.views_7d_pre_release)}`
     : "No Wikipedia pageview stats available";
@@ -34,7 +30,6 @@ Cast: ${movie.cast.join(", ")}
 Genres: ${movie.genres.join(", ")}
 Budget: ${budget}
 Plot: ${movie.overview}
-YouTube Trailer Engagement: ${youtubeSignal}
 Wikipedia Pre-release Attention: ${wikiSignal}
 
 Respond with JSON only: {"predicted_gross": <number>, "reasoning": "<text>"}`;
