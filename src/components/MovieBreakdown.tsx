@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ChevronDown } from "lucide-react";
 import type { LeaderboardEntry, MovieData } from "../../scripts/lib/types";
 import {
   Table,
@@ -51,6 +52,10 @@ function isBeforeCutoff(movieDate: string, cutoff: string | undefined): boolean 
   return movieMonth <= cutoff;
 }
 
+function tmdbMovieUrl(movieId: number): string {
+  return `https://www.themoviedb.org/movie/${movieId}`;
+}
+
 export function MovieBreakdown({
   leaderboard,
   movies,
@@ -67,7 +72,16 @@ export function MovieBreakdown({
       {movies.map((movie) => (
         <Card key={movie.id} className="bg-muted/30">
           <CardHeader className="pb-2">
-            <CardTitle className="text-base">{movie.title}</CardTitle>
+            <CardTitle className="text-base">
+              <a
+                href={tmdbMovieUrl(movie.id)}
+                target="_blank"
+                rel="noreferrer"
+                className="underline-offset-4"
+              >
+                {movie.title}
+              </a>
+            </CardTitle>
             <p className="text-muted-foreground text-xs">
               {movie.release_date} &middot; {movie.director} &middot;{" "}
               {movie.genres.join(", ")} &middot; Actual:{" "}
@@ -120,7 +134,7 @@ export function MovieBreakdown({
                         {reasoning ? (
                           <button
                             type="button"
-                            className="w-full text-left text-xs text-muted-foreground hover:text-foreground transition-colors"
+                            className="flex w-full items-start gap-2 text-left text-xs text-muted-foreground hover:text-foreground transition-colors"
                             onClick={() =>
                               setExpandedReasoning((prev) => ({
                                 ...prev,
@@ -128,19 +142,23 @@ export function MovieBreakdown({
                               }))
                             }
                             aria-expanded={isExpanded}
+                            aria-label={isExpanded ? "Collapse reasoning" : "Expand reasoning"}
                           >
                             <span
                               className={
                                 isExpanded
-                                  ? "block whitespace-pre-wrap break-words leading-5"
-                                  : "block truncate"
+                                  ? "block flex-1 whitespace-pre-wrap break-words leading-5"
+                                  : "block flex-1 truncate"
                               }
                             >
                               {reasoning}
                             </span>
-                            <span className="mt-1 block text-[11px] uppercase tracking-wide text-primary">
-                              {isExpanded ? "Collapse reasoning" : "Expand reasoning"}
-                            </span>
+                            <ChevronDown
+                              className={`mt-0.5 h-4 w-4 shrink-0 text-muted-foreground transition-transform ${
+                                isExpanded ? "rotate-180" : ""
+                              }`}
+                              aria-hidden="true"
+                            />
                           </button>
                         ) : (
                           <span className="text-xs text-muted-foreground">\u2014</span>

@@ -88,7 +88,7 @@ export function Leaderboard({
                   href={modelOpenRouterUrl(entry.model_id)}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-foreground/95 underline-offset-4 hover:underline hover:text-foreground"
+                  className="underline-offset-4"
                 >
                   {entry.model_name}
                 </a>
