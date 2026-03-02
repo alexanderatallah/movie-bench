@@ -23,6 +23,11 @@ function formatPct(n: number | null): string {
   return `${(n * 100).toFixed(1)}%`;
 }
 
+function formatUncertaintyPct(n: number | null | undefined): string {
+  if (n === null || n === undefined) return "\u2014";
+  return `${n.toFixed(1)}%`;
+}
+
 function errorBadge(pct: number | null) {
   if (pct === null) return <span className="text-muted-foreground">&mdash;</span>;
   if (pct < 0.3)
@@ -40,6 +45,24 @@ function errorBadge(pct: number | null) {
   return (
     <Badge variant="destructive" className="font-mono tabular-nums text-xs">
       {formatPct(pct)}
+    </Badge>
+  );
+}
+
+function withinRangeBadge(within: boolean | null | undefined) {
+  if (within === null || within === undefined) {
+    return <span className="text-muted-foreground">&mdash;</span>;
+  }
+  if (within) {
+    return (
+      <Badge className="bg-green text-white font-mono tabular-nums text-xs">
+        yes
+      </Badge>
+    );
+  }
+  return (
+    <Badge variant="destructive" className="font-mono tabular-nums text-xs">
+      no
     </Badge>
   );
 }
@@ -95,6 +118,7 @@ export function MovieBreakdown({
                   <TableHead>Model</TableHead>
                   <TableHead>Predicted</TableHead>
                   <TableHead>Error</TableHead>
+                  <TableHead>Within Range?</TableHead>
                   <TableHead className="max-w-[300px]">Reasoning</TableHead>
                 </TableRow>
               </TableHeader>
@@ -125,10 +149,17 @@ export function MovieBreakdown({
                         )}
                       </TableCell>
                       <TableCell>
-                        {pred?.predicted != null ? fmtDollars(pred.predicted) : "\u2014"}
+                        {pred?.predicted != null
+                          ? `${fmtDollars(pred.predicted)} \u00b1 ${formatUncertaintyPct(
+                              pred.uncertainty_pct
+                            )}`
+                          : "\u2014"}
                       </TableCell>
                       <TableCell>
                         {errorBadge(pred?.pct_error ?? null)}
+                      </TableCell>
+                      <TableCell>
+                        {withinRangeBadge(pred?.within_uncertainty)}
                       </TableCell>
                       <TableCell className="max-w-[420px] align-top whitespace-normal">
                         {reasoning ? (
@@ -161,7 +192,7 @@ export function MovieBreakdown({
                             />
                           </button>
                         ) : (
-                          <span className="text-xs text-muted-foreground">\u2014</span>
+                          <span className="text-xs text-muted-foreground">&mdash;</span>
                         )}
                       </TableCell>
                     </TableRow>

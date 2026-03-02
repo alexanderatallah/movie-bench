@@ -13,24 +13,44 @@ function formatPct(n: number): string {
   return `${(n * 100).toFixed(1)}%`;
 }
 
-function errorBadge(pct: number) {
-  if (pct < 0.3)
-    return (
-      <Badge className="bg-green text-white font-mono tabular-nums">
-        {formatPct(pct)}
-      </Badge>
-    );
-  if (pct < 0.6)
-    return (
-      <Badge className="bg-yellow text-black font-mono tabular-nums">
-        {formatPct(pct)}
-      </Badge>
-    );
+function formatScore(n: number): string {
+  if (!Number.isFinite(n)) return "\u2014";
+  return n.toFixed(3);
+}
+
+function formatUncertainty(n: number | null | undefined): string {
+  if (n === null || n === undefined) return "\u2014";
+  return `${n.toFixed(1)}%`;
+}
+
+function neutralBadge(text: string) {
   return (
-    <Badge variant="destructive" className="font-mono tabular-nums">
-      {formatPct(pct)}
+    <Badge variant="secondary" className="font-mono tabular-nums">
+      {text}
     </Badge>
   );
+}
+
+function errorText(pct: number) {
+  return neutralBadge(formatPct(pct));
+}
+
+function uncertaintyBadge(pct: number | null | undefined) {
+  if (pct === null || pct === undefined) {
+    return neutralBadge("\u2014");
+  }
+  return neutralBadge(`\u00b1 ${formatUncertainty(pct)}`);
+}
+
+function withinRateBadge(rate: number | null | undefined) {
+  if (rate === null || rate === undefined) {
+    return neutralBadge("\u2014");
+  }
+  return neutralBadge(formatPct(rate));
+}
+
+function intervalScoreBadge(score: number) {
+  return neutralBadge(formatScore(score));
 }
 
 function rankDisplay(rank: number) {
@@ -58,28 +78,21 @@ export function Leaderboard({
   entries: LeaderboardEntry[];
   cutoffs: Record<string, string>;
 }) {
-  const maxError = Math.max(...entries.map((e) => e.avg_pct_error));
-
   return (
     <Table>
       <TableHeader>
         <TableRow>
           <TableHead className="w-10">#</TableHead>
           <TableHead>Model</TableHead>
-          <TableHead>Cutoff</TableHead>
+          <TableHead>Training Cutoff</TableHead>
+          <TableHead>Interval Score</TableHead>
           <TableHead>Avg Error</TableHead>
-          <TableHead>Median Error</TableHead>
-          <TableHead className="w-[140px]">Error</TableHead>
-          <TableHead>Scored</TableHead>
+          <TableHead>Avg Uncertainty</TableHead>
+          <TableHead>% Within Range</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
         {entries.map((entry, i) => {
-          const scored = entry.predictions.filter(
-            (p) => p.pct_error !== null
-          ).length;
-          const barWidth =
-            maxError > 0 ? (entry.avg_pct_error / maxError) * 100 : 0;
           return (
             <TableRow key={entry.model_id}>
               <TableCell>{rankDisplay(i + 1)}</TableCell>
@@ -96,19 +109,10 @@ export function Leaderboard({
               <TableCell className="text-muted-foreground text-xs">
                 {formatCutoff(cutoffs[entry.model_id])}
               </TableCell>
-              <TableCell>{errorBadge(entry.avg_pct_error)}</TableCell>
-              <TableCell>{errorBadge(entry.median_pct_error)}</TableCell>
-              <TableCell className="w-[140px]">
-                <div className="bg-muted rounded-sm h-5 relative overflow-hidden">
-                  <div
-                    className="h-full rounded-sm bg-primary/60 transition-all duration-300"
-                    style={{ width: `${barWidth}%` }}
-                  />
-                </div>
-              </TableCell>
-              <TableCell className="text-muted-foreground">
-                {scored}/{entry.predictions.length}
-              </TableCell>
+              <TableCell>{intervalScoreBadge(entry.avg_interval_score)}</TableCell>
+              <TableCell>{errorText(entry.avg_pct_error)}</TableCell>
+              <TableCell>{uncertaintyBadge(entry.avg_uncertainty_pct)}</TableCell>
+              <TableCell>{withinRateBadge(entry.within_uncertainty_rate)}</TableCell>
             </TableRow>
           );
         })}

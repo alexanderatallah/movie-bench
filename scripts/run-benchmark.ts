@@ -14,13 +14,35 @@ const MODELS = [
 
 const MAX_CONCURRENT = 5;
 const MAX_RETRIES = 3;
-const PROMPT_VERSION = "2026-03-wikimedia-only-v1";
+const PROMPT_VERSION = "2026-03-wikimedia-uncertainty-v1";
 
-function parseResponse(raw: string): { predicted_gross: number; reasoning: string } | null {
+function parseUncertainty(value: unknown): number | null {
+  if (typeof value === "number" && Number.isFinite(value)) {
+    return Math.max(0, value);
+  }
+  if (typeof value === "string") {
+    const cleaned = value.replace("%", "").trim();
+    const parsed = Number(cleaned);
+    if (Number.isFinite(parsed)) return Math.max(0, parsed);
+  }
+  return null;
+}
+
+function parseResponse(raw: string): {
+  predicted_gross: number;
+  uncertainty_pct: number | null;
+  reasoning: string;
+} | null {
   // Try direct parse
   try {
     const parsed = JSON.parse(raw);
-    if (typeof parsed.predicted_gross === "number") return parsed;
+    if (typeof parsed.predicted_gross === "number") {
+      return {
+        predicted_gross: parsed.predicted_gross,
+        uncertainty_pct: parseUncertainty(parsed.uncertainty_pct),
+        reasoning: typeof parsed.reasoning === "string" ? parsed.reasoning : "",
+      };
+    }
   } catch {}
 
   // Strip markdown fences
@@ -28,16 +50,24 @@ function parseResponse(raw: string): { predicted_gross: number; reasoning: strin
   if (fenceMatch) {
     try {
       const parsed = JSON.parse(fenceMatch[1].trim());
-      if (typeof parsed.predicted_gross === "number") return parsed;
+      if (typeof parsed.predicted_gross === "number") {
+        return {
+          predicted_gross: parsed.predicted_gross,
+          uncertainty_pct: parseUncertainty(parsed.uncertainty_pct),
+          reasoning: typeof parsed.reasoning === "string" ? parsed.reasoning : "",
+        };
+      }
     } catch {}
   }
 
   // Regex fallback
   const grossMatch = raw.match(/"predicted_gross"\s*:\s*(\d+(?:\.\d+)?)/);
+  const uncertaintyMatch = raw.match(/"uncertainty_pct"\s*:\s*"?(\d+(?:\.\d+)?)%?"?/);
   const reasonMatch = raw.match(/"reasoning"\s*:\s*"([^"]*)"/);
   if (grossMatch) {
     return {
       predicted_gross: parseFloat(grossMatch[1]),
+      uncertainty_pct: uncertaintyMatch ? parseFloat(uncertaintyMatch[1]) : null,
       reasoning: reasonMatch?.[1] ?? "",
     };
   }
@@ -73,6 +103,7 @@ async function predictWithRetry(
           movie_id: movie.id,
           prompt_version: PROMPT_VERSION,
           predicted_gross: null,
+          uncertainty_pct: null,
           reasoning: "",
           raw_response: raw,
           success: false,
@@ -86,6 +117,7 @@ async function predictWithRetry(
         movie_id: movie.id,
         prompt_version: PROMPT_VERSION,
         predicted_gross: parsed.predicted_gross,
+        uncertainty_pct: parsed.uncertainty_pct,
         reasoning: parsed.reasoning,
         raw_response: raw,
         success: true,
@@ -103,6 +135,7 @@ async function predictWithRetry(
         movie_id: movie.id,
         prompt_version: PROMPT_VERSION,
         predicted_gross: null,
+        uncertainty_pct: null,
         reasoning: "",
         raw_response: "",
         success: false,
@@ -118,6 +151,7 @@ async function predictWithRetry(
     movie_id: movie.id,
     prompt_version: PROMPT_VERSION,
     predicted_gross: null,
+    uncertainty_pct: null,
     reasoning: "",
     raw_response: "",
     success: false,

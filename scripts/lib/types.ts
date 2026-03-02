@@ -24,6 +24,7 @@ export interface ModelPrediction {
   movie_id: number;
   prompt_version?: string;
   predicted_gross: number | null;
+  uncertainty_pct?: number | null;
   reasoning: string;
   raw_response: string;
   success: boolean;
@@ -42,10 +43,16 @@ export interface LeaderboardEntry {
   model_name: string;
   avg_pct_error: number;
   median_pct_error: number;
+  avg_interval_score: number;
+  avg_uncertainty_pct: number | null;
+  within_uncertainty_rate: number | null;
   predictions: {
     movie_id: number;
     movie_title: string;
     predicted: number | null;
+    uncertainty_pct: number | null;
+    within_uncertainty: boolean | null;
+    interval_score: number | null;
     actual: number;
     pct_error: number | null;
     reasoning: string;

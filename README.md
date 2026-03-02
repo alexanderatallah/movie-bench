@@ -88,7 +88,7 @@ The benchmark prompt includes:
 
 - All models are called through OpenRouter with a shared system/user prompt.
 - Output format required: JSON
-- `{"predicted_gross": <number>, "reasoning": "<text>"}`
+- `{"predicted_gross": <number>, "uncertainty_pct": <number>, "reasoning": "<text>"}`
 - Temperature: `0.3`
 - Parsing:
 - strict JSON parse, markdown-fence parse, then regex fallback for `predicted_gross`
@@ -97,11 +97,18 @@ The benchmark prompt includes:
 
 - Per-movie error:
 - `abs(predicted - actual) / actual`
+- Uncertainty-aware score (used for ranking):
+- Convert reported `uncertainty_pct` to interval bounds:
+- `L = predicted * (1 - u)` and `U = predicted * (1 + u)` where `u = uncertainty_pct / 100`
+- Compute normalized interval score (Winkler score, `alpha = 0.32`):
+- `((U - L) + (2/alpha) * max(0, L - actual) + (2/alpha) * max(0, actual - U)) / actual`
 - Leaderboard ranking:
-- ascending average percentage error across movies
+- ascending average interval score across movies (lower is better)
 - Additional summary:
-- median percentage error
+- average percentage error
 - count of movies successfully scored
+- average model uncertainty
+- share of predictions where actual gross fell within the model's reported uncertainty interval
 
 ## Data Sources: What Each One Provides + Pros/Cons
 

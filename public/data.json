@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T21:25:30.985Z",
+  "generated_at": "2026-03-02T16:00:24.292Z",
   "movies": [
     {
       "id": 1316092,
@@ -354,530 +354,728 @@
   ],
   "leaderboard": [
     {
-      "model_id": "minimax/minimax-m2.5",
-      "model_name": "MiniMax M2.5",
-      "avg_pct_error": 0.6795679826054635,
-      "median_pct_error": 0.3601298907632372,
+      "model_id": "moonshotai/kimi-k2.5",
+      "model_name": "Kimi K2.5",
+      "avg_pct_error": 0.8322914632057599,
+      "median_pct_error": 0.726048457946086,
+      "avg_interval_score": 3.2822173262859655,
+      "avg_uncertainty_pct": 31.9,
+      "within_uncertainty_rate": 0.4,
       "predictions": [
         {
           "movie_id": 1316092,
           "movie_title": "\"Wuthering Heights\"",
-          "predicted": 95000000,
+          "predicted": 148000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": true,
+          "interval_score": 0.5393024466423738,
           "actual": 192100000,
-          "pct_error": 0.5054659031754295,
-          "reasoning": "Margot Robbie's star power is the primary draw, but the tragic romance genre and February release window are limiting factors. Emerald Fennell is a strong director but hasn't yet proven box office appeal. The classic novel has recognition but the dark, tragic story limits mass appeal. Pre-release Wikipedia attention is modest at ~40K views. Comparable prestige dramas with A-list casts (like 'Saltburn' or 'Passages') typically earn $50-120M. Given Robbie's ability to drive audiences and the $80M budget suggesting quality production values, I estimate modest success in the $95M range, below typical blockbuster returns but potentially profitable for a drama."
+          "pct_error": 0.2295679333680375,
+          "reasoning": "Emerald Fennell's adaptation leverages Margot Robbie and Jacob Elordi's chemistry for a Valentine's Day release, but the tragic 18th-century gothic romance faces commercial challenges despite the $80M production values. Strong marketing and Fennell's stylish direction could elevate it beyond typical period drama limitations, though the dark tone may restrict repeat viewings."
         },
         {
           "movie_id": 1297842,
           "movie_title": "GOAT",
-          "predicted": 135000000,
+          "predicted": 198000000,
+          "uncertainty_pct": 32,
+          "within_uncertainty": false,
+          "interval_score": 2.692518508469707,
           "actual": 108271512,
-          "pct_error": 0.24686538043358996,
-          "reasoning": "This original animated family comedy faces several challenges: unknown director Tyree Dillihay, February release (slow season), low Wikipedia pre-release attention (264k views), and niche concept about goats playing a fictional sport. However, it has some positives: $90M budget is reasonable for animation, genre blend of Animation/Comedy/Family/Action appeals broadly, and cast includes recognizable names like Gabrielle Union, Nicola Coughlan from Bridgerton, and NBA star Stephen Curry. Caleb McLaughlin brings Stranger Things appeal to younger audiences. Original IP animated films in this budget range typically gross 1.5-2x budget, and February family releases can perform modestly. Predicted at $135M, slightly above break-even point for a modest hit."
+          "pct_error": 0.8287358913025986,
+          "reasoning": "Mid-tier animated sports comedy with $90M budget faces tough February slot against family competition. Stephen Curry lends sports credibility and cast (McLaughlin, Union, Coughlan) offers cross-demographic appeal, but director lacks theatrical track record and original IP faces awareness challenges. Wikipedia pre-release metrics (264K views) indicate moderate buzz. Comparable to 'Smallfoot' ($214M) and 'Storks' ($183M). Breaks even around $225M; prediction assumes decent but not breakout performance with strong international family appeal offset by lack of franchise recognition."
+        },
+        {
+          "movie_id": 1159559,
+          "movie_title": "Scream 7",
+          "predicted": 175000000,
+          "uncertainty_pct": 20,
+          "within_uncertainty": false,
+          "interval_score": 3.4722222222222223,
+          "actual": 97200000,
+          "pct_error": 0.8004115226337448,
+          "reasoning": "Neve Campbell's return as Sidney Prescott after skipping Scream VI provides a significant nostalgia boost and marketing hook, likely driving gross above Scream VI's $169M. However, the apparent absence of Jenna Ortega (a major draw for Gen Z audiences) and potential franchise fatigue for a seventh installment create headwinds. The $45M budget and February release align with the franchise's successful strategy, while Kevin Williamson's directorial debut adds fan credibility. Wikipedia pre-release attention (437K views) indicates solid interest. Horror sequels face high variance based on critical reception, with upside potential if the 'Sidney's daughter' plot resonates emotionally and downside risk if the rotating cast dilutes audience connection."
+        },
+        {
+          "movie_id": 1168190,
+          "movie_title": "The Wrecking Crew",
+          "predicted": 147000000,
+          "uncertainty_pct": 32,
+          "within_uncertainty": false,
+          "interval_score": 1.826741573033707,
+          "actual": 89000000,
+          "pct_error": 0.651685393258427,
+          "reasoning": "Mid-budget action-comedy pairing Bautista and Momoa leverages star chemistry and Pacific Islander casting for international appeal, but faces January release headwinds and lack of IP recognition. Director's mixed track record and moderate Wikipedia traction suggest modest but profitable performance relative to $79M budget."
+        },
+        {
+          "movie_id": 1198994,
+          "movie_title": "Send Help",
+          "predicted": 92000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": true,
+          "interval_score": 0.6625599154611959,
+          "actual": 83313220,
+          "pct_error": 0.10426652576865952,
+          "reasoning": "Sam Raimi's return to horror-comedy generates strong genre interest and cult following, but the January release date and mid-tier cast (McAdams/O'Brien) limit mainstream breakout potential. The $40M budget positions this as a solid mid-tier performer comparable to recent survival thrillers like 'The Menu' ($79M) and 'Crawl' ($91M). The Wikipedia pre-release metrics indicate moderate but not phenomenon-level audience awareness. Horror-comedy hybrids can overperform with strong word-of-mouth, though the deserted island survival premise is a familiar genre."
+        },
+        {
+          "movie_id": 1272837,
+          "movie_title": "28 Years Later: The Bone Temple",
+          "predicted": 152000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 6.657470115545412,
+          "actual": 58586229,
+          "pct_error": 1.5944663548835,
+          "reasoning": "Mid-budget legacy horror sequel showing strong fan engagement (570K Wikipedia views, with 45% in final week indicating momentum) but constrained by the January release window (traditionally soft for blockbusters). The $63M budget suggests studio break-even targets around $150-160M. Performance heavily dependent on reception of preceding installment '28 Years Later' (2025), but director Nia DaCosta's proven horror chops (Candyman), franchise nostalgia, and sturdy cast of character actors (Ralph Fiennes, Jack O'Connell) support a $150M+ gross. Lack of Cillian Murphy-level star power and winter release limits ceiling to sub-$200M territory."
+        },
+        {
+          "movie_id": 1116201,
+          "movie_title": "Iron Lung",
+          "predicted": 48000000,
+          "uncertainty_pct": 45,
+          "within_uncertainty": true,
+          "interval_score": 0.8709677419354839,
+          "actual": 49600000,
+          "pct_error": 0.03225806451612903,
+          "reasoning": "Markiplier's directorial debut leverages his 30M+ YouTube subscriber base for built-in marketing, evidenced by exceptional Wikipedia pre-release traffic (291k views). The $3M budget horror adaptation of the cult indie game offers high ROI potential typical of the genre. Cast includes gaming culture icons (Troy Baker, Elsie Lovelock) reinforcing core demographic appeal. January release limits mainstream ceiling but fits horror counter-programming. Floor is protected by loyal fanbase, though niche submarine concept may constrain breakout beyond core audience."
+        },
+        {
+          "movie_id": 1236153,
+          "movie_title": "Mercy",
+          "predicted": 135000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 7.3282516690660895,
+          "actual": 49463290,
+          "pct_error": 1.7292968179027315,
+          "reasoning": "Chris Pratt provides reliable international star power, though original sci-fi thrillers face ceiling risks without franchise recognition. The MLK weekend release maximizes opening potential, while the $60M budget ensures profitability at moderate gross levels. Bekmambetov's stylized direction suits the high-concept AI premise, but his box office inconsistency and moderate pre-release awareness (200K Wikipedia views) temper expectations. The timely AI theme and ticking-clock structure offer differentiation in a competitive market."
+        },
+        {
+          "movie_id": 1171145,
+          "movie_title": "Crime 101",
+          "predicted": 138000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 7.949748026716289,
+          "actual": 46284272,
+          "pct_error": 1.9815743888118194,
+          "reasoning": "High-caliber ensemble cast led by Hemsworth and rising star Keoghan provides global theatrical draw, particularly in international markets, but director Bart Layton's lack of blockbuster experience creates execution risk. The $90M budget demands breakout performance for profitability, while the February release slot offers counter-programming potential against Valentine's Day fare but historically limits ceiling for non-franchise crime thrillers. Wikipedia pre-release metrics indicate modest organic awareness rather than viral anticipation, suggesting reliance on critical reception and word-of-mouth for legs."
+        },
+        {
+          "movie_id": 680493,
+          "movie_title": "Return to Silent Hill",
+          "predicted": 57000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": true,
+          "interval_score": 0.8223910437671704,
+          "actual": 41586056,
+          "pct_error": 0.3706517396119507,
+          "reasoning": "Christophe Gans returns to direct an adaptation of Silent Hill 2 (the franchise's most acclaimed game), generating core fan interest evidenced by 156K Wikipedia pre-release views. However, the January release date, lack of A-list stars (Jeremy Irvine leads), and 14-year franchise hiatus limit mainstream ceiling. The modest $23M budget allows profitability at this level, with international horror markets (particularly Europe and Japan) supporting grosses comparable to the 2012 sequel ($52M) but adjusted for current theatrical recovery and IP nostalgia."
+        }
+      ]
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "model_name": "MiniMax M2.5",
+      "avg_pct_error": 0.8833387984891552,
+      "median_pct_error": 0.7190003564744258,
+      "avg_interval_score": 3.527277443931554,
+      "avg_uncertainty_pct": 32.5,
+      "within_uncertainty_rate": 0.2,
+      "predictions": [
+        {
+          "movie_id": 1316092,
+          "movie_title": "\"Wuthering Heights\"",
+          "predicted": 65000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 3.631897449245185,
+          "actual": 192100000,
+          "pct_error": 0.661634565330557,
+          "reasoning": "Margot Robbie's star power provides the main commercial appeal, but the classic literary romance drama faces headwinds: February is a slow box office month, Emerald Fennell has only directed one prior feature (indie 'Promising Young Woman'), the pre-release attention metrics are low for a $80M budget film, and romance/drama genres typically underperform compared to tentpoles. The 2011 'Wuthering Heights' adaptation also demonstrated limited modern audience appetite for this material. Given these factors, projected gross is moderate with significant uncertainty."
+        },
+        {
+          "movie_id": 1297842,
+          "movie_title": "GOAT",
+          "predicted": 195000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 2.3273947628994045,
+          "actual": 108271512,
+          "pct_error": 0.8010277717374077,
+          "reasoning": "GOAT combines animation with family comedy and sports themes - a generally reliable genre blend. The February 2026 release date is favorable for family films. Cast includes Gabrielle Union (established star power) and Stephen Curry (major sports celebrity bringing cross-appeal), plus rising stars like Caleb McLaughlin and Nicola Coughlan. The $90M budget suggests quality animation. Pre-release Wikipedia interest (264K 30-day views) shows decent early buzz. However, director Tyree Dillihay is unproven for feature films, and the original IP has no built-in franchise. Comparable original animated family comedies like The Bad Guys ($250M) and Migration ($270M) provide benchmarks. The sports-comedy angle differentiates it from typical animated fare. Predicting $195M with 35% uncertainty due to director track record uncertainty and original IP risk."
         },
         {
           "movie_id": 1159559,
           "movie_title": "Scream 7",
           "predicted": 135000000,
+          "uncertainty_pct": 20,
+          "within_uncertainty": false,
+          "interval_score": 1.25,
           "actual": 97200000,
           "pct_error": 0.3888888888888889,
-          "reasoning": "Kevin Williamson's return as director and Neve Campbell's comeback are significant positives for this installment. The Scream franchise has maintained steady performance in the $130-175M range for recent entries (Scream 2022: $137M, Scream VI: $169M). The $45M budget is modest, requiring ~$90M to break even. February release is a softer month but horror performs consistently year-round. The Sidney Prescott mother-daughter storyline has strong emotional appeal, and the returning original cast (Campbell, Cox) provides star power. Pre-release Wikipedia views (436K/169K) indicate solid franchise interest, though not exceptional. Factoring in the established fanbase, modest budget, and Williamson's creative involvement, I project a worldwide gross around $135M, slightly below recent entries due to potential franchise fatigue and the February release timing."
+          "reasoning": "Scream 7 benefits from the return of Neve Campbell (original star), a proven franchise with recent entries Scream (2022) at $137M and Scream VI at $169M worldwide, and a moderate $45M budget. The February release is a minor drawback as it's a slower box office month. The plot continuing Sidney Prescott's story with family stakes has strong appeal, and the pre-release Wikipedia views (436k/30d) indicate solid buzz. However, the horror genre can be volatile and recent franchise fatigue could impact performance."
         },
         {
           "movie_id": 1168190,
           "movie_title": "The Wrecking Crew",
-          "predicted": 87000000,
+          "predicted": 115000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": true,
+          "interval_score": 0.7752808988764045,
           "actual": 89000000,
-          "pct_error": 0.02247191011235955,
-          "reasoning": "The film features solid star power with Jason Momoa and Dave Bautista leading, supported by Temuera Morrison and Morena Baccarin. The mixed genre (Action/Comedy/Crime/Mystery) provides broad appeal. However, the late January release is typically a slower box office period, and director Ángel Manuel Soto doesn't have a major blockbuster track record. The $79M budget is moderate, and pre-release Wikipedia attention (158K views over 30 days) indicates modest buzz. Comparable films like 'The Hitman's Bodyguard' and 'The Lost City' suggest this cast level can deliver $80-100M, but January timing and lack of franchise IP likely limits upside. Predicting $87M worldwide gross."
+          "pct_error": 0.29213483146067415,
+          "reasoning": "Jason Momoa (Aquaman $1.15B) and Dave Bautista provide solid star power, and director Ángel Manuel Soto has proven box office ability with Blue Beetle ($187M). The $79M budget is moderate. However, January releases typically underperform, the plot is generic, and pre-release attention is modest (158K 30-day views). Action-comedy genre mix helps broad appeal. Conservative estimate factoring in Momoa's draw but offset by challenging release window and generic premise."
         },
         {
           "movie_id": 1198994,
           "movie_title": "Send Help",
-          "predicted": 72000000,
+          "predicted": 145000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 2.0387505728382602,
           "actual": 83313220,
-          "pct_error": 0.1357914146158317,
-          "reasoning": "This January release faces headwinds with a modest $40M budget. Sam Raimi's directing credibility provides some upside, but the Horror/Thriller/Comedy genre blend is unconventional and may confuse audiences. Rachel McAdams is the only recognizable star, and January is typically a slow box office period. The Wikipedia pre-release attention (183k weekly views) is moderate. However, the low budget means profitability is achievable with modest returns. Horror-thriller hybrids typically perform decently, and Raimi's name can draw audiences. Expecting around $72M worldwide, which provides a solid return on the $40M investment."
+          "pct_error": 0.7404200677875612,
+          "reasoning": "Sam Raimi's proven box office track record (Doctor Strange 2: $955M, Spider-Man 3: $890M) provides strong directorial appeal. Rachel McAdams brings solid star power, and the horror-thriller-comedy genre blend is unique. The $40M budget is moderate, and survival island narratives have proven appeal. However, January release (historically weak), mixed genre (comedy may undercut thriller tension), and relatively unknown cast members beyond McAdams create uncertainty. Pre-release Wikipedia views (183k in 7 days) indicate moderate buzz. Comparable films: 'Shallows' ($83M), 'The Grey' ($77M), 'A Quiet Place' ($341M on small budget). Predicting $145M with 35% uncertainty range."
         },
         {
           "movie_id": 1272837,
           "movie_title": "28 Years Later: The Bone Temple",
-          "predicted": 78000000,
+          "predicted": 110000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 3.090932320460496,
           "actual": 58586229,
-          "pct_error": 0.3313708926375855,
-          "reasoning": "This is a sequel in the 28 Days Later franchise, which has established horror/sci-fi appeal. The $63M budget is moderate. January releases typically underperform. Ralph Fiennes provides veteran star power, but the younger cast is less proven. Nia DaCosta directed Candyman (2021) which performed well at $86M worldwide on $25M, but The Marvels (2023) underperformed. The Wikipedia pre-release attention (570K/30d, 259K/7d) indicates decent but not exceptional interest. Comparable 28 Weeks Later made $65M worldwide in 2007. Accounting for 28-year gap and franchise nostalgia, I'm estimating around $78M worldwide gross."
+          "pct_error": 0.877574335770954,
+          "reasoning": "The '28 Years Later' franchise name provides strong brand recognition from the iconic '28 Days Later' films. Ralph Fiennes adds significant star power and prestige. However, Nia DaCosta's limited solo box office track record (though she directed 'Candyman'), a January release typically being a slower box office period, and mixed pre-release buzz (decent but not exceptional Wikipedia views) temper expectations. The $63M budget suggests moderate ambitions. Horror-sci-fi hybrid genre has proven box office potential but also volatility. Expected to perform moderately given these competing factors."
         },
         {
           "movie_id": 1116201,
           "movie_title": "Iron Lung",
-          "predicted": 9500000,
+          "predicted": 15000000,
+          "uncertainty_pct": 40,
+          "within_uncertainty": false,
+          "interval_score": 3.845766129032258,
           "actual": 49600000,
-          "pct_error": 0.8084677419354839,
-          "reasoning": "This is a low-budget ($3M) indie sci-fi horror with a first-time director (Mark Fischbach/Markiplier) and an unknown cast. The genre combination (horror/sci-fi/mystery) is niche with limited mainstream appeal. January release is typically a slow box office period. Pre-release Wikipedia views (291k/157k) show moderate but not exceptional buzz. YouTuber-led films historically struggle at the box office unless they have massive built-in fanbases. Given the dark, intense premise about a blood ocean expedition, the target audience is quite narrow. With a $3M budget, the film only needs to gross around $10-12M worldwide to turn a profit. Prediction of $9.5M reflects a modest theatrical run with potential additional revenue from streaming/VOD sales."
+          "pct_error": 0.6975806451612904,
+          "reasoning": "Low-budget ($3M) sci-fi horror with YouTuber Mark Fischbach (Markiplier) making his directorial debut. The pre-release attention is notable (291K 30-day views), driven by his massive online following. However, YouTubers have historically struggled to convert subscriber base into theatrical success - most YouTuber-led films underperform. The January release date is typically slow, and the niche horror/sci-fi premise limits broad appeal. With a $3M budget, the film only needs ~$10-15M worldwide to be profitable. Considering the cast's limited mainstream recognition and the experimental plot, I'm predicting $15M worldwide with high uncertainty due to the unpredictable nature of YouTuber-led projects and the niche genre."
         },
         {
           "movie_id": 1236153,
           "movie_title": "Mercy",
-          "predicted": 115000000,
+          "predicted": 180000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 11.854335558754784,
           "actual": 49463290,
-          "pct_error": 1.3249565485838084,
-          "reasoning": "Chris Pratt's star power is a major draw, and the sci-fi thriller genre with an AI-themed premise has strong appeal. The $60M budget is reasonable for this type of film. However, the January release date is suboptimal (post-holiday slump), and director Timur Bekmambetov has a mixed track record. The moderate Wikipedia pre-release attention (200K views over 30 days) suggests decent but not exceptional interest. Comparing to similar sci-fi action thrillers with A-list leads (e.g., 'The Adam Project' at $107M worldwide), a gross around $115M is realistic - enough to be profitable but not a breakout hit given the release timing."
+          "pct_error": 2.6390624238703086,
+          "reasoning": "Chris Pratt's star power is the primary draw - his recent films consistently gross $300M+. The sci-fi thriller genre with an AI judge premise has strong appeal and word-of-mouth potential. However, the January release date is a significant headwind (historically a slow box office period). The $60M budget is moderate, requiring ~$120-180M to profit. Pre-release attention is decent but not exceptional. Comparable films like 'Minority Report' ($291M) and 'Edge of Tomorrow' ($370M) show the potential, but January timing and mixed director track record suggest a more conservative projection. Rebecca Ferguson adds solid support, and the thriller angle could drive repeat viewings."
         },
         {
           "movie_id": 1171145,
           "movie_title": "Crime 101",
-          "predicted": 175000000,
+          "predicted": 115000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 5.583123355596908,
           "actual": 46284272,
-          "pct_error": 2.7809820147975968,
-          "reasoning": "The ensemble cast is the primary draw, featuring Chris Hemsworth and Mark Ruffalo (both Marvel franchise stars) plus Oscar winner Halle Berry. The crime/heist thriller genre has proven box office appeal (comparable to 'The Town' at $309M, 'Widows' at $159M). Director Bart Layton's track record with 'American Animals' and 'The Great Heist' suggests competence in the heist genre. The $90M budget is moderate, suggesting studios expect a solid return. February release is a softer month but the strong cast and heist premise should attract audiences. Wikipedia pre-release attention (173K views) indicates decent buzz. However, the lack of major franchise IP and February timing prevent it from reaching blockbuster territory."
+          "pct_error": 1.4846453240098494,
+          "reasoning": "Strong ensemble cast led by Chris Hemsworth and Mark Ruffalo provides star power appeal. However, February release is typically a slower box office period, and director Bart Layton hasn't demonstrated proven box office track record with previous films like 'American Animals'. The heist thriller genre has had mixed results. Budget of $90M is moderate. Pre-release attention is moderate but not exceptional. Comparable ensemble crime thrillers in recent years have ranged from $80-150M worldwide. Predicting $115M as a reasonable middle ground given the cast strength offset by release timing and director uncertainty."
         },
         {
           "movie_id": 680493,
           "movie_title": "Return to Silent Hill",
           "predicted": 52000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": true,
+          "interval_score": 0.8752933916118422,
           "actual": 41586056,
           "pct_error": 0.25041913087406026,
-          "reasoning": "This is a niche horror sequel based on the Silent Hill video game franchise directed by Christophe Gans, who helmed the original 2006 film that grossed $97M worldwide. However, the cast lacks major star power and January releases typically underperform. The $23M budget is modest, meaning the film doesn't need massive returns to turn a profit. The Wikipedia pre-release attention (156K 30-day views) indicates moderate fan interest. Considering the declining performance of the Silent Hill sequel in 2012 ($56M) and current cast unknowns, I'm predicting a conservative $52M worldwide gross, which would be a solid return on investment for a low-budget horror film."
-        }
-      ]
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.5",
-      "model_name": "Kimi K2.5",
-      "avg_pct_error": 0.9110953889407745,
-      "median_pct_error": 0.6797817943247426,
-      "predictions": [
-        {
-          "movie_id": 1316092,
-          "movie_title": "\"Wuthering Heights\"",
-          "predicted": 94500000,
-          "actual": 192100000,
-          "pct_error": 0.5080687142113482,
-          "reasoning": "Despite the $80M budget suggesting commercial ambitions and the star power of Margot Robbie and Jacob Elordi driving Valentine's Day weekend interest, Emerald Fennell's arthouse sensibilities and the source material's bleak, tragic tone will likely limit mainstream appeal. Period dramas typically underperform internationally, and while Fennell's provocative style (as seen in Saltburn) may attract younger audiences, the 18th-century gothic romance format caps the ceiling compared to more accessible literary adaptations like Little Women. Expect solid domestic performance ($40-45M) but modest international returns, particularly in Asian markets where period British dramas struggle, leading to a worldwide total just under $100M."
-        },
-        {
-          "movie_id": 1297842,
-          "movie_title": "GOAT",
-          "predicted": 198500000,
-          "actual": 108271512,
-          "pct_error": 0.8333539112301304,
-          "reasoning": "Mid-budget ($90M) animated sports comedy releasing over Presidents Day weekend 2026. Benefits from Stephen Curry's significant cross-demographic appeal (attracting both sports fans and families), strong voice cast with Gen Z appeal (McLaughlin, Coughlan, Union), and a proven underdog sports narrative template. However, as an original IP without franchise recognition and with a first-time feature director, it faces ceiling limitations. The moderate Wikipedia pre-release traffic (264k views) indicates solid but not massive built-in awareness. Positioned between 'Smallfoot' ($214M) and 'Wonder Park' ($119M), targeting profitability without reaching blockbuster tier."
-        },
-        {
-          "movie_id": 1159559,
-          "movie_title": "Scream 7",
-          "predicted": 198000000,
-          "actual": 97200000,
-          "pct_error": 1.037037037037037,
-          "reasoning": "The return of Neve Campbell as Sidney Prescott after her absence in Scream VI ($169M) is a major draw for core fans, likely boosting performance above the previous installment. Kevin Williamson directing (franchise creator) adds auteur credibility and nostalgia appeal. The $45M budget indicates studio confidence while maintaining horror profitability thresholds. Strong Wikipedia pre-release traffic (437K views/30 days) suggests sustained franchise interest. Following the upward trajectory from Scream 2022 ($138M) to Scream VI ($169M), and factoring in the 'daughter in peril' plot that mirrors the original's stakes, expect approximately $198M worldwide."
-        },
-        {
-          "movie_id": 1168190,
-          "movie_title": "The Wrecking Crew",
-          "predicted": 67000000,
-          "actual": 89000000,
-          "pct_error": 0.24719101123595505,
-          "reasoning": "The late January release date represents a significant commercial limitation, as this period typically sees depressed audience turnout following the holiday season and is historically used for studio releases with modest expectations. While the pairing of Bautista and Momoa provides international marketability for the action-comedy genre, the modest pre-release Wikipedia engagement (158K views in 30 days) and compressed marketing window (trailer debuting only 20 days prior) suggest limited audience awareness. The $79M budget positions this as a mid-tier release that will likely rely heavily on international markets where action translates better than comedy, but faces difficulty achieving profitability against theatrical revenue splits."
-        },
-        {
-          "movie_id": 1198994,
-          "movie_title": "Send Help",
-          "predicted": 95000000,
-          "actual": 83313220,
-          "pct_error": 0.1402752168263332,
-          "reasoning": "Sam Raimi's return to horror-comedy generates solid genre anticipation, but the January 22 release date signals modest studio expectations and limits the ceiling. The $40M budget is higher than recent breakout horror hits (like Barbarian or Talk to Me), requiring broader appeal to profit. Rachel McAdams and Dylan O'Brien provide decent star power but limited international draw. Wikipedia pre-release views (428K) indicate healthy niche interest but not mainstream event status. The stranded island survival premise is conceptually familiar, likely resulting in a $35-40M domestic run with comparable international returns, typical for mid-budget adult thrillers in this release window."
-        },
-        {
-          "movie_id": 1272837,
-          "movie_title": "28 Years Later: The Bone Temple",
-          "predicted": 142000000,
-          "actual": 58586229,
-          "pct_error": 1.4237777789043224,
-          "reasoning": "Mid-budget franchise horror ($63M) leveraging the '28 Days Later' IP with solid pre-release Wikipedia traffic (570K views/30 days) indicating cult fanbase interest. Director Nia DaCosta's horror track record (Candyman $77M) suggests competent genre execution, but January release date limits ceiling. Cast lacks commercial draw (Fiennes adds prestige, not box office), though horror typically overperforms domestically on modest budgets. International markets should contribute significantly given the sci-fi/action elements. Predicted gross accounts for franchise nostalgia factor offset by non-optimal release timing and 19-year gap since last installment."
-        },
-        {
-          "movie_id": 1116201,
-          "movie_title": "Iron Lung",
-          "predicted": 23500000,
-          "actual": 49600000,
-          "pct_error": 0.5262096774193549,
-          "reasoning": "Micro-budget ($3M) sci-fi horror adaptation of popular indie game leverages director/star Markiplier's massive YouTube following (30M+ subscribers). Strong pre-release Wikipedia engagement (291k views) indicates high awareness among target gaming/horror demographic. Despite January release date and lack of traditional Hollywood stars, passionate built-in fanbase ensures theatrical turnout. Expect modest domestic run ($14M) with comparable international gross ($9.5M) driven by global internet fanbase, yielding solid profitability on minimal investment."
-        },
-        {
-          "movie_id": 1236153,
-          "movie_title": "Mercy",
-          "predicted": 118000000,
-          "actual": 49463290,
-          "pct_error": 1.3856075889816468,
-          "reasoning": "Chris Pratt's international star power anchors this original sci-fi thriller to modest profitability, but the mid-January release date and lack of franchise IP limit breakout potential. The $60M budget suggests contained scope rather than blockbuster spectacle, while Timur Bekmambetov's inconsistent track record since 'Wanted' (2008) adds risk. The AI courtroom concept generates niche appeal but may struggle to expand beyond genre audiences despite solid pre-release awareness (200K Wikipedia views). Expect performance similar to 'The Tomorrow War' ($119M) but adjusted for post-pandemic theatrical recovery and Pratt's continued draw in sci-fi, landing in the $115-120M range worldwide."
-        },
-        {
-          "movie_id": 1171145,
-          "movie_title": "Crime 101",
-          "predicted": 184000000,
-          "actual": 46284272,
-          "pct_error": 2.975432518415759,
-          "reasoning": "Strong ensemble cast led by Chris Hemsworth provides international draw and solid opening weekend potential, supported by Mark Ruffalo's credibility, Halle Berry's name recognition, and Barry Keoghan's rising star power. However, director Bart Layton lacks proven commercial track record with studio budgets, and Hemsworth's non-Marvel theatrical record has been inconsistent (e.g., 'Men in Black: International' underperformed despite $110M budget). The $90M budget signals mid-tier studio expectations rather than blockbuster ambitions. February 11 release (Wednesday before Valentine's Day weekend) offers strategic counter-programming potential for adult audiences but lacks the earning ceiling of summer or holiday slots. Wikipedia pre-release metrics (173k views in 30 days) indicate moderate audience awareness without exceptional viral buzz. Crime thriller genre typically performs reliably but rarely breaks out beyond $200M without franchise recognition or exceptional critical acclaim. Predicted domestic gross around $52M with strong international performance (particularly in UK, Australia, and Asian markets where Hemsworth has high recognition) contributing $132M for worldwide total."
-        },
-        {
-          "movie_id": 680493,
-          "movie_title": "Return to Silent Hill",
-          "predicted": 43000000,
-          "actual": 41586056,
-          "pct_error": 0.034000435145857544,
-          "reasoning": "January horror release with $23M budget suggests modest studio expectations. While Christophe Gans' return and Silent Hill 2 adaptation generate cult/nostalgic interest (evidenced by 156K Wikipedia views), lack of star power and video game adaptation limitations restrict breakout potential. International markets provide most support, similar to 2012's Silent Hill: Revelation ($52M), but inflation and market saturation adjust this downward slightly."
+          "reasoning": "Return to Silent Hill is a reboot of the 2006 horror franchise. The original Silent Hill earned ~$102M worldwide on $50M budget, while the 2012 sequel earned ~$56M on $20M budget. This $23M budget film targets similar territory. Key factors: moderate franchise recognition, low budget allows profitability at lower gross, but January release (typically slow month) and lack of major star power (Jeremy Irvine is not a box office draw) limit upside. Pre-release Wikipedia views (156K 30-day, 68K 7-day) indicate moderate online interest. Horror genre can perform well with lower budgets if reception is positive. Given the January release timing and cast limitations, predicting around $52M with 35% uncertainty range."
         }
       ]
     },
     {
       "model_id": "google/gemini-3.1-pro-preview",
       "model_name": "Gemini 3.1 Pro",
-      "avg_pct_error": 1.0807231986582404,
-      "median_pct_error": 0.7152777605729568,
+      "avg_pct_error": 1.0264349661848589,
+      "median_pct_error": 0.6578630327758976,
+      "avg_interval_score": 4.307142980798435,
+      "avg_uncertainty_pct": 29.7,
+      "within_uncertainty_rate": 0.2,
       "predictions": [
         {
           "movie_id": 1316092,
           "movie_title": "\"Wuthering Heights\"",
-          "predicted": 218400000,
+          "predicted": 194500000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": true,
+          "interval_score": 0.7087454450806873,
           "actual": 192100000,
-          "pct_error": 0.1369078604893285,
-          "reasoning": "Margot Robbie's massive post-Barbie star power combined with Jacob Elordi's strong Gen Z appeal provides a highly marketable core for this classic adaptation. Director Emerald Fennell's edgy, stylized approach (following the viral success of Saltburn) will likely generate significant social media buzz and cultural cachet, elevating it above typical period dramas. The February 11 release is perfectly timed to capitalize on the Valentine's Day box office for the Romance/Drama demographic. While period pieces generally have a theatrical ceiling, this film's A-list cast and provocative director should push it to perform similarly to Greta Gerwig's Little Women (2019)."
+          "pct_error": 0.012493492972410203,
+          "reasoning": "Emerald Fennell's cultural momentum, Margot Robbie's massive post-Barbie star power, and Jacob Elordi's Gen Z appeal give this adaptation strong breakout potential. The Valentine's Day release perfectly aligns with the romance genre, ensuring a strong opening. However, an $80M budget is unusually high for a period drama, and its ultimate ceiling depends heavily on whether Fennell's signature edgy, stylized approach resonates broadly like 'The Great Gatsby' (2013) or alienates mainstream audiences."
         },
         {
           "movie_id": 1297842,
           "movie_title": "GOAT",
-          "predicted": 242500000,
+          "predicted": 248500000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 5.168400622316977,
           "actual": 108271512,
-          "pct_error": 1.2397396648529302,
-          "reasoning": "As an original animated family film, 'GOAT' faces an uphill battle without established IP, but benefits heavily from a prime mid-February release, capitalizing on the lucrative President's Day holiday weekend in the US. The $90M budget implies high-quality animation, and Stephen Curry's involvement provides a strong, unique marketing hook for sports fans domestically and internationally (especially in basketball-heavy markets). Performing similarly to mid-tier animated features like 'DC League of Super-Pets' or 'The Bad Guys', it should leg out to a solid worldwide total just past its theatrical breakeven point."
+          "pct_error": 1.2951559039833118,
+          "reasoning": "As an original animated family film with a $90M budget, 'GOAT' benefits from a highly marketable underdog sports premise and the massive global crossover appeal of NBA star Stephen Curry. The strong Wikipedia pre-release attention (over 264k views in 30 days) indicates solid baseline awareness. However, lacking an established IP, it faces a box office ceiling compared to franchise giants. Its performance will likely mirror recent successful mid-budget original animations like 'The Bad Guys' or 'Migration', with international markets heavily driven by Curry's star power and the universal appeal of anthropomorphic animal comedies."
         },
         {
           "movie_id": 1159559,
           "movie_title": "Scream 7",
+          "predicted": 138500000,
+          "uncertainty_pct": 20,
+          "within_uncertainty": false,
+          "interval_score": 1.4444444444444444,
+          "actual": 97200000,
+          "pct_error": 0.42489711934156377,
+          "reasoning": "While the franchise saw a strong resurgence with Scream VI ($169M worldwide), the highly publicized departure of Gen-Z stars Jenna Ortega and Melissa Barrera will likely dampen momentum and alienate some younger viewers. However, the return of legacy star Neve Campbell and original writer Kevin Williamson stepping in as director provides a powerful nostalgia hook for the core fanbase. This should stabilize the box office, likely putting its performance on par with 2022's Scream 5 ($137M)."
+        },
+        {
+          "movie_id": 1198994,
+          "movie_title": "Send Help",
+          "predicted": 134500000,
+          "uncertainty_pct": 25,
+          "within_uncertainty": false,
+          "interval_score": 2.124646304632086,
+          "actual": 83313220,
+          "pct_error": 0.6143896490857034,
+          "reasoning": "Sam Raimi's return to the horror-comedy genre carries significant draw, supported by a highly recognizable cast (McAdams, O'Brien) and a very strong pre-release Wikipedia footprint (428k 30-day views) indicating high audience anticipation. The January release window has historically been highly lucrative for high-concept thrillers (e.g., 'M3GAN', 'Split'). With a $40M budget, the film is positioned to perform similarly to recent successful mid-budget genre blends like 'The Menu' or 'Cocaine Bear', though its survival premise offers strong international appeal to push it slightly higher."
+        },
+        {
+          "movie_id": 1116201,
+          "movie_title": "Iron Lung",
+          "predicted": 48600000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": true,
+          "interval_score": 0.6858870967741937,
+          "actual": 49600000,
+          "pct_error": 0.020161290322580645,
+          "reasoning": "Directed by and starring YouTube giant Mark Fischbach (Markiplier), this adaptation of a viral indie horror game benefits from a massive, highly engaged built-in audience that guarantees a strong opening weekend. The $3M micro-budget minimizes risk, while the high Wikipedia page views (nearly 300k in 30 days) indicate excellent pre-release momentum and internet hype. January is a proven, highly lucrative corridor for breakout horror hits. While influencer-driven films can be front-loaded and their ceiling depends heavily on the scale of their theatrical distribution partners, the dedicated gaming fanbase and viral appeal should drive a highly profitable worldwide gross akin to recent indie horror breakouts like 'Terrifier 3' or 'Talk to Me'."
+        },
+        {
+          "movie_id": 1236153,
+          "movie_title": "Mercy",
+          "predicted": 134500000,
+          "uncertainty_pct": 32,
+          "within_uncertainty": false,
+          "interval_score": 7.0468308416201175,
+          "actual": 49463290,
+          "pct_error": 1.7191883111697583,
+          "reasoning": "Chris Pratt and Rebecca Ferguson provide strong international star power, but original mid-budget sci-fi is historically a tough sell. The January release date and moderate Wikipedia attention suggest a solid but unspectacular run, akin to other recent mid-budget winter action-thrillers. The high-concept 'real-time' plot could drive decent word-of-mouth, but Timur Bekmambetov's inconsistent box office track record adds volatility."
+        },
+        {
+          "movie_id": 1171145,
+          "movie_title": "Crime 101",
+          "predicted": 184500000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 13.581520737757307,
+          "actual": 46284272,
+          "pct_error": 2.9862353241723234,
+          "reasoning": "With a strong ensemble cast led by Chris Hemsworth and Mark Ruffalo, this film has solid international appeal. The $90M budget suggests high production value, positioning it similarly to action-thrillers like 'Bullet Train' or 'Baby Driver'. However, non-franchise adult crime thrillers carry inherent theatrical risk post-pandemic, and a February release typically caps the upper box office ceiling. Moderate pre-release Wikipedia traffic indicates decent but not overwhelming mainstream awareness."
+        },
+        {
+          "movie_id": 1168190,
+          "movie_title": "The Wrecking Crew",
           "predicted": 148500000,
-          "actual": 97200000,
-          "pct_error": 0.5277777777777778,
-          "reasoning": "While the departure of recent franchise leads Jenna Ortega and Melissa Barrera may soften Gen Z turnout compared to Scream VI's $169M gross, the highly anticipated return of Neve Campbell as Sidney Prescott and original creator Kevin Williamson stepping in as director will drive massive legacy fan engagement. The $45M budget and solid Wikipedia pre-release metrics indicate strong baseline interest, positioning it to perform comfortably between the 2022 reboot ($137M) and the sixth installment."
-        },
-        {
-          "movie_id": 1168190,
-          "movie_title": "The Wrecking Crew",
-          "predicted": 146200000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 1.6964185393258426,
           "actual": 89000000,
-          "pct_error": 0.6426966292134831,
-          "reasoning": "While Dave Bautista and Jason Momoa provide strong buddy-comedy chemistry and international star power, original action-comedies have recently struggled at the theatrical box office (similar to 'The Fall Guy' or 'Argylle'). The late January release date often serves as a dumping ground with lower overall theater attendance. Furthermore, moderate Wikipedia pre-release page views (158k over 30 days) suggest lukewarm mainstream hype. Given the $79M budget, it will likely perform decently overseas due to the leads' franchise recognizability, but it may fall short of a major breakout, landing in the mid-$140M range globally."
-        },
-        {
-          "movie_id": 1198994,
-          "movie_title": "Send Help",
-          "predicted": 128450000,
-          "actual": 83313220,
-          "pct_error": 0.5417721221193947,
-          "reasoning": "Sam Raimi's return to the horror-comedy genre is a major draw for cinephiles, while the pairing of Rachel McAdams and Dylan O'Brien offers strong cross-demographic appeal. High Wikipedia pre-release page views (over 428k in 30 days) indicate significant audience awareness and anticipation. Although January is traditionally a slower box office month, it has recently become a highly lucrative launchpad for high-concept thrillers and horror films (e.g., 'M3GAN', 'Split'). With a $40M budget, the film has decent production value for a contained survival story, and the accessible premise combined with dark comedy should propel it to a strong worldwide gross, performing similarly to recent successful mid-budget genre hits."
+          "pct_error": 0.6685393258426966,
+          "reasoning": "As an original action-comedy releasing in the historically weak late-January window, the film relies heavily on the star chemistry of Momoa and Bautista. While the $79M budget and moderate Wikipedia buzz suggest decent baseline interest, non-IP action comedies have struggled recently at the box office. It is projected to perform similarly to mid-tier winter action hits like The Beekeeper, but lacks the established franchise IP to easily push past the $200M mark unless word-of-mouth is exceptional."
         },
         {
           "movie_id": 1272837,
           "movie_title": "28 Years Later: The Bone Temple",
-          "predicted": 164350000,
+          "predicted": 168500000,
+          "uncertainty_pct": 25,
+          "within_uncertainty": false,
+          "interval_score": 8.66978174597993,
           "actual": 58586229,
-          "pct_error": 1.8052667462177845,
-          "reasoning": "Strong franchise nostalgia for the '28 Days Later' series and massive Wikipedia pre-release page views (over 570k in 30 days) indicate high audience anticipation. While January is traditionally a dump month, it has recently become a highly lucrative window for mid-budget horror and thrillers. The $63M budget suggests an elevated scale, and while the cast lacks a massive global box office draw, Ralph Fiennes adds prestige. Expecting a strong opening weekend driven by IP awareness, with standard horror drop-offs landing it solidly in the mid-$100M range worldwide."
-        },
-        {
-          "movie_id": 1116201,
-          "movie_title": "Iron Lung",
-          "predicted": 74250000,
-          "actual": 49600000,
-          "pct_error": 0.4969758064516129,
-          "reasoning": "Mark Fischbach (Markiplier) brings a massive, highly dedicated built-in audience of over 36 million YouTube subscribers, guaranteeing a strong opening weekend through direct-to-fan marketing. The high Wikipedia pre-release page views (291k in 30 days) confirm significant internet hype. Recent trends show massive success for both YouTuber-directed horror (like RackaRacka's 'Talk to Me', which grossed $92M) and indie gaming adaptations. While the claustrophobic, single-location premise might limit broad mainstream appeal and cap its ceiling below $100M, its micro-budget of $3M ensures it will be highly profitable, likely grossing around $70M-$80M globally driven by Gen Z and gamer demographics."
-        },
-        {
-          "movie_id": 1236153,
-          "movie_title": "Mercy",
-          "predicted": 154300000,
-          "actual": 49463290,
-          "pct_error": 2.119485177795492,
-          "reasoning": "Chris Pratt and Rebecca Ferguson provide strong international star power, and the high-concept 'ticking clock' AI plot offers a compelling commercial hook. However, original non-franchise sci-fi is historically risky, and a January release date typically limits the box office ceiling. With a moderate $60M budget, it is positioned similarly to successful mid-tier winter action-thrillers, likely performing well overseas but falling short of Pratt's usual blockbuster franchise numbers."
-        },
-        {
-          "movie_id": 1171145,
-          "movie_title": "Crime 101",
-          "predicted": 162400000,
-          "actual": 46284272,
-          "pct_error": 2.50875130973217,
-          "reasoning": "Despite a strong ensemble cast led by Chris Hemsworth and Mark Ruffalo, mid-budget adult-skewing crime thrillers often face a ceiling at the modern box office. A prime February release date and Bart Layton's strong directorial track record will help, but Hemsworth's inconsistent non-franchise draw suggests a moderate worldwide gross in line with similar genre films like 'The Accountant'."
+          "pct_error": 1.8761025052491431,
+          "reasoning": "As the second installment in the highly anticipated '28 Years Later' revival trilogy, strong Wikipedia tracking (570k 30-day views) indicates significant built-in audience interest and nostalgia. While the January release date traditionally limits the overall box office ceiling, it has proven to be a highly lucrative corridor for the horror/thriller genre. Nia DaCosta's horror pedigree and a strong cast led by Ralph Fiennes should help this $63M-budgeted film perform well globally, though its final gross will be heavily tethered to the critical and commercial reception of the preceding chapter."
         },
         {
           "movie_id": 680493,
           "movie_title": "Return to Silent Hill",
-          "predicted": 74350000,
+          "predicted": 68500000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 1.9447540300527657,
           "actual": 41586056,
-          "pct_error": 0.7878588919324304,
-          "reasoning": "While recent video game adaptations have seen massive success, 'Return to Silent Hill' targets a more niche, mature horror audience. The return of original director Christophe Gans and the adaptation of the beloved 'Silent Hill 2' storyline will draw the core fanbase, but the lack of A-list star power, a modest $23M budget, and a traditionally slow January release date limit its mainstream ceiling. Moderate Wikipedia pre-release attention suggests it will perform better than 2012's poorly received 'Revelation' ($56M) but fall short of the 2006 original's $100M gross, landing in the mid-$70M range globally."
-        }
-      ]
-    },
-    {
-      "model_id": "x-ai/grok-4.1-fast",
-      "model_name": "Grok 4.1 Fast",
-      "avg_pct_error": 1.5306997112311929,
-      "median_pct_error": 1.1022240878523153,
-      "predictions": [
-        {
-          "movie_id": 1316092,
-          "movie_title": "\"Wuthering Heights\"",
-          "predicted": 215000000,
-          "actual": 192100000,
-          "pct_error": 0.11920874544508069,
-          "reasoning": "Margot Robbie's star power post-Barbie elevates prestige period romance/drama; Emerald Fennell's buzz from Saltburn/Promising Young Woman adds appeal; comparable to Atonement ($237M) or Little Women ($218M); solid supporting cast; $80M budget viable at 2.5x multiplier despite February release, low Wikipedia buzz, and classic plot without franchise draw."
-        },
-        {
-          "movie_id": 1297842,
-          "movie_title": "GOAT",
-          "predicted": 235000000,
-          "actual": 108271512,
-          "pct_error": 1.170469365939953,
-          "reasoning": "Mid-budget animated family sports comedy with crossover appeal from Stephen Curry's star power and Caleb McLaughlin/Nicola Coughlan's TV fame. Plot has fun, accessible animal sports premise like 'Sonic' or 'Bad Guys.' February release suits families, decent Wikipedia buzz (264k 30d views), but unknown director and modest cast limit it to solid mid-tier animated gross vs. blockbusters."
-        },
-        {
-          "movie_id": 1159559,
-          "movie_title": "Scream 7",
-          "predicted": 210000000,
-          "actual": 97200000,
-          "pct_error": 1.1604938271604939,
-          "reasoning": "Scream VI grossed $191M WW; Neve Campbell's return as Sidney boosts appeal after her Scream VI absence, paired with Courteney Cox and franchise familiarity. Kevin Williamson directing adds authenticity. $45M budget supports marketing. Solid Wikipedia buzz (437k 30d views). February release limits peak seasonality but horror performs steadily. Plot with family stakes maintains meta-horror draw."
-        },
-        {
-          "movie_id": 1168190,
-          "movie_title": "The Wrecking Crew",
-          "predicted": 142000000,
-          "actual": 89000000,
-          "pct_error": 0.5955056179775281,
-          "reasoning": "Mid-tier action-comedy with strong B-list action stars (Bautista, Momoa) and solid supporting cast; director's prior DC film (Blue Beetle ~$130M) suggests competence but not blockbuster draw. January release limits upside (non-prime window), modest pre-release buzz (158k wiki views/30d), $79M budget needs ~$150-200M breakeven. Plot has buddy-cop appeal but lacks franchise boost; comparable to Beekeeper/Lost City mid-performers."
-        },
-        {
-          "movie_id": 1198994,
-          "movie_title": "Send Help",
-          "predicted": 85000000,
-          "actual": 83313220,
-          "pct_error": 0.020246246634087604,
-          "reasoning": "Sam Raimi's horror-thriller-comedy with Rachel McAdams and Dylan O'Brien appeals to genre fans; modest $40M budget and January release limit blockbuster potential but echo Drag Me to Hell ($91M WW). Solid Wikipedia buzz supports mid-tier $85M worldwide gross."
-        },
-        {
-          "movie_id": 1272837,
-          "movie_title": "28 Years Later: The Bone Temple",
-          "predicted": 185000000,
-          "actual": 58586229,
-          "pct_error": 2.157738655614786,
-          "reasoning": "Sequel to cult horror franchise 28 Days/Weeks Later with strong Wikipedia pre-release buzz (570k 30d views). Ralph Fiennes adds star power; Nia DaCosta directs. $63M budget reasonable for genre. January release viable for horror, but not peak season. Trailer data unknown, plot intriguing but niche appeal limits to mid-tier gross."
-        },
-        {
-          "movie_id": 1116201,
-          "movie_title": "Iron Lung",
-          "predicted": 35000000,
-          "actual": 49600000,
-          "pct_error": 0.29435483870967744,
-          "reasoning": "Low-budget ($3M) indie horror sci-fi with Markiplier (Mark Fischbach) directing and starring, leveraging his 36M+ YouTube subscribers for fan turnout. Troy Baker adds voice acting cred. Plot based on popular game appeals to niche. Strong Wikipedia pre-release buzz (450k+ views). January release suits horror but post-holiday slump limits; comparable to 'Barbarian' ($45M WW)."
-        },
-        {
-          "movie_id": 1236153,
-          "movie_title": "Mercy",
-          "predicted": 275000000,
-          "actual": 49463290,
-          "pct_error": 4.5596787031351935,
-          "reasoning": "Chris Pratt's star power as lead (proven in Jurassic World, Guardians) anchors this mid-budget sci-fi action thriller. Rebecca Ferguson's rising appeal adds draw. Director Bekmambetov's action track record (Wanted: $351M) helps. Intriguing AI courtroom plot has broad appeal. January release limits upside vs. summer slots, but Wikipedia buzz (200k+ 30d views) and $60M budget suggest solid $275M WW gross, doubling budget."
-        },
-        {
-          "movie_id": 1171145,
-          "movie_title": "Crime 101",
-          "predicted": 240000000,
-          "actual": 46284272,
-          "pct_error": 4.18534676315099,
-          "reasoning": "Strong star power from Chris Hemsworth (global appeal), Mark Ruffalo, and Halle Berry boosts draw for crime thriller genre, which has solid precedent (e.g., Heat-like heist plot). $90M budget is manageable, but February release timing limits to mid-tier performance amid modest pre-release buzz (Wikipedia views ~170k/30d). Director Bart Layton lacks theatrical track record. Expect $100M domestic + $140M international."
-        },
-        {
-          "movie_id": 680493,
-          "movie_title": "Return to Silent Hill",
-          "predicted": 85000000,
-          "actual": 41586056,
-          "pct_error": 1.043954348544137,
-          "reasoning": "Silent Hill franchise has cult following, especially SH2 adaptation; director Gans returns from 2006's $100M hit; low $23M budget aids ROI; modest Wikipedia buzz (156k 30d views); no A-list cast limits broad appeal; January release hampers visibility vs. prior entries; horror genre strong internationally but niche, projecting mid-range sequel performance."
-        }
-      ]
-    },
-    {
-      "model_id": "anthropic/claude-opus-4-6",
-      "model_name": "Claude Opus 4.6",
-      "avg_pct_error": 1.6257017481357299,
-      "median_pct_error": 0.8630843183131207,
-      "predictions": [
-        {
-          "movie_id": 1316092,
-          "movie_title": "\"Wuthering Heights\"",
-          "predicted": 275000000,
-          "actual": 192100000,
-          "pct_error": 0.43154606975533577,
-          "reasoning": "Emerald Fennell is coming off the massive success of Saltburn, which generated enormous cultural buzz. Pairing her with Margot Robbie (post-Barbie global stardom) and Jacob Elordi (Saltburn breakout, rising heartthrob status) on a gothic romance adaptation of a beloved classic novel is a strong commercial proposition. The $80M budget suggests a visually lavish production. However, several factors temper expectations: February release is not peak season, literary period dramas rarely reach blockbuster territory, the R-rated sensibility Fennell is known for may limit audience, and the source material - while iconic - is a tragic romance without broad four-quadrant appeal. Comparable films: Saltburn (~$100M WW), Pride & Prejudice 2005 (~$121M), Little Women 2019 (~$218M). Fennell's provocative style combined with Robbie's star power and the cultural moment around this pairing should push it above typical period dramas. The Wikipedia attention is moderate but the trailer hasn't been tracked yet. I estimate strong but not blockbuster performance, likely outperforming Saltburn significantly due to bigger stars and budget, potentially approaching Little Women territory or exceeding it given the star power and director heat."
-        },
-        {
-          "movie_id": 1297842,
-          "movie_title": "GOAT",
-          "predicted": 215000000,
-          "actual": 108271512,
-          "pct_error": 0.9857485688386803,
-          "reasoning": "This is an original animated family film from what appears to be a mid-tier studio with a $90M budget. The sports-themed animation concept (underdog goat in a fictional sport) has appeal similar to films like 'Rumble' but with a stronger cast. Caleb McLaughlin (Stranger Things), Gabrielle Union, and notably Stephen Curry (massive sports crossover appeal) give it marketing hooks. Aaron Pierre is rising fast, and Nicola Coughlan (Bridgerton) adds international appeal. The February release date is decent for family animation with less competition. Wikipedia pre-release attention of ~265K views in 30 days is moderate - not blockbuster-level but shows solid awareness. Original animated IP without a major brand (Pixar/Disney/Illumination) typically struggles to reach top-tier numbers, but the sports angle and Curry's involvement could drive interest. Comparable to films like 'Migration' (~$243M) or 'The Bad Guys' (~$250M) but likely slightly lower given the unproven director and original IP. The family-friendly action-comedy genre travels well internationally."
-        },
-        {
-          "movie_id": 1159559,
-          "movie_title": "Scream 7",
-          "predicted": 285000000,
-          "actual": 97200000,
-          "pct_error": 1.9320987654320987,
-          "reasoning": "Scream 7 benefits from the return of Neve Campbell, which was a major fan demand after her absence from Scream VI. The franchise has shown strong legs: Scream (2022) grossed $140M and Scream VI grossed $169M worldwide, both on similar budgets. Kevin Williamson (original screenwriter) directing adds nostalgic appeal. The February release date works well for horror (similar to Scream VI's March release). The Wikipedia pre-release attention of ~437K views in 30 days is very strong, indicating high anticipation. The plot focusing on Sidney's daughter adds emotional stakes. However, franchise fatigue is a risk with a 7th installment. With Neve Campbell back, strong franchise momentum, and a compelling plot hook, I expect this to outperform Scream VI moderately, potentially reaching around $285M worldwide, boosted by the return of the franchise's most iconic star and the 'final chapter' marketing angle."
-        },
-        {
-          "movie_id": 1168190,
-          "movie_title": "The Wrecking Crew",
-          "predicted": 145000000,
-          "actual": 89000000,
-          "pct_error": 0.6292134831460674,
-          "reasoning": "This action-comedy pairs two major action stars (Bautista and Momoa) with strong fan followings, which is a solid draw. The buddy/brothers dynamic in an action-comedy framework has proven appeal (similar to Red Notice, Hobbs & Shaw). However, several factors temper expectations: January release is a traditionally weaker window, director Ángel Manuel Soto (Blue Beetle) has modest box office track record, and the plot sounds fairly generic. The $79M budget suggests the studio isn't expecting a massive blockbuster. Wikipedia pre-release attention of ~158K views in 30 days is moderate - decent but not exceptional. The star power of Bautista and Momoa should drive solid international numbers, particularly in markets where action comedies perform well. Comparable films: Blue Beetle ($129M WW), Stuber ($32M), but the dual star power here elevates it significantly. I estimate roughly 1.8x budget in worldwide gross, landing around $145M."
-        },
-        {
-          "movie_id": 1198994,
-          "movie_title": "Send Help",
-          "predicted": 145000000,
-          "actual": 83313220,
-          "pct_error": 0.7404200677875612,
-          "reasoning": "Sam Raimi directing a horror-comedy-thriller is a strong combination given his track record (Drag Me to Hell, Doctor Strange 2). Rachel McAdams and Dylan O'Brien provide solid but not A-list star power. The January release date is typically weak but horror films can thrive in that window (similar to M3GAN, Escape Room). The $40M budget suggests a mid-range production. The premise (survival horror on a deserted island with comedic elements) has broad appeal and is reminiscent of commercially successful survival thrillers. The Wikipedia pre-release attention of ~428K views in 30 days is quite strong, indicating significant audience awareness. The horror-comedy genre has been performing well recently. Raimi's name alone generates genre fan interest. However, January releases have a ceiling, and the cast isn't blockbuster-level. I estimate solid but not spectacular performance, likely around 3.5x budget, with strong domestic legs and decent international appeal."
-        },
-        {
-          "movie_id": 1272837,
-          "movie_title": "28 Years Later: The Bone Temple",
-          "predicted": 325000000,
-          "actual": 58586229,
-          "pct_error": 4.547378719323273,
-          "reasoning": "This is the sequel to '28 Years Later' (2025), which is itself a long-awaited sequel to the beloved '28 Days Later' franchise. The first film in this new trilogy (directed by Danny Boyle) is expected to perform very well, building massive anticipation for this second installment. However, several factors temper expectations: Nia DaCosta as director (whose Candyman did modestly, and The Marvels underperformed); the January release date is unusual for a major franchise film (though it could indicate counter-programming or a strategic rollout); and the cast, while featuring Ralph Fiennes, lacks massive mainstream star power. The Wikipedia pre-release attention of 570K views in 30 days is strong, indicating significant audience interest. The $63M budget suggests a mid-range production. Horror sequels typically see some drop-off from their predecessors, but the 28 franchise has enormous brand recognition. The plot description seems oddly mismatched (referencing Sing 2 characters?), which may indicate placeholder text. Assuming the first '28 Years Later' performs well (~$400-500M), this sequel could capture strong but slightly diminished interest, landing around $325M worldwide."
-        },
-        {
-          "movie_id": 1116201,
-          "movie_title": "Iron Lung",
-          "predicted": 32000000,
-          "actual": 49600000,
-          "pct_error": 0.3548387096774194,
-          "reasoning": "Iron Lung is based on a popular indie horror video game by Markiplier (Mark Fischbach), who has a massive YouTube following (35M+ subscribers). The Wikipedia pre-release attention is remarkably high for a $3M budget film (291K views in 30 days), indicating strong fan interest comparable to mid-tier studio releases. However, several factors limit its ceiling: the cast lacks traditional Hollywood star power (though Markiplier's internet fame is significant), the January release date is typically weak, the $3M budget suggests limited marketing spend and likely limited theatrical release scope, and YouTuber-to-filmmaker transitions have mixed track records. The horror/sci-fi genre can overperform on low budgets (see Skinamarink, which made $2M on a $15K budget). Markiplier's dedicated fanbase could drive strong opening weekend numbers, but the niche appeal of the source material and lack of mainstream recognition may limit legs. The high Wikipedia attention suggests this could significantly outperform typical $3M horror films. Comparable to how Five Nights at Freddy's leveraged internet fandom into box office success, though on a much smaller scale given the less mainstream IP and smaller budget/release."
-        },
-        {
-          "movie_id": 1236153,
-          "movie_title": "Mercy",
-          "predicted": 185000000,
-          "actual": 49463290,
-          "pct_error": 2.7401474912000396,
-          "reasoning": "Chris Pratt is a proven box office draw (Guardians, Jurassic World), and the sci-fi/thriller concept with an AI judge is timely and high-concept. Director Timur Bekmambetov (Wanted, Night Watch) has action credentials but inconsistent box office results. Rebecca Ferguson adds credibility. The $60M budget is moderate, suggesting the studio isn't expecting a mega-blockbuster but the concept has wide appeal. January release is typically a weaker window, but Pratt's star power and the compelling premise could overcome that. Wikipedia pre-release attention of ~200K views in 30 days is solid, indicating meaningful audience interest. The 90-minute real-time thriller concept is marketable. However, January sci-fi films historically underperform compared to summer releases. Estimating roughly 3x budget domestically (~$90M) and similar international (~$95M) for a worldwide total around $185M."
-        },
-        {
-          "movie_id": 1171145,
-          "movie_title": "Crime 101",
-          "predicted": 215000000,
-          "actual": 46284272,
-          "pct_error": 3.645206475322762,
-          "reasoning": "This film has several strong factors: Chris Hemsworth as a proven box office draw, a solid ensemble cast (Ruffalo, Berry, Keoghan, Barbaro), and Bart Layton directing (known for stylish heist/crime films like American Animals). The crime-thriller genre with a heist premise has broad appeal. The $90M budget suggests a mid-to-large scale production. February release faces less competition but also isn't peak season. Wikipedia pre-release attention of ~173K views in 30 days is moderate-to-solid, suggesting decent audience awareness. The plot sounds like a crowd-pleasing heist thriller with multiple intersecting storylines. Comparable films: Den of Thieves ($80M on $30M budget), The Town ($154M), Baby Driver ($226M). With Hemsworth's star power elevating this above typical crime thrillers, and the ensemble cast broadening appeal, I estimate around $215M worldwide - strong but not blockbuster territory given the February window and genre ceiling."
-        },
-        {
-          "movie_id": 680493,
-          "movie_title": "Return to Silent Hill",
-          "predicted": 52000000,
-          "actual": 41586056,
-          "pct_error": 0.25041913087406026,
-          "reasoning": "Return to Silent Hill is a sequel to the 2006 Silent Hill film, directed by the same Christophe Gans. The original grossed ~$100M worldwide, but the 2012 sequel (Silent Hill: Revelation) only managed ~$52M. This new entry has a modest $23M budget, no major star power, and a January release date (typically a dump month). However, the Silent Hill IP has strong brand recognition among horror/gaming fans, and the Wikipedia pre-release attention (156K views in 30 days) suggests moderate interest. The adaptation of Silent Hill 2 (widely considered the best game in the series) could drive fan enthusiasm. Horror films tend to perform well relative to budget. Balancing the niche appeal, weak release window, and lack of A-list talent against the established IP and horror genre reliability, I estimate around $52M worldwide — similar to the last sequel's performance, with potential upside from the beloved source material but limited by the January slot."
+          "pct_error": 0.6471867397090987,
+          "reasoning": "While the return of original director Christophe Gans and the adaptation of the highly acclaimed 'Silent Hill 2' video game storyline will draw the core fanbase, the lack of A-list star power and moderate pre-release Wikipedia traffic (156k views/30 days) suggest limited mainstream crossover. A January release window is historically favorable for mid-budget horror, but the franchise's past box office trajectory points to a moderate worldwide gross, likely landing between the 2006 original ($100M) and the poorly received 2012 sequel ($55M)."
         }
       ]
     },
     {
       "model_id": "openai/gpt-5.2",
       "model_name": "GPT 5.2",
-      "avg_pct_error": 1.9498932185511886,
-      "median_pct_error": 1.679095251379285,
+      "avg_pct_error": 1.53964958969958,
+      "median_pct_error": 1.292885156429692,
+      "avg_interval_score": 6.405408555411155,
+      "avg_uncertainty_pct": 34.5,
+      "within_uncertainty_rate": 0.2,
       "predictions": [
         {
           "movie_id": 1316092,
           "movie_title": "\"Wuthering Heights\"",
-          "predicted": 187500000,
+          "predicted": 185000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": true,
+          "interval_score": 0.6741280583029674,
           "actual": 192100000,
-          "pct_error": 0.02394586153045289,
-          "reasoning": "Valentine’s-adjacent Feb release favors a romance-driven campaign, and Margot Robbie + Jacob Elordi add strong commercial/online pull. However, a dark period romantic drama has a capped mainstream ceiling (more prestige/adult-skewing than four-quadrant), and Emerald Fennell’s track record suggests solid interest but not blockbuster scale. With an $80M budget and recognizable IP, a worldwide total in the high-$100Ms is plausible."
+          "pct_error": 0.03695991671004685,
+          "reasoning": "Star-led prestige romance/drama (Margot Robbie + Jacob Elordi) with a recognizable classic IP and a Valentine-adjacent February release should lift interest beyond typical period dramas, but the genre skews adult and isn’t reliably global-blockbuster. Emerald Fennell’s strong critical/cultural profile helps, yet her track record is more prestige than mass box office. With an $80M budget implying a wide theatrical push, a mid-range worldwide run around ~$185M is likely, with substantial variance based on reviews/awards momentum and international play."
         },
         {
           "movie_id": 1297842,
           "movie_title": "GOAT",
-          "predicted": 287500000,
+          "predicted": 320000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 8.453775449261299,
           "actual": 108271512,
-          "pct_error": 1.6553614583307934,
-          "reasoning": "Mid-budget ($90M) animated family-action comedy with a clear underdog sports hook and broad kid/family appeal. Cast has recognizable names (Union, McLaughlin, Coughlan) plus Stephen Curry as a marketing draw, but lacks a top-tier animation brand/director track record that typically pushes grosses into the $500M+ range. February release can be strong for family titles with limited direct competition, and solid pre-release Wikipedia attention suggests decent awareness. Overall profile aligns with mid-tier original animated hits in the ~$200–$350M worldwide range."
+          "pct_error": 1.9555327536203613,
+          "reasoning": "Original animated family-action comedy with broad four-quadrant appeal (sports/underdog story, cute animal lead) and a solid $90M budget that should deliver polished animation. Feb 11 release benefits from Presidents Day corridor and limited direct family competition typically. Cast has recognizable names (Union, McLaughlin, Coughlan) plus Stephen Curry for sports crossover marketing, but no proven animation franchise lift, keeping the ceiling below top-tier brands. Strong pre-release Wikipedia attention suggests above-average awareness for an original, pointing to a worldwide total in the low-to-mid $300M range."
         },
         {
           "movie_id": 1159559,
           "movie_title": "Scream 7",
-          "predicted": 178500000,
+          "predicted": 182500000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 3.0909207818930033,
           "actual": 97200000,
-          "pct_error": 0.8364197530864198,
-          "reasoning": "Recent franchise momentum (Scream VI reached ~$169M worldwide) plus Sidney Prescott’s prominent return adds four-quadrant nostalgia appeal. Late-February release is favorable for horror with limited direct tentpoles, and the $45M budget supports a solid marketing push. Wikipedia pre-release attention is healthy for a legacy slasher, suggesting awareness comparable to recent entries, pointing to a modest uplift over VI rather than a breakout jump."
+          "pct_error": 0.8775720164609053,
+          "reasoning": "Recent franchise entries have been solid mid-tier global performers (Scream 2022 ~$138M, Scream VI ~$169M) on similar budgets; bringing back Neve Campbell and centering Sidney’s family boosts nostalgia and four-quadrant appeal within horror. A late-February release can work well for horror with limited direct competition, and strong pre-release Wikipedia attention suggests healthy awareness. Offsetting factors include sequel fatigue and Kevin Williamson’s limited feature-directing track record, keeping the upside moderate."
         },
         {
           "movie_id": 1168190,
           "movie_title": "The Wrecking Crew",
-          "predicted": 268500000,
+          "predicted": 232000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 6.164606741573034,
           "actual": 89000000,
-          "pct_error": 2.0168539325842696,
-          "reasoning": "Mid-budget action-comedy/crime with recognizable stars (Bautista, Momoa) and broad four-quadrant appeal should drive solid turnout, but late-January release timing is typically softer and the director’s track record suggests limited breakout potential. Moderate pre-release Wikipedia interest indicates awareness but not event-level hype, pointing to a respectable worldwide run rather than a blockbuster."
+          "pct_error": 1.6067415730337078,
+          "reasoning": "Mid-budget ($79M) original action-comedy/crime mystery with recognizable leads (Jason Momoa + Dave Bautista) and solid supporting cast should draw a decent global audience, but late-January release timing and non-franchise status cap upside. Director’s track record suggests competent but not breakout performance; moderate pre-release Wikipedia attention indicates awareness but not event-level demand. Estimated worldwide total lands in the low-$200Ms with significant sensitivity to reviews and competition."
         },
         {
           "movie_id": 1198994,
           "movie_title": "Send Help",
-          "predicted": 176500000,
+          "predicted": 135400000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 1.4899781211193133,
           "actual": 83313220,
-          "pct_error": 1.1185113238931348,
-          "reasoning": "Sam Raimi’s brand in horror/thriller plus a high-concept, contained survival setup should translate well to broad audiences, while Rachel McAdams adds mainstream pull beyond typical genre crowds. The $40M budget supports a wide release without needing blockbuster-scale turnout, and the strong pre-release Wikipedia attention suggests above-average awareness. A late-January date may cap upside versus peak seasons, but horror-comedy often overindexes in quieter windows, pointing to a solid worldwide run in the mid-$100Ms."
+          "pct_error": 0.6251922564030055,
+          "reasoning": "Mid-budget ($40M) horror/thriller-comedy tends to overperform if reviews/word-of-mouth are strong; Sam Raimi’s brand and genre credibility add upside, while Rachel McAdams/Dylan O’Brien provide moderate star power but not four-quadrant draw. A late-January release usually caps ceiling, yet the premise is high-concept and marketable, and pre-release Wikipedia attention is unusually strong for an original genre title, supporting a ~$135M worldwide outcome."
         },
         {
           "movie_id": 1272837,
           "movie_title": "28 Years Later: The Bone Temple",
-          "predicted": 242500000,
+          "predicted": 248000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 14.809556504310937,
           "actual": 58586229,
-          "pct_error": 3.1391979674950576,
-          "reasoning": "Established zombie/horror franchise branding plus elevated $63M production scale and a recognizable prestige lead (Ralph Fiennes) should lift revenue well above the earlier entries, while Nia DaCosta’s mainstream visibility supports broader marketing. Strong pre-release Wikipedia attention (570k/30d; 259k/7d) signals high awareness, though a mid-January release and R-rated horror/thriller ceiling likely cap upside versus summer tentpoles. Result: solid global turnout with strong opening and decent legs for the genre."
+          "pct_error": 3.2330766842836054,
+          "reasoning": "Mid-budget ($63M) horror/thriller sci‑fi tied to a recognizable \"28\" franchise should translate well internationally, and pre-release Wikipedia traffic is notably strong (570k/30d; 259k/7d), indicating high awareness. January release can be favorable for horror if reviews/word-of-mouth are solid, but the cast is more prestige than four-quadrant star power and Nia DaCosta’s recent box-office track record is mixed—yielding a likely global outcome in the mid-$200M range."
         },
         {
           "movie_id": 1116201,
           "movie_title": "Iron Lung",
-          "predicted": 72500000,
+          "predicted": 43500000,
+          "uncertainty_pct": 45,
+          "within_uncertainty": true,
+          "interval_score": 0.7893145161290323,
           "actual": 49600000,
-          "pct_error": 0.46169354838709675,
-          "reasoning": "Low $3M budget horror/sci‑fi with a high-concept, contained setup is commercially efficient, and Mark Fischbach’s large built-in online audience plus strong pre-release Wikipedia attention suggests meaningful opening interest. However, limited traditional star power and a late-January release (often lower-multiple territory) likely cap it below major studio horror breakouts, pointing to a solid mid-tier worldwide run."
+          "pct_error": 0.12298387096774194,
+          "reasoning": "Low-budget (≈$3M) sci-fi horror/mystery with a contained, high-concept premise that can play well to genre audiences, but likely limited mainstream draw. Mark Fischbach/Markiplier’s large online fanbase plus strong pre-release Wikipedia traffic suggests above-average awareness for an indie release, helping opening-weekend turnout, though January timing and unproven theatrical directing track record cap upside. Likely lands in the ~$25–70M worldwide range depending on distribution scale and word-of-mouth."
         },
         {
           "movie_id": 1236153,
           "movie_title": "Mercy",
-          "predicted": 214300000,
+          "predicted": 165000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 9.636781894208816,
           "actual": 49463290,
-          "pct_error": 3.332505985752262,
-          "reasoning": "Mid-budget ($60M) sci-fi action-thriller with a high-concept, contained premise and recognizable stars (Chris Pratt, Rebecca Ferguson) suggests solid but not four-quadrant appeal. Timur Bekmambetov’s track record is uneven theatrically, and a late-January release typically caps upside. Moderate pre-release Wikipedia attention indicates awareness but not breakout-level buzz, pointing to a global finish in the low-$200M range."
+          "pct_error": 2.335807221881116,
+          "reasoning": "Mid-budget ($60M) sci-fi/action thriller with a marketable, high-concept real-time courtroom/AI hook and Chris Pratt/Rebecca Ferguson boosting awareness. However, a late-January release window typically caps upside for adult-skewing originals, and Timur Bekmambetov’s recent track record is uneven, suggesting solid-but-not-breakout legs. Moderate pre-release Wikipedia attention supports a mid-tier worldwide run rather than franchise-level performance."
         },
         {
           "movie_id": 1171145,
           "movie_title": "Crime 101",
-          "predicted": 287500000,
+          "predicted": 214000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 15.769899113893375,
           "actual": 46284272,
-          "pct_error": 5.211613310024624,
-          "reasoning": "Mid-to-upper-tier commercial crime thriller with strong, broadly recognizable star power (Hemsworth/Ruffalo/Berry) but a director without a major blockbuster track record. The $90M budget suggests a slick, wide-release studio play, yet the genre typically caps below tentpole levels unless it breaks out. Pre-release Wikipedia interest is solid (173k/30d; 66k/7d) indicating awareness but not event-movie heat. February timing can work for adult thrillers, pointing to a likely midrange hit: strong domestic performance plus decent international pull, but not franchise-sized worldwide totals."
+          "pct_error": 3.623600863809633,
+          "reasoning": "Mid-budget ($90M) crime/thriller with strong but non-franchise star power (Hemsworth, Ruffalo, Berry) and solid pre-release attention, but limited four-quadrant appeal and no proven blockbuster director track record. February release can work for adult thrillers yet typically caps overseas upside. Likely performs like an elevated studio thriller: strong opening, moderate legs, solid but not breakout international run."
         },
         {
           "movie_id": 680493,
           "movie_title": "Return to Silent Hill",
-          "predicted": 112400000,
+          "predicted": 82300000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 3.175124373419783,
           "actual": 41586056,
-          "pct_error": 1.7028290444277765,
-          "reasoning": "Mid-budget ($23M) horror/mystery with recognizable Silent Hill IP and director Christophe Gans returning should drive solid genre turnout, especially internationally, but lack of A-list cast and a late-January release window cap upside. Moderate pre-release Wikipedia interest suggests strong niche fandom rather than four-quadrant demand, pointing to a worldwide total around $110M."
+          "pct_error": 0.9790287398256762,
+          "reasoning": "Mid-budget horror/mystery with built-in Silent Hill game IP and Christophe Gans returning (helps core-fan turnout), but limited A-list cast and a late-January release cap mainstream demand. Wikipedia pre-release attention suggests solid niche awareness rather than four-quadrant breakout, pointing to a moderate worldwide run driven by horror fans and overseas markets."
+        }
+      ]
+    },
+    {
+      "model_id": "x-ai/grok-4.1-fast",
+      "model_name": "Grok 4.1 Fast",
+      "avg_pct_error": 1.527655968837153,
+      "median_pct_error": 1.082003976510843,
+      "avg_interval_score": 6.634499313179963,
+      "avg_uncertainty_pct": 32.2,
+      "within_uncertainty_rate": 0.3,
+      "predictions": [
+        {
+          "movie_id": 1316092,
+          "movie_title": "\"Wuthering Heights\"",
+          "predicted": 175000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": true,
+          "interval_score": 0.6376887038001042,
+          "actual": 192100000,
+          "pct_error": 0.0890161374284227,
+          "reasoning": "Margot Robbie provides strong star draw for prestige period romance-drama, but Emerald Fennell's films prioritize acclaim over box office, niche genre lacks broad appeal, February release timing hurts legs, low Wikipedia buzz, $80M budget suggests modest marketing push."
+        },
+        {
+          "movie_id": 1297842,
+          "movie_title": "GOAT",
+          "predicted": 285000000,
+          "uncertainty_pct": 32,
+          "within_uncertainty": false,
+          "interval_score": 6.621806944009426,
+          "actual": 108271512,
+          "pct_error": 1.6322713586931343,
+          "reasoning": "Mid-tier animated family comedy-action film with crossover appeal from NBA star Stephen Curry (GOAT synergy) and recognizable cast; comparable to 'The Bad Guys' ($250M WW); $90M budget feasible; modest Wikipedia buzz and February release cap potential but family legs help internationally."
+        },
+        {
+          "movie_id": 1159559,
+          "movie_title": "Scream 7",
+          "predicted": 230000000,
+          "uncertainty_pct": 25,
+          "within_uncertainty": false,
+          "interval_score": 6.024948559670782,
+          "actual": 97200000,
+          "pct_error": 1.3662551440329218,
+          "reasoning": "Scream VI earned $221M WW without Neve Campbell; her return as Sidney, franchise momentum, Courteney Cox, and director Kevin Williamson enhance appeal. Modest $45M budget, solid Wikipedia pre-release buzz (170k 7d views), February horror slot supports similar or slightly higher performance amid market inflation."
+        },
+        {
+          "movie_id": 1168190,
+          "movie_title": "The Wrecking Crew",
+          "predicted": 160000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 2.693820224719101,
+          "actual": 89000000,
+          "pct_error": 0.797752808988764,
+          "reasoning": "Dave Bautista and Jason Momoa provide solid action star power in a buddy action-comedy; director Soto's Blue Beetle track record; mid-budget $79M and January release limit upside, modest Wikipedia buzz; comparable to The Fall Guy ($180M) or Bullet Train ($239M), predict $160M WW."
+        },
+        {
+          "movie_id": 1198994,
+          "movie_title": "Send Help",
+          "predicted": 110000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": true,
+          "interval_score": 0.792191203268821,
+          "actual": 83313220,
+          "pct_error": 0.3203186721147016,
+          "reasoning": "Sam Raimi's proven track record in horror (e.g., Drag Me to Hell ~$91M WW) elevates mid-tier cast (McAdams, O'Brien); horror-thriller-comedy mix has cult potential like Ready or Not; $40M budget reasonable; strong Wikipedia buzz (428k 30d views); January release limits upside but counter-programming opportunity."
+        },
+        {
+          "movie_id": 1272837,
+          "movie_title": "28 Years Later: The Bone Temple",
+          "predicted": 175000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 8.610574146187151,
+          "actual": 58586229,
+          "pct_error": 1.9870500796356085,
+          "reasoning": "Sequel in the 28 Days/Weeks Later franchise with building hype from first film's Boyle/Murphy draw; Ralph Fiennes adds star power; Nia DaCosta's genre experience; $63M budget reasonable; strong Wikipedia pre-release views indicate interest; January release softens potential but horror thrives on franchise momentum."
+        },
+        {
+          "movie_id": 1116201,
+          "movie_title": "Iron Lung",
+          "predicted": 22000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 2.818044354838709,
+          "actual": 49600000,
+          "pct_error": 0.5564516129032258,
+          "reasoning": "Low-budget indie horror sci-fi adaptation of popular game, boosted by director/star Markiplier's 30M+ YouTube fans and high Wikipedia pre-release views (157k in 7d). Troy Baker adds voice acting star power. Intriguing claustrophobic plot has viral horror potential, but January release and unproven theatrical draw cap upside vs. microbudget hits like Terrifier 2."
+        },
+        {
+          "movie_id": 1236153,
+          "movie_title": "Mercy",
+          "predicted": 275000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 20.22796982368136,
+          "actual": 49463290,
+          "pct_error": 4.5596787031351935,
+          "reasoning": "Chris Pratt's star power boosts mid-budget original sci-fi action-thriller; Bekmambetov's action track record (Wanted $351M); January release limits upside but allows sleeper potential; solid wiki buzz; comps like Passengers ($303M) or Edge of Tomorrow scaled to budget."
+        },
+        {
+          "movie_id": 1171145,
+          "movie_title": "Crime 101",
+          "predicted": 215000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 16.85990221473074,
+          "actual": 46284272,
+          "pct_error": 3.645206475322762,
+          "reasoning": "Strong cast led by Hemsworth with Ruffalo, Berry adds appeal; crime thriller genre solid but not franchise; unproven theatrical director; $90M budget needs 2-3x return; Feb release decent but not peak; modest Wikipedia buzz suggests mid-tier $200M+ performer."
+        },
+        {
+          "movie_id": 680493,
+          "movie_title": "Return to Silent Hill",
+          "predicted": 55000000,
+          "uncertainty_pct": 40,
+          "within_uncertainty": true,
+          "interval_score": 1.0580469568934356,
+          "actual": 41586056,
+          "pct_error": 0.32255869611679455,
+          "reasoning": "Cult horror franchise sequel with original director Christophe Gans returning boosts appeal, low $23M budget aids ROI potential, but January dump-month release, no A-list cast, and moderate Wikipedia buzz (156k 30d views) cap upside; comparable to prior Silent Hill sequels (~$55M) adjusted for inflation and market."
+        }
+      ]
+    },
+    {
+      "model_id": "anthropic/claude-opus-4-6",
+      "model_name": "Claude Opus 4.6",
+      "avg_pct_error": 1.723649528314611,
+      "median_pct_error": 1.426403653624839,
+      "avg_interval_score": 7.078630284111031,
+      "avg_uncertainty_pct": 34,
+      "within_uncertainty_rate": 0.1,
+      "predictions": [
+        {
+          "movie_id": 1316092,
+          "movie_title": "\"Wuthering Heights\"",
+          "predicted": 285000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 1.1309213951067152,
+          "actual": 192100000,
+          "pct_error": 0.4836022904737116,
+          "reasoning": "Emerald Fennell is coming off Saltburn (2023), which was a cultural phenomenon and demonstrated her ability to blend dark, provocative storytelling with period settings. Margot Robbie is one of the biggest box office draws in Hollywood, fresh off Barbie's massive success. Jacob Elordi has rising star power, especially after Saltburn and Priscilla. The Wuthering Heights IP is globally recognized classic literature with built-in awareness. The $80M budget suggests a lavish, prestige production. However, period romance dramas historically have a ceiling - even successful ones like Pride & Prejudice ($121M) and Anna Karenina ($69M) rarely break huge. The February release date is unusual but could work as a Valentine's season play. The Fennell+Robbie+Elordi combination and the gothic/dark romance angle could push this beyond typical literary adaptations, similar to how Saltburn outperformed expectations. Wikipedia attention is moderate, suggesting solid but not extraordinary pre-release buzz. Comparing to Saltburn ($50M budget, ~$100M gross) but with much bigger star power and budget, and the broader romantic appeal for Valentine's timing, I expect this to perform significantly better, though the dark tragedy angle may limit repeat viewership compared to lighter romances."
+        },
+        {
+          "movie_id": 1297842,
+          "movie_title": "GOAT",
+          "predicted": 285000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 6.286192345776052,
+          "actual": 108271512,
+          "pct_error": 1.6322713586931343,
+          "reasoning": "This is an original animated family film with a sports underdog premise, which has broad appeal. The cast includes recognizable names like Gabrielle Union, Stephen Curry (massive crossover appeal), Aaron Pierre (rising star from Mufasa), Nicola Coughlan (Bridgerton fame), and Caleb McLaughlin (Stranger Things). However, it's not from Pixar/Disney/Illumination/DreamWorks mainline brands - director Tyree Dillihay is relatively unknown. The February release date is decent for family films (less competition). The Wikipedia pre-release attention is moderate-to-strong at ~265K views in 30 days, suggesting solid awareness. The $90M budget suggests a mid-tier animated release. The sports-animal comedy concept is fun but original IP animated films outside major studios tend to perform more modestly. Stephen Curry's involvement could drive significant interest. Comparable films: original animated sports/animal comedies typically gross $150-400M worldwide. I'm estimating in the mid-range given the star power and decent buzz, but tempered by the lack of a proven franchise or top-tier animation studio brand recognition."
+        },
+        {
+          "movie_id": 1159559,
+          "movie_title": "Scream 7",
+          "predicted": 285000000,
+          "uncertainty_pct": 25,
+          "within_uncertainty": false,
+          "interval_score": 8.960262345679013,
+          "actual": 97200000,
+          "pct_error": 1.9320987654320987,
+          "reasoning": "The Scream franchise has shown strong box office performance recently: Scream (2022) grossed $140M and Scream VI (2023) grossed $169M worldwide. Scream 7 brings back Neve Campbell (who was absent from Scream VI), which is a major draw for fans. Kevin Williamson, the original screenwriter, directing adds nostalgic appeal. The very high Wikipedia pre-release attention (437K views in 30 days) suggests strong audience interest, significantly above typical horror sequel levels. The February release date is favorable for horror (similar to Scream VI's March release). The plot focusing on Sidney's daughter adds fresh stakes while leveraging nostalgia. With a modest $45M budget, the studio likely expects strong returns. The combination of Neve Campbell's return, franchise momentum, strong pre-release buzz, and the emotional 'final chapter' framing for Sidney could push this above Scream VI's performance. I'm estimating around $285M worldwide, reflecting franchise growth, Campbell's return premium, and elevated audience anticipation, though horror sequels can be volatile."
+        },
+        {
+          "movie_id": 1168190,
+          "movie_title": "The Wrecking Crew",
+          "predicted": 165000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 2.5793539325842696,
+          "actual": 89000000,
+          "pct_error": 0.8539325842696629,
+          "reasoning": "This action-comedy pairs two major action stars (Bautista and Momoa) with strong chemistry potential, a solid $79M budget, and a crowd-pleasing genre blend. Director Soto (Blue Beetle) has studio experience but isn't a proven blockbuster draw. January release is typically weak but this has the star power to overcome it somewhat. The buddy-comedy/mystery angle with estranged brothers is commercially appealing. Bautista's solo vehicles (Army of the Dead ~$780M streaming but limited theatrical) and Momoa's (Aquaman franchise) suggest decent draw, though neither is a guaranteed $200M+ solo draw outside franchise IP. The Wikipedia pre-release attention (~158K views) is moderate-to-good, suggesting real audience interest. Comparable to films like Hobbs & Shaw ($759M) but without the Fast & Furious brand, or The Hitman's Bodyguard ($176M). I'm estimating in the $150-180M range, factoring in the January slot limiting domestic but international appeal of the two leads being strong."
+        },
+        {
+          "movie_id": 1198994,
+          "movie_title": "Send Help",
+          "predicted": 185000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 4.797166344068803,
+          "actual": 83313220,
+          "pct_error": 1.2205359485565437,
+          "reasoning": "Sam Raimi directing a horror-comedy-thriller is a strong combination given his track record (Drag Me to Hell, Doctor Strange 2, Evil Dead franchise). Rachel McAdams and Dylan O'Brien provide solid star power without being A-list blockbuster draws. The horror-comedy genre has performed well recently (M3GAN, Happy Death Day). The $40M budget suggests a mid-range production that doesn't need massive returns to profit. January release is typically a dumping ground, but horror films have thrived in January (Escape Room, The Bye Bye Man, Insidious 5). The Wikipedia pre-release attention of 428K views in 30 days is quite strong, indicating significant public interest - comparable to films that gross $150-250M worldwide. The survival/island premise with horror elements is accessible and marketable. Raimi's name alone elevates this. I estimate a solid opening weekend domestically (~$25-35M) with good legs and international appeal, landing around $185M worldwide."
+        },
+        {
+          "movie_id": 1272837,
+          "movie_title": "28 Years Later: The Bone Temple",
+          "predicted": 325000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 20.169391150777088,
+          "actual": 58586229,
+          "pct_error": 4.547378719323273,
+          "reasoning": "This is the sequel to '28 Years Later' (2025), continuing the beloved '28 Days Later' franchise. The first film in this new trilogy is expected to perform very well, generating strong audience interest for the sequel. However, several factors temper expectations: Nia DaCosta as director (Candyman was modest, The Marvels underperformed), a January release date which is unusual for a major franchise film (though horror can work in January), and the cast lacks the massive star power of the first film (Cillian Murphy, Aaron Taylor-Johnson). Ralph Fiennes provides gravitas but this feels like a middle chapter. The Wikipedia pre-release attention is very high (570K views in 30 days), indicating strong franchise interest. The $63M budget suggests a mid-range production. Horror sequels in established franchises typically see some drop-off from the first installment but can still perform well. Comparing to horror franchise sequels and accounting for the strong brand recognition of the '28' franchise, I estimate solid but not spectacular performance around $325M worldwide."
+        },
+        {
+          "movie_id": 1116201,
+          "movie_title": "Iron Lung",
+          "predicted": 32000000,
+          "uncertainty_pct": 45,
+          "within_uncertainty": false,
+          "interval_score": 0.9838709677419355,
+          "actual": 49600000,
+          "pct_error": 0.3548387096774194,
+          "reasoning": "Iron Lung is based on a popular indie horror video game by Markiplier (Mark Fischbach), who has a massive YouTube following (35M+ subscribers). The extremely high Wikipedia pre-release attention (291K views in 30 days) for a $3M budget film signals strong grassroots interest, comparable to other YouTuber-driven projects. However, Markiplier is untested as a film director, the cast lacks traditional star power, the January release date is a dumping ground, and the sci-fi horror genre with an unknown IP (outside gaming circles) limits mainstream crossover. The micro-budget means profitability is almost guaranteed, but theatrical reach will be constrained. Comparable projects: Five Nights at Freddy's showed gaming-to-film can work big, but that had Blumhouse, a PG-13 rating, and far wider brand recognition. This is more niche but the creator's fanbase could drive a solid opening weekend. I estimate $32M worldwide, with high uncertainty given the unprecedented nature of a YouTuber self-directing a theatrical horror release."
+        },
+        {
+          "movie_id": 1236153,
+          "movie_title": "Mercy",
+          "predicted": 145000000,
+          "uncertainty_pct": 35,
+          "within_uncertainty": false,
+          "interval_score": 7.711111361577444,
+          "actual": 49463290,
+          "pct_error": 1.931466952562193,
+          "reasoning": "Chris Pratt is a proven box office draw, especially in action/sci-fi (Guardians, Jurassic World). The AI courtroom thriller concept is timely and high-concept. Director Bekmambetov (Wanted, Night Watch) has action credentials but inconsistent box office track record. Rebecca Ferguson adds credibility. The $60M budget is moderate, suggesting the studio isn't expecting a massive tentpole but a solid performer. January release is typically a weaker window, which tempers expectations significantly - it's not a summer/holiday blockbuster slot. However, the strong Wikipedia pre-release attention (200K+ views in 30 days) suggests genuine audience interest. The tight 90-minute real-time premise is compelling but could limit broad appeal. Pratt's recent non-franchise films (The Tomorrow War, Ghostbusters: Afterlife) have had mixed theatrical results. Estimating a moderate worldwide gross that reflects Pratt's star power in a January release with a compelling but not franchise-level concept."
+        },
+        {
+          "movie_id": 1171145,
+          "movie_title": "Crime 101",
+          "predicted": 215000000,
+          "uncertainty_pct": 30,
+          "within_uncertainty": false,
+          "interval_score": 16.85990221473074,
+          "actual": 46284272,
+          "pct_error": 3.645206475322762,
+          "reasoning": "Strong ensemble cast led by Chris Hemsworth (proven box office draw) with Mark Ruffalo, Halle Berry, and rising star Barry Keoghan. Bart Layton is a talented director (American Animals) stepping up to a major studio production. The crime/heist thriller genre has reliable appeal (Ocean's franchise, Den of Thieves). $90M budget suggests solid production values. February release is less competitive but also not peak season - however, heist thrillers can perform well outside summer. The Wikipedia pre-release attention (173K 30-day views) indicates strong public interest. The LA freeway heist concept is commercially appealing. Hemsworth's solo non-MCU films have been inconsistent (Extraction did well on Netflix, but theatrical results vary), which tempers expectations somewhat. Comparable to films like Den of Thieves ($80M WW on lower budget/cast) but scaled up for the star power, or The Town ($154M WW). The strong cast ensemble and high-concept premise should push this toward $200-230M range worldwide."
+        },
+        {
+          "movie_id": 680493,
+          "movie_title": "Return to Silent Hill",
+          "predicted": 68000000,
+          "uncertainty_pct": 40,
+          "within_uncertainty": true,
+          "interval_score": 1.3081307830682476,
+          "actual": 41586056,
+          "pct_error": 0.6351634788353097,
+          "reasoning": "This is a sequel to 2006's Silent Hill (which grossed ~$100M worldwide) directed by the same director Christophe Gans. However, the 2012 sequel Silent Hill: Revelation grossed only ~$52M. Key factors: (1) The cast lacks major star power, (2) January release is a dump month but horror can perform there, (3) $23M budget is modest, (4) Strong Wikipedia pre-release attention (156K views in 30 days) suggests significant fan interest driven by the popular video game franchise, especially with renewed interest from the Silent Hill 2 remake game released in 2024, (5) Adapting Silent Hill 2's beloved story could drive both gaming and horror audiences. The combination of franchise recognition, video game IP momentum, and decent pre-release buzz suggests it could outperform Revelation but likely won't match the original. Horror films with modest budgets in January can surprise (like Escape Room, Insidious sequels). Estimating ~$68M worldwide."
         }
       ]
     }

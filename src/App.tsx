@@ -101,7 +101,7 @@ export default function App() {
               <strong>What this measures:</strong> Each model is given metadata
               about a recently-released movie (title, director, cast, genres,
               budget, plot summary, release date, and Wikipedia pre-release
-              pageview signals, then asked to predict worldwide box office
+              pageview signals) and then asked to predict worldwide box office
               gross. Models with training data that includes actual results will
               appear to "predict" accurately; those without must genuinely
               estimate.
@@ -145,14 +145,24 @@ export default function App() {
               JSON response:
             </p>
             <pre className="bg-muted/50 border border-border rounded-md px-4 py-3 text-xs overflow-x-auto font-mono">
-              {`{"predicted_gross": <number>, "reasoning": "<text>"}`}
+              {`{"predicted_gross": <number>, "uncertainty_pct": <number>, "reasoning": "<text>"}`}
             </pre>
             <p>Temperature is fixed at 0.3.</p>
             <Separator />
             <p>
-              <strong>Scoring:</strong> Per-movie absolute percentage error =
-              |predicted − actual| / actual. The leaderboard ranks models by
-              average percentage error across all movies (lower is better).
+              <strong>Scoring:</strong> We compute both raw error and an
+              uncertainty-calibrated interval score. For each movie, with
+              prediction <code>p</code>, uncertainty <code>u</code> (as a
+              fraction), and actual revenue <code>y</code>, interval bounds are
+              <code>[p(1-u), p(1+u)]</code>. We then use a normalized interval
+              score (Winkler score, <code>&alpha; = 0.32</code>):{" "}
+              <code>
+                ((U-L) + (2/&alpha;) * max(0, L-y) + (2/&alpha;) * max(0, y-U))
+                / y
+              </code>
+              . Lower is better. The leaderboard is ranked by average interval
+              score; average error and interval coverage are shown as secondary
+              diagnostics.
             </p>
             <p>
               <strong>Ground truth:</strong> Worldwide gross revenue from TMDB
@@ -190,7 +200,7 @@ export default function App() {
             Leaderboard
           </CardTitle>
           <CardDescription>
-            Ranked by average prediction error (lower is better)
+            Ranked by uncertainty-calibrated interval score (lower is better)
           </CardDescription>
         </CardHeader>
         <CardContent>
