@@ -27,7 +27,7 @@ export default function App() {
   const [methodologyOpen, setMethodologyOpen] = useState(false);
 
   useEffect(() => {
-    fetch("/data.json")
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
