@@ -164,12 +164,12 @@ What it provides in this project:
 
 ## Current Model Set
 
-- `anthropic/claude-opus-4-6`
-- `google/gemini-3.1-pro-preview`
-- `openai/gpt-5.2`
-- `moonshotai/kimi-k2.5`
-- `minimax/minimax-m2.5`
-- `x-ai/grok-4.1-fast`
+- [`anthropic/claude-opus-4-6`](https://openrouter.ai/anthropic/claude-opus-4-6)
+- [`google/gemini-3.1-pro-preview`](https://openrouter.ai/google/gemini-3.1-pro-preview)
+- [`openai/gpt-5.2`](https://openrouter.ai/openai/gpt-5.2)
+- [`moonshotai/kimi-k2.5`](https://openrouter.ai/moonshotai/kimi-k2.5)
+- [`minimax/minimax-m2.5`](https://openrouter.ai/minimax/minimax-m2.5)
+- [`x-ai/grok-4.1-fast`](https://openrouter.ai/x-ai/grok-4.1-fast)
 
 ## Output Files
 

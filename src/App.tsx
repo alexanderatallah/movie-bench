@@ -52,8 +52,25 @@ export default function App() {
   return (
     <div className="space-y-6 pb-6">
       <header className="flex justify-between items-baseline pb-4 border-b border-border">
-        <h1 className="text-3xl font-bold tracking-wider">Movie Bench</h1>
+        <div className="flex items-center gap-3">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-1 shadow-sm">
+            <img
+              src={`${import.meta.env.BASE_URL}moviebench.png`}
+              alt="Movie Bench logo"
+              className="h-full w-full rounded-full object-cover"
+            />
+          </span>
+          <h1 className="text-3xl font-bold tracking-wider">Movie Bench</h1>
+        </div>
         <div className="flex items-baseline gap-4">
+          <a
+            href="https://github.com/alexanderatallah/movie-bench"
+            target="_blank"
+            rel="noreferrer"
+            className="text-muted-foreground text-sm"
+          >
+            GitHub
+          </a>
           <span className="text-muted-foreground text-sm">
             {data.movies.length} movies &middot; {data.leaderboard.length}{" "}
             models
@@ -216,6 +233,15 @@ export default function App() {
           className="text-primary underline-offset-4 hover:underline"
         >
           Alex Atallah
+        </a>
+        {" "}·{" "}
+        <a
+          href="https://github.com/alexanderatallah/movie-bench"
+          target="_blank"
+          rel="noreferrer"
+          className="text-primary underline-offset-4 hover:underline"
+        >
+          GitHub
         </a>
       </footer>
     </div>
